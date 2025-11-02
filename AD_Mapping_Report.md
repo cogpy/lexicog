@@ -1,0 +1,188 @@
+# AD Paragraph Mapping Report: 100 → 132 Structure
+
+**Date:** November 2, 2025
+
+## Summary
+
+- **Old structure:** 100 AD paragraphs
+- **New structure:** 132 AD paragraphs
+- **New paragraphs added:** 63
+- **Paragraphs unchanged:** 69
+- **Paragraphs removed/renumbered:** 31
+
+---
+
+## New AD Paragraphs (Not in Old Structure)
+
+The following 63 AD paragraphs are new in the 132-paragraph structure:
+
+- **AD 1.1** (#1) - I am a major businessman, with identity number 520430 5708 18 5.
+- **AD 1.2** (#2) - I am resident at 20 River Road, Morning Hill, Bedfordview.
+- **AD 2.1** (#4) - I am the applicant herein.
+- **AD 2.2** (#5) - I have been involved personally, and continuously with the subject-matter
+- **AD 2.3** (#6) - Any submissions of a legal nature are made on the advice of my legal
+- **AD 3.1** (#8) - As aforesaid, I am the applicant herein.
+- **AD 3.3** (#10) - The second respondent is my son, DANIEL JAMES FAUCITT, a major businessman,
+- **AD 3.4.1** (#11) - The third respondent is REGIMA SKIN TREATMENTS CC, a close corporation
+- **AD 3.5.1** (#13) - The fourth respondent is REGIMA WORLDWIDE DISTRIBUTION (PTY) LTD, a for-
+- **AD 3.5.2** (#14) - In confirmation thereof I attach hereto, marked "PF2", a Windeed printout
+- **AD 3.7.1** (#17) - The sixth respondent is STRATEGIC LOGISTICS CC, a close corporation duly
+- **AD 3.10** (#21) - The ninth respondent is THE COMPANIES AND INTELLECTUAL PROPERTY
+- **AD 3.12** (#23) - For the sake of convenience I shall refer hereinafter to the first
+- **AD 6.2** (#26) - My son is a director of the third respondent, and a member of the sixth
+- **AD 6.4** (#28) - The third to sixth respondents bank with the seventh and eighth
+- **AD 7.1** (#30) - During or about mid June 2025, our accountant (for the corporations
+- **AD 7.2** (#31) - He noted, following his attendance, and during July 2025, numerous
+- **AD 7.4** (#33) - This 'department' falls under the purview of my son â whose conduct has
+- **AD 7.5** (#34) - The payments in question could not be explained by my wife and son, and I,
+- **AD 7.7** (#36) - Some of our actual subscriptions, pertaining to, inter alia, internet
+- **AD 7.9** (#38) - I attach hereto relevant inter-office communications with my son,
+- **AD 7.11** (#40) - It is clear that he would or could not provide relevant invoices.
+- **AD 7.12** (#41) - My son, through the above, inter alia, interfered with the corporations'
+- **AD 7.14** (#43) - This interference has, unfortunately, also continued.
+- **AD 7.15** (#44) - This conduct is not in the interests of the corporations.
+- **AD 7.17** (#46) - I discussed the transactions with her, but she rejected any idea of
+- **AD 7.19** (#48) - This was without my knowledge, and the expense cannot remotely be
+- **AD 8.1** (#50) - In addition to the aforesaid, I annex hereto the IT related expenses
+- **AD 8.2** (#52) - Other than a few, such as Sage (being accounting software), the majority
+- **AD 8.3** (#53) - The 'expenses' from March 2025, to June 2025, relating to computer related
+- **AD 8.6** (#56) - These amounts exclude the 'birthday gift', aforesaid, and are almost
+- **AD 8.8** (#58) - Annexed hereto marked "PF11" is a screenshot of a message received from the
+- **AD 8.9** (#59) - Not only is this inexplicable, but it will probably cause further, and
+- **AD 9.1** (#61) - The aforesaid, which appears to constitute substantial financial
+- **AD 9.4** (#64) - The aforesaid is entirely due to my son, who is defended, and enabled by my
+- **AD 10.2** (#66) - I deal therewith at the outset, as their conduct justifying that relief
+- **AD 10.5.1** (#69) - Declaring the first and/or second Respondent/s delinquent, as envisaged
+- **AD 10.7.1.1** (#74) - Any loss suffered as a result thereof by the corporation; [Section 42
+- **AD 10.9.1** (#76) - Grossly abused the position of director (or member); [Section 162(5)(c)
+- **AD 10.10.1** (#82) - Acted in a manner that is materially inconsistent with their duties;
+- **AD 10.10.2** (#83) - Per Section 162(a)(iii):
+- **AD 10.10.2.1** (#84) - Whose conduct had the result that is oppressive or unfairly
+- **AD 10.10.2.2** (#85) - Carried on the business of the corporation in a manner that is
+- **AD 10.11** (#87) - Taking into account the manner in which they have acted, and the above
+- **AD 10.12** (#88) - The full extent of the transgressions, and the ensuing losses to the
+- **AD 11.1** (#90) - I pause to mention that, we also began companies in the United Kingdom,
+- **AD 11.5** (#94) - My son was appointed to oversee the UK branch, which carries under it, as
+- **AD 11.7** (#96) - This was perpetrated by the then managing director of the UK branch, Isaac
+- **AD 11.9** (#98) - I accordingly have no idea pertaining to the financial wellness of the UK
+- **AD 13.1** (#103) - I say further, with respect, that the interdicts (and other relief) sought
+- **AD 13.2.1** (#104) - I have, with respect, a clear (and a prima facie) right not to be
+- **AD 13.6** (#109) - In the premises, I say with respect that I am entitled to the relief I
+- **AD 13.7** (#110) - I ask, with respect, that any relief not granted under PART A of the
+- **AD 14.2** (#112) - It is vital, with respect, that such funds as may be recovered (pursuant
+- **AD 16.3** (#118) - The conduct, pertaining to unnecessary funds leaving the businesses at the
+- **AD 16.4** (#119) - As may be expected, with respect, I was still in a state of shock (which
+- **AD 16.7** (#122) - I have also been required to proceed, as is extremely difficult, with such
+- **AD 16.9** (#124) - I say with respect, however, that every passing day constitutes a new
+- **AD 16.11** (#126) - Doubtless, with respect, the misappropriated money has been squandered
+- **AD 17.1** (#128) - This application is lodged ex parte as I fear, with good reason, that the
+- **AD 17.2** (#129) - This application serves also (to an extent) the purpose of an anton piller
+- **AD 21** (#132) - JULY 1972, AS AMENDED, HAVING BEEN COMPLIED WITH-THE **DEPONENT** HAVING
+- **AD 2025** (#51) - financial year.
+
+---
+
+## Mapping Details
+
+### Old → New Mapping
+
+- **AD 1** → **REMOVED/RENUMBERED**
+- **AD 1.3** → **AD 1.3** (unchanged)
+- **AD 2** → **REMOVED/RENUMBERED**
+- **AD 2.4** → **AD 2.4** (unchanged)
+- **AD 3** → **REMOVED/RENUMBERED**
+- **AD 3.2** → **AD 3.2** (unchanged)
+- **AD 3.4** → **REMOVED/RENUMBERED**
+- **AD 3.4.2** → **AD 3.4.2** (unchanged)
+- **AD 3.6** → **REMOVED/RENUMBERED**
+- **AD 3.6.1** → **AD 3.6.1** (unchanged)
+- **AD 3.6.2** → **AD 3.6.2** (unchanged)
+- **AD 3.7** → **REMOVED/RENUMBERED**
+- **AD 3.7.2** → **AD 3.7.2** (unchanged)
+- **AD 3.8** → **AD 3.8** (unchanged)
+- **AD 3.9** → **AD 3.9** (unchanged)
+- **AD 3.11** → **AD 3.11** (unchanged)
+- **AD 3.13** → **AD 3.13** (unchanged)
+- **AD 4** → **REMOVED/RENUMBERED**
+- **AD 6.1** → **AD 6.1** (unchanged)
+- **AD 6.3** → **AD 6.3** (unchanged)
+- **AD 6.5** → **AD 6.5** (unchanged)
+- **AD 7** → **REMOVED/RENUMBERED**
+- **AD 7.3** → **AD 7.3** (unchanged)
+- **AD 7.6** → **AD 7.6** (unchanged)
+- **AD 7.8** → **AD 7.8** (unchanged)
+- **AD 7.10** → **AD 7.10** (unchanged)
+- **AD 7.13** → **AD 7.13** (unchanged)
+- **AD 7.16** → **AD 7.16** (unchanged)
+- **AD 7.18** → **AD 7.18** (unchanged)
+- **AD 7.20** → **AD 7.20** (unchanged)
+- **AD 8.4** → **AD 8.4** (unchanged)
+- **AD 8.5** → **AD 8.5** (unchanged)
+- **AD 8.7** → **AD 8.7** (unchanged)
+- **AD 8.10** → **AD 8.10** (unchanged)
+- **AD 9.2** → **AD 9.2** (unchanged)
+- **AD 9.3** → **AD 9.3** (unchanged)
+- **AD 10.1** → **AD 10.1** (unchanged)
+- **AD 10.3** → **AD 10.3** (unchanged)
+- **AD 10.4** → **AD 10.4** (unchanged)
+- **AD 10.5.2** → **AD 10.5.2** (unchanged)
+- **AD 10.6** → **REMOVED/RENUMBERED**
+- **AD 10.6.1** → **AD 10.6.1** (unchanged)
+- **AD 10.6.2** → **AD 10.6.2** (unchanged)
+- **AD 10.6.3** → **AD 10.6.3** (unchanged)
+- **AD 10.7** → **REMOVED/RENUMBERED**
+- **AD 10.7.1.2** → **AD 10.7.1.2** (unchanged)
+- **AD 10.7.1.4** → **REMOVED/RENUMBERED**
+- **AD 10.8** → **REMOVED/RENUMBERED**
+- **AD 10.8.1** → **REMOVED/RENUMBERED**
+- **AD 10.9** → **REMOVED/RENUMBERED**
+- **AD 10.9.2** → **AD 10.9.2** (unchanged)
+- **AD 10.9.3** → **AD 10.9.3** (unchanged)
+- **AD 10.9.3.1** → **AD 10.9.3.1** (unchanged)
+- **AD 10.9.3.2** → **AD 10.9.3.2** (unchanged)
+- **AD 10.9.3.3** → **AD 10.9.3.3** (unchanged)
+- **AD 10.10** → **REMOVED/RENUMBERED**
+- **AD 10.10.2.3** → **AD 10.10.2.3** (unchanged)
+- **AD 10.10.2.4** → **REMOVED/RENUMBERED**
+- **AD 10.10.22** → **REMOVED/RENUMBERED**
+- **AD 10.10.41** → **REMOVED/RENUMBERED**
+- **AD 10.13** → **AD 10.13** (unchanged)
+- **AD 10.14** → **REMOVED/RENUMBERED**
+- **AD 11.2** → **AD 11.2** (unchanged)
+- **AD 11.3** → **AD 11.3** (unchanged)
+- **AD 11.4** → **AD 11.4** (unchanged)
+- **AD 11.6** → **AD 11.6** (unchanged)
+- **AD 11.8** → **AD 11.8** (unchanged)
+- **AD 12.1** → **AD 12.1** (unchanged)
+- **AD 12.2** → **AD 12.2** (unchanged)
+- **AD 12.3** → **AD 12.3** (unchanged)
+- **AD 12.4** → **AD 12.4** (unchanged)
+- **AD 13.2** → **REMOVED/RENUMBERED**
+- **AD 13.2.2** → **AD 13.2.2** (unchanged)
+- **AD 13.3** → **AD 13.3** (unchanged)
+- **AD 13.4** → **AD 13.4** (unchanged)
+- **AD 13.5** → **AD 13.5** (unchanged)
+- **AD 13.8** → **REMOVED/RENUMBERED**
+- **AD 14.1** → **AD 14.1** (unchanged)
+- **AD 14.3** → **AD 14.3** (unchanged)
+- **AD 14.4** → **AD 14.4** (unchanged)
+- **AD 14.5** → **AD 14.5** (unchanged)
+- **AD 16.1** → **AD 16.1** (unchanged)
+- **AD 16.2** → **AD 16.2** (unchanged)
+- **AD 16.5** → **AD 16.5** (unchanged)
+- **AD 16.6** → **AD 16.6** (unchanged)
+- **AD 16.8** → **AD 16.8** (unchanged)
+- **AD 16.10** → **AD 16.10** (unchanged)
+- **AD 16.12** → **AD 16.12** (unchanged)
+- **AD 17.3** → **AD 17.3** (unchanged)
+- **AD 17.4** → **AD 17.4** (unchanged)
+- **AD 18.3** → **REMOVED/RENUMBERED**
+- **AD 20** → **REMOVED/RENUMBERED**
+- **AD 22** → **REMOVED/RENUMBERED**
+- **AD 40.9.4** → **REMOVED/RENUMBERED**
+- **AD 44** → **REMOVED/RENUMBERED**
+- **AD 50** → **REMOVED/RENUMBERED**
+- **AD 74** → **REMOVED/RENUMBERED**
+- **AD 78** → **REMOVED/RENUMBERED**
+- **AD 83** → **REMOVED/RENUMBERED**
+- **AD 88** → **REMOVED/RENUMBERED**
