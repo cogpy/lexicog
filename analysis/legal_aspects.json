@@ -1,0 +1,142 @@
+{
+  "conflicts_of_interest": [
+    {
+      "party": "Danie Bantjies",
+      "conflicts": [
+        "Trustee of Faucitt Family Trust (concealed from beneficiaries)",
+        "Debtor to Peter Faucitt (R18.685M)",
+        "Accountant for RegimA companies",
+        "Company Controller giving instructions to Rynette",
+        "Commissioner of Oaths for Peter's affidavit"
+      ],
+      "legal_issue": "Irreconcilable conflict: Trustee + Debtor + Accountant + Controller + Commissioner",
+      "relevant_law": "Trust Property Control Act Section 9(1) - duty to act in beneficiaries' interests"
+    }
+  ],
+  "material_non_disclosures": [
+    {
+      "what": "Bantjies is third trustee of Faucitt Family Trust",
+      "disclosed_by": "Peter in founding affidavit",
+      "status": "Not disclosed",
+      "impact": "Invalidates claim of impartial investigation"
+    },
+    {
+      "what": "Bantjies owes Peter R18.685M",
+      "disclosed_by": "Peter in founding affidavit",
+      "status": "Not disclosed",
+      "impact": "Direct financial interest in preventing fraud discovery"
+    },
+    {
+      "what": "Revenue context for IT expenses (R34.9M operation)",
+      "disclosed_by": "Peter in founding affidavit",
+      "status": "Not disclosed",
+      "impact": "IT expenses appear excessive without revenue context"
+    }
+  ],
+  "fiduciary_breaches": [
+    {
+      "party": "Danie Bantjies",
+      "breach": "Failed to investigate fraud reported by Dan on 6 June 2025",
+      "law": "Trust Property Control Act Section 9(1)",
+      "evidence": "Dismissed audit request on 10 June 2025 claiming 'going on holiday'"
+    },
+    {
+      "party": "Peter Faucitt",
+      "breach": "Attacked beneficiaries of trust he is trustee of",
+      "law": "Trust Property Control Act Section 9(1)",
+      "evidence": "Interdict against Jax (co-trustee, beneficiary) and Dan (beneficiary)"
+    },
+    {
+      "party": "Rynette Farrar (acting as agent)",
+      "breach": "Controlled systems and accounts without proper authority",
+      "law": "Companies Act fiduciary duties",
+      "evidence": "Controlled Sage using pete@regima.com, Peter had no access"
+    }
+  ],
+  "fraud_indicators": [
+    {
+      "indicator": "R5.4M stock adjustment Strategic Logistics (46% of annual sales)",
+      "evidence": "Stock 'just disappeared', same type supplied by Adderory to RegimA",
+      "connection": "Rynette claimed Bantjies instructed huge payments (SARS audit email)"
+    },
+    {
+      "indicator": "Villa Via Arcadia 86% profit margin on rent",
+      "evidence": "Reported by Dan on 6 June 2025",
+      "response": "Card cancellations 7 June 2025 (1 day later)"
+    },
+    {
+      "indicator": "R900,000 unauthorized transfers 14-15 Feb 2025",
+      "evidence": "From RegimA SA FNB account without Dan's authority as co-director",
+      "impact": "Account opened R997,597.94, closed R5,284.08 within one month despite 169 customer deposits (R566,598.57)"
+    },
+    {
+      "indicator": "2 years unallocated expenses",
+      "evidence": "Dumped into RWD on 30 March 2025, demand to sign within 12 hours",
+      "context": "Occurred while Rynette controlled Sage, Linda (sister) was bookkeeper, Bantjies was accountant"
+    }
+  ],
+  "sabotage_timeline": [
+    {
+      "date": "2025-02-14/15",
+      "action": "R900K unauthorized transfers",
+      "impact": "Drained RegimA SA FNB account"
+    },
+    {
+      "date": "2025-03-01",
+      "action": "Revenue diversion RegimA SA",
+      "impact": "Income stream hijacked"
+    },
+    {
+      "date": "2025-04-14",
+      "action": "Revenue diversion RWD (ABSA letter)",
+      "impact": "Second income stream hijacked"
+    },
+    {
+      "date": "2025-05-22",
+      "action": "Shopify audit trail unavailable",
+      "impact": "100% audit data loss (7 days after Jax confrontation)"
+    },
+    {
+      "date": "2025-05-23",
+      "action": "Orders removed from Shopify",
+      "impact": "Order processing disrupted"
+    },
+    {
+      "date": "2025-05-29",
+      "action": "Domain theft regimaskin.co.za",
+      "impact": "Customer diversion (14 days after Jax confrontation)"
+    },
+    {
+      "date": "2025-06-07",
+      "action": "15 UK cards cancelled",
+      "impact": "Shopify subscriptions halted (1 day after Dan's cooperation)"
+    },
+    {
+      "date": "2025-06-20",
+      "action": "Email: use regimaskin.co.za not regima.zone",
+      "impact": "Customer diversion to Adderory domain"
+    },
+    {
+      "date": "2025-07-08",
+      "action": "Warehouse stop order",
+      "impact": "R34.9M operations destroyed"
+    },
+    {
+      "date": "2025-09-11",
+      "action": "R1.73M transferred from accounts",
+      "impact": "Final drainage (Dan still paying creditors after 6 months sabotage)"
+    }
+  ],
+  "venire_contra_factum_proprium": [
+    {
+      "description": "Peter created the problem he complains about",
+      "evidence": [
+        "Dan provided comprehensive reports 6 June 2025",
+        "Peter cancelled cards 7 June 2025 (1 day later)",
+        "Card cancellation rendered documentation inaccessible (card-based authentication)",
+        "Peter then complained about missing documentation"
+      ],
+      "legal_principle": "Cannot complain about consequences of own actions"
+    }
+  ]
+}

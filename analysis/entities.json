@@ -1,0 +1,141 @@
+{
+  "persons": {
+    "Peter Andrew Faucitt": {
+      "id_number": "520430 5708 18 5",
+      "roles": [
+        "Applicant",
+        "Trustee of Faucitt Family Trust",
+        "Creditor to Bantjies"
+      ],
+      "address": "20 River Road, Morning Hill, Bedfordview"
+    },
+    "Jacqueline Faucitt": {
+      "id_number": "570607 0898 18 1",
+      "roles": [
+        "First Respondent",
+        "Co-trustee of Faucitt Family Trust",
+        "Co-director RegimA SA",
+        "Beneficiary"
+      ],
+      "address": "20 River Road, Morning Hill, Bedfordview"
+    },
+    "Daniel James Faucitt": {
+      "id_number": "900815 5300 08 9",
+      "roles": [
+        "Second Respondent",
+        "Co-director RegimA SA",
+        "Co-director RegimA Worldwide",
+        "Beneficiary",
+        "Built 51+ Shopify stores"
+      ],
+      "business_built": "R34.9M e-commerce operation"
+    },
+    "Danie Jacobus Bantjies": {
+      "roles": [
+        "Accountant",
+        "Third Trustee (concealed)",
+        "Debtor to Peter (R18.685M)",
+        "Company Controller",
+        "Commissioner of Oaths"
+      ],
+      "company": "Bantjes and Company CA(SA)",
+      "debt": "R18.685M (May 2026, 2027, 2029 payout schedule)",
+      "conflict": "Trustee + Debtor + Accountant + Company Controller"
+    },
+    "Rynette Farrar": {
+      "roles": [
+        "Administrator",
+        "Controller of email accounts",
+        "Controller of Sage system",
+        "Controller of bank accounts"
+      ],
+      "control": [
+        "All bank accounts",
+        "Sage system using pete@regima.com",
+        "Email accounts"
+      ],
+      "sister": "Linda (bookkeeper)",
+      "son_company": "Adderory (Pty) Ltd"
+    },
+    "Kayla Pretorius": {
+      "roles": [
+        "Co-builder of e-commerce operations",
+        "Deceased"
+      ],
+      "death_date": "13 July 2023",
+      "estate_company": "Rezonance (Pty) Ltd",
+      "estate_debt_owed": "R1,035,000 by RegimA Skin Treatments since Feb 2023"
+    }
+  },
+  "companies": {
+    "RegimA Skin Treatments CC": {
+      "registration": "B1992/005371/23",
+      "debt": "R1,035,000 to Rezonance (Kayla's estate) since Feb 2023",
+      "stock_supplier": "Adderory (Pty) Ltd (Rynette's son's company)"
+    },
+    "RegimA SA (Pty) Ltd": {
+      "registration": "2017/087935/07",
+      "directors": [
+        "Jacqueline Faucitt",
+        "Daniel Faucitt"
+      ],
+      "shopify_stores": 25,
+      "turnover": "R8.5M",
+      "unauthorized_transfers": "R900,000 (14-15 Feb 2025)",
+      "revenue_diversion_start": "1 Mar 2025"
+    },
+    "RegimA Worldwide Distribution (Pty) Ltd": {
+      "registration": "2011/005722/07",
+      "owner": "Faucitt Family Trust",
+      "directors": [
+        "Jacqueline Faucitt",
+        "Daniel Faucitt"
+      ],
+      "revenue_diversion_start": "14 Apr 2025 (ABSA bank letter)"
+    },
+    "RegimA Zone Ltd": {
+      "registration": "UK company 10697009",
+      "owner": "Daniel Faucitt",
+      "shopify_stores": 26,
+      "turnover": "R26.4M",
+      "note": "Independent entity, continuously paid for SA Shopify platforms"
+    },
+    "Villa Via Arcadia No 2 CC": {
+      "registration": "1996/004451/23",
+      "owner": "Faucitt Family Trust",
+      "fraud": "86% profit margin on rent charged to group",
+      "reported_by": "Daniel on 6 June 2025 to Bantjies"
+    },
+    "Strategic Logistics CC": {
+      "registration": "2008/136496/23",
+      "stock_adjustment": "R5.4M in 2024 (46% of R11.3M annual sales)",
+      "note": "Stock 'just disappeared', same type supplied by Adderory to RegimA Skin Treatments",
+      "sars_audit": "Rynette claimed Bantjies instructed huge payments"
+    },
+    "Rezonance (Pty) Ltd": {
+      "status": "Part of Kayla Pretorius deceased estate",
+      "creditor": "Owed R1,035,000 by RegimA Skin Treatments since Feb 2023"
+    },
+    "Adderory (Pty) Ltd": {
+      "owner": "Rynette Farrar's son",
+      "supplies": "Stock to RegimA Skin Treatments",
+      "domain_theft": "Registered regimaskin.co.za on 29 May 2025"
+    },
+    "Faucitt Family Trust": {
+      "registration": "IT 3651/2013",
+      "trustees": [
+        "Peter Faucitt",
+        "Jacqueline Faucitt",
+        "Danie Bantjies (concealed)"
+      ],
+      "beneficiaries": [
+        "Jacqueline Faucitt",
+        "Daniel Faucitt"
+      ],
+      "owns": [
+        "RegimA Worldwide Distribution",
+        "Villa Via Arcadia No 2 CC"
+      ]
+    }
+  }
+}

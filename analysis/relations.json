@@ -1,0 +1,86 @@
+[
+  {
+    "from": "Danie Bantjies",
+    "to": "Peter Faucitt",
+    "relation": "Debtor (R18.685M)",
+    "type": "financial"
+  },
+  {
+    "from": "Danie Bantjies",
+    "to": "Faucitt Family Trust",
+    "relation": "Third Trustee (concealed)",
+    "type": "fiduciary"
+  },
+  {
+    "from": "Danie Bantjies",
+    "to": "RegimA companies",
+    "relation": "Accountant & Controller",
+    "type": "professional"
+  },
+  {
+    "from": "Rynette Farrar",
+    "to": "Adderory (Pty) Ltd",
+    "relation": "Mother of owner",
+    "type": "family"
+  },
+  {
+    "from": "Adderory (Pty) Ltd",
+    "to": "RegimA Skin Treatments",
+    "relation": "Stock supplier",
+    "type": "business"
+  },
+  {
+    "from": "Adderory (Pty) Ltd",
+    "to": "regimaskin.co.za",
+    "relation": "Domain owner (theft)",
+    "type": "asset"
+  },
+  {
+    "from": "Strategic Logistics CC",
+    "to": "Adderory stock type",
+    "relation": "R5.4M stock disappeared",
+    "type": "fraud_indicator"
+  },
+  {
+    "from": "RegimA Skin Treatments",
+    "to": "Rezonance (Kayla estate)",
+    "relation": "Debtor (R1,035,000 since Feb 2023)",
+    "type": "financial"
+  },
+  {
+    "from": "Rynette Farrar",
+    "to": "Linda",
+    "relation": "Sister (bookkeeper)",
+    "type": "family"
+  },
+  {
+    "from": "Rynette Farrar",
+    "to": "All bank accounts",
+    "relation": "Controller",
+    "type": "control"
+  },
+  {
+    "from": "Rynette Farrar",
+    "to": "Sage system",
+    "relation": "Controller (using pete@regima.com)",
+    "type": "control"
+  },
+  {
+    "from": "Peter Faucitt",
+    "to": "pete@regima.com",
+    "relation": "No access (controlled by Rynette)",
+    "type": "exclusion"
+  },
+  {
+    "from": "Daniel Faucitt",
+    "to": "51+ Shopify stores",
+    "relation": "Builder & Manager (R34.9M)",
+    "type": "operational"
+  },
+  {
+    "from": "Kayla Pretorius",
+    "to": "E-commerce operations",
+    "relation": "Co-builder (before death)",
+    "type": "operational"
+  }
+]
