@@ -223,8 +223,6 @@ do hereby make oath and state that:
 
 8.12 The Applicant invokes Close Corporations Act Section 47 disqualification. This section applies when a member is guilty of gross negligence or fraud. The R5.4M stock adjustment (46% of sales, 10x historical) in Strategic Logistics, with Ms. Farrar claiming Mr. Bantjies instructed the payments, and the same stock type supplied by Adderory, suggests systematic fraud.
 
-#### AD 10.8.1 - Declaration of Delinquency as Alternative Relief
-
 8.13 The Applicant seeks delinquency declaration. The evidence supports declaring the Applicant delinquent under Section 162(5): (1) Intentional harm to companies (systematic sabotage); (2) Grossly negligent conduct (card cancellation without notice); (3) Breach of trust (attacking beneficiaries as trustee); (4) Abuse of process (ex parte order based on material non-disclosures and false statements).
 
 #### AD 10.9 - Mandatory Disqualification Under Section 162(5)
@@ -278,8 +276,6 @@ do hereby make oath and state that:
 #### AD 10.13 - Unaccounted Money - Significant Sums
 
 8.26 The Applicant alleges unaccounted money. The unaccounted money includes: (1) R900,000 unauthorized transfers (14-15 Feb 2025); (2) R5.4 million stock "disappeared" from Strategic Logistics; (3) R1,035,000 owed to Kayla's estate since Feb 2023; (4) R1.73 million transferred 11 Sep 2025; (5) Two years of unallocated expenses dumped into RegimA Worldwide on 30 Mar 2025.
-
-#### AD 10.14 - Full Extent of Transgressions Not Yet Determined
 
 8.27 The Applicant claims full extent not yet determined. The full extent includes: (1) Mr. Bantjies's undisclosed trustee status; (2) Mr. Bantjies's R18.685M debt; (3) Ms. Farrar's control of Applicant's email; (4) Ms. Farrar's son's competing domain; (5) Adderory's stock supply relationship; (6) R5.4M stock transfer pricing scheme; (7) Court order seizing Kayla's email during law enforcement investigation.
 

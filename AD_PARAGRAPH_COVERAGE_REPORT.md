@@ -130,10 +130,8 @@ Both Daniel's and Jacqueline's refined answering affidavits (v5) provide compreh
 - AD 10.6.2 - Member's Duty Not to Exceed Powers
 - AD 10.6.3 - Member's Duty to Avoid Conflicts of Interest
 - AD 10.7 - Member Liability for Breach of Fiduciary Duty
-- AD 10.7.1.2 - Liability for Economic Benefit Derived
-- AD 10.7.1.4 - Liability for Loss Suffered by Corporation
+- AD 10.7.1.2 - Economic Benefit Derived by Member
 - AD 10.8 - Disqualification for Misconduct Under Section 47
-- AD 10.8.1 - Declaration of Delinquency as Alternative Relief
 - AD 10.9 - Mandatory Disqualification Under Section 162(5)
 - AD 10.9.2 - Intentional or Grossly Negligent Harm
 - AD 10.9.3 - Manner of Acting - Gross Negligence or Misconduct
@@ -141,12 +139,10 @@ Both Daniel's and Jacqueline's refined answering affidavits (v5) provide compreh
 - AD 10.9.3.2 - Acquiescence to Fraudulent Acts
 - AD 10.9.3.3 - Party to Omission with Fraudulent Purpose
 - AD 10.10 - Probation Under Section 162(7)
-- AD 10.10.2.3 - Oppressive or Prejudicial Exercise of Powers
-- AD 10.10.2.4 - Conduct with Oppressive or Prejudicial Result
-- AD 10.10.22 - Business Conducted in Oppressive Manner
-- AD 10.10.41 - Conduct Inconsistent with Duties
-- AD 10.13 - Unaccounted Money - Significant Sums
-- AD 10.14 - Full Extent of Transgressions Not Yet Determined
+- AD 10.10.2.3 - Exercise of Powers in Oppressive Manner
+- AD 10.10.2.2 - Business Conducted in Oppressive Manner
+- AD 10.10.2.1 - Conduct with Oppressive or Prejudicial Result
+- AD 10.13 - Full Extent of Transgressions Not Yet Determined
 
 **Response Section:** "AD PARAGRAPHS 10.1 through 10.14: APPLICATION TO DECLARE RESPONDENTS DELINQUENT"
 
@@ -189,7 +185,7 @@ Both Daniel's and Jacqueline's refined answering affidavits (v5) provide compreh
 - AD 13.3 - Reasonable Apprehension of Irreparable Harm
 - AD 13.4 - Interdicts Essential for Corporation Survival
 - AD 13.5 - Balance of Convenience Favours Granting Relief
-- AD 13.8 - Other Relief Sought in Part A
+- AD 13.7 - Relief Not Granted Under Part A
 
 **Response Section:** "AD PARAGRAPHS 13.2 through 13.8: REQUIREMENTS FOR INTERDICTORY RELIEF"
 
@@ -249,12 +245,12 @@ Both Daniel's and Jacqueline's refined answering affidavits (v5) provide compreh
 
 ---
 
-### Group 12: Remaining Paragraphs (AD 18.3, 20, 22, 40.9.4, 44, 50, 74, 78, 83, 88)
+### Group 12: Remaining Paragraphs (AD 17.3, 20, 22, 44, 50, 74, 78, 83, 88)
 **AD Paragraphs Covered:**
-- AD 18.3 - Continual Unauthorized Fund Transfers
+- AD 17.3 - Ex Parte Application Justification
 - AD 20 - First and Second Respondent Details
 - AD 22 - Additional Party Information
-- AD 40.9.4 - Gross Abuse of Director/Member Position
+- AD 9.4 - Misappropriation of Substantial Sums
 - AD 44 - Applicant Identity Details
 - AD 50 - Registered Address Details
 - AD 74 - Timeline Context
