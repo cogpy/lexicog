@@ -1,0 +1,1125 @@
+{
+  "total_ad_paragraphs": 132,
+  "ad_order": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4.1",
+    "3.4.2",
+    "3.5.1",
+    "3.5.2",
+    "3.6.1",
+    "3.6.2",
+    "3.7.1",
+    "3.7.2",
+    "3.8",
+    "3.9",
+    "3.10",
+    "3.11",
+    "3.12",
+    "3.13",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "6.5",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "7.5",
+    "7.6",
+    "7.7",
+    "7.8",
+    "7.9",
+    "7.10",
+    "7.11",
+    "7.12",
+    "7.13",
+    "7.14",
+    "7.15",
+    "7.16",
+    "7.17",
+    "7.18",
+    "7.19",
+    "7.20",
+    "8.1",
+    "2025",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "8.6",
+    "8.7",
+    "8.8",
+    "8.9",
+    "8.10",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "10.1",
+    "10.2",
+    "10.3",
+    "10.4",
+    "10.5.1",
+    "10.5.2",
+    "10.6.1",
+    "10.6.2",
+    "10.6.3",
+    "10.7.1.1",
+    "10.7.1.2",
+    "10.9.1",
+    "10.9.2",
+    "10.9.3",
+    "10.9.3.1",
+    "10.9.3.2",
+    "10.9.3.3",
+    "10.10.1",
+    "10.10.2",
+    "10.10.2.1",
+    "10.10.2.2",
+    "10.10.2.3",
+    "10.11",
+    "10.12",
+    "10.13",
+    "11.1",
+    "11.2",
+    "11.3",
+    "11.4",
+    "11.5",
+    "11.6",
+    "11.7",
+    "11.8",
+    "11.9",
+    "12.1",
+    "12.2",
+    "12.3",
+    "12.4",
+    "13.1",
+    "13.2.1",
+    "13.2.2",
+    "13.3",
+    "13.4",
+    "13.5",
+    "13.6",
+    "13.7",
+    "14.1",
+    "14.2",
+    "14.3",
+    "14.4",
+    "14.5",
+    "16.1",
+    "16.2",
+    "16.3",
+    "16.4",
+    "16.5",
+    "16.6",
+    "16.7",
+    "16.8",
+    "16.9",
+    "16.10",
+    "16.11",
+    "16.12",
+    "17.1",
+    "17.2",
+    "17.3",
+    "17.4",
+    "21"
+  ],
+  "jax_responses_count": 68,
+  "dan_responses_count": 68,
+  "jax_covered": [
+    "1",
+    "1.3",
+    "2",
+    "2.4",
+    "3",
+    "3.2",
+    "3.4",
+    "3.4.2",
+    "3.6",
+    "3.6.1",
+    "3.6.2",
+    "3.7",
+    "3.7.2",
+    "3.8",
+    "3.9",
+    "3.11",
+    "3.13",
+    "4",
+    "6.1",
+    "6.3",
+    "6.5",
+    "7",
+    "7.13",
+    "7.16",
+    "7.18",
+    "10.5.2",
+    "10.6.1",
+    "10.6.2",
+    "10.6.3",
+    "10.7.1.4",
+    "10.8.1",
+    "10.10.2.4",
+    "10.10.22",
+    "10.10.41",
+    "10.14",
+    "12.1",
+    "12.2",
+    "12.3",
+    "12.4",
+    "13.2",
+    "13.2.2",
+    "13.3",
+    "13.4",
+    "13.5",
+    "13.8",
+    "14.1",
+    "14.3",
+    "14.4",
+    "14.5",
+    "16.1",
+    "16.2",
+    "16.5",
+    "16.6",
+    "16.8",
+    "16.10",
+    "16.12",
+    "17.3",
+    "17.4",
+    "18.3",
+    "20",
+    "22",
+    "40.9.4",
+    "44",
+    "50",
+    "74",
+    "78",
+    "83",
+    "88"
+  ],
+  "dan_covered": [
+    "1",
+    "1.3",
+    "2",
+    "2.4",
+    "3",
+    "3.2",
+    "3.4",
+    "3.4.2",
+    "3.6",
+    "3.6.1",
+    "3.6.2",
+    "3.7",
+    "3.7.2",
+    "3.8",
+    "3.9",
+    "3.11",
+    "3.13",
+    "4",
+    "6.1",
+    "6.3",
+    "6.5",
+    "7",
+    "7.13",
+    "7.16",
+    "7.18",
+    "10.5.2",
+    "10.6.1",
+    "10.6.2",
+    "10.6.3",
+    "10.7.1.4",
+    "10.8.1",
+    "10.10.2.4",
+    "10.10.22",
+    "10.10.41",
+    "10.14",
+    "12.1",
+    "12.2",
+    "12.3",
+    "12.4",
+    "13.2",
+    "13.2.2",
+    "13.3",
+    "13.4",
+    "13.5",
+    "13.8",
+    "14.1",
+    "14.3",
+    "14.4",
+    "14.5",
+    "16.1",
+    "16.2",
+    "16.5",
+    "16.6",
+    "16.8",
+    "16.10",
+    "16.12",
+    "17.3",
+    "17.4",
+    "18.3",
+    "20",
+    "22",
+    "40.9.4",
+    "44",
+    "50",
+    "74",
+    "78",
+    "83",
+    "88"
+  ],
+  "jax_missing": [
+    "1.1",
+    "1.2",
+    "2.1",
+    "2.2",
+    "2.3",
+    "3.1",
+    "3.3",
+    "3.4.1",
+    "3.5.1",
+    "3.5.2",
+    "3.7.1",
+    "3.10",
+    "3.12",
+    "6.2",
+    "6.4",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "7.5",
+    "7.6",
+    "7.7",
+    "7.8",
+    "7.9",
+    "7.10",
+    "7.11",
+    "7.12",
+    "7.14",
+    "7.15",
+    "7.17",
+    "7.19",
+    "7.20",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "8.6",
+    "8.7",
+    "8.8",
+    "8.9",
+    "8.10",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "10.1",
+    "10.2",
+    "10.3",
+    "10.4",
+    "10.5.1",
+    "10.7.1.1",
+    "10.7.1.2",
+    "10.9.1",
+    "10.9.2",
+    "10.9.3",
+    "10.9.3.1",
+    "10.9.3.2",
+    "10.9.3.3",
+    "10.10.1",
+    "10.10.2",
+    "10.10.2.1",
+    "10.10.2.2",
+    "10.10.2.3",
+    "10.11",
+    "10.12",
+    "10.13",
+    "11.1",
+    "11.2",
+    "11.3",
+    "11.4",
+    "11.5",
+    "11.6",
+    "11.7",
+    "11.8",
+    "11.9",
+    "13.1",
+    "13.2.1",
+    "13.6",
+    "13.7",
+    "14.2",
+    "16.3",
+    "16.4",
+    "16.7",
+    "16.9",
+    "16.11",
+    "17.1",
+    "17.2",
+    "21",
+    "2025"
+  ],
+  "dan_missing": [
+    "1.1",
+    "1.2",
+    "2.1",
+    "2.2",
+    "2.3",
+    "3.1",
+    "3.3",
+    "3.4.1",
+    "3.5.1",
+    "3.5.2",
+    "3.7.1",
+    "3.10",
+    "3.12",
+    "6.2",
+    "6.4",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "7.5",
+    "7.6",
+    "7.7",
+    "7.8",
+    "7.9",
+    "7.10",
+    "7.11",
+    "7.12",
+    "7.14",
+    "7.15",
+    "7.17",
+    "7.19",
+    "7.20",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "8.6",
+    "8.7",
+    "8.8",
+    "8.9",
+    "8.10",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "10.1",
+    "10.2",
+    "10.3",
+    "10.4",
+    "10.5.1",
+    "10.7.1.1",
+    "10.7.1.2",
+    "10.9.1",
+    "10.9.2",
+    "10.9.3",
+    "10.9.3.1",
+    "10.9.3.2",
+    "10.9.3.3",
+    "10.10.1",
+    "10.10.2",
+    "10.10.2.1",
+    "10.10.2.2",
+    "10.10.2.3",
+    "10.11",
+    "10.12",
+    "10.13",
+    "11.1",
+    "11.2",
+    "11.3",
+    "11.4",
+    "11.5",
+    "11.6",
+    "11.7",
+    "11.8",
+    "11.9",
+    "13.1",
+    "13.2.1",
+    "13.6",
+    "13.7",
+    "14.2",
+    "16.3",
+    "16.4",
+    "16.7",
+    "16.9",
+    "16.11",
+    "17.1",
+    "17.2",
+    "21",
+    "2025"
+  ],
+  "responses": {
+    "1.1": {
+      "ad_number": "1.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "1.2": {
+      "ad_number": "1.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "1.3": {
+      "ad_number": "1.3",
+      "jax_response": "*Applicant's Personal Details and Declaration*  \nThe Applicant provides his ID (520430 5708 18 5) and address. The affidavit is commissioned by The Second Respondentie Bantjies, identified as \"our accountant.\" Bantjies's full role will progressively emerge through the document.\n\n---\n\n### RESPONSE TO AD PARAGRAPHS STARTING WITH 2",
+      "dan_response": "*Applicant's Personal Details and Declaration*  \nThe Applicant provides his ID (520430 5708 18 5) and address. The affidavit is commissioned by The Second Respondentie Bantjies, identified as \"our accountant.\" Bantjies's full role will progressively emerge through the document.\n\n---\n\n### RESPONSE TO AD PARAGRAPHS STARTING WITH 2"
+    },
+    "2.1": {
+      "ad_number": "2.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "2.2": {
+      "ad_number": "2.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "2.3": {
+      "ad_number": "2.3",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "2.4": {
+      "ad_number": "2.4",
+      "jax_response": "*Parties to the Application - Introduction*  \nThe Applicant introduces the parties. The corporate structure will reveal that certain entities are owned by the Faucitt Family Trust (IT 3651/2013), which has three trustees. Two are identified in this affidavit: The Applicant and The First Respondent. The third trustee's identity was not disclosed to the beneficiaries.\n\n---\n\n### RESPONSE TO AD PARAGRAPHS STARTING WITH 3",
+      "dan_response": "*Parties to the Application - Introduction*  \nThe Applicant introduces the parties. The corporate structure will reveal that certain entities are owned by the Faucitt Family Trust (IT 3651/2013), which has three trustees. Two are identified in this affidavit: The Applicant and The First Respondent. The third trustee's identity was not disclosed to the beneficiaries.\n\n---\n\n### RESPONSE TO AD PARAGRAPHS STARTING WITH 3"
+    },
+    "3.1": {
+      "ad_number": "3.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "3.2": {
+      "ad_number": "3.2",
+      "jax_response": "*Respondents - Wife*  \nThe First Respondent is identified as The Applicant's wife and First Respondent. On 15 May 2025, The First Respondent confronted Rynette Farrar about a R1,035,000 debt owed by RegimA Skin Treatments to Rezonance since February 2023. These funds were part of Kayla Pretorius's estate. The First Respondent stated that keeping them would be \"profiting from the proceeds of murder.\" This confrontation will prove significant.",
+      "dan_response": "*Respondents - Wife*  \nThe First Respondent is identified as The Applicant's wife and First Respondent. On 15 May 2025, The First Respondent confronted Rynette Farrar about a R1,035,000 debt owed by RegimA Skin Treatments to Rezonance since February 2023. These funds were part of Kayla Pretorius's estate. The First Respondent stated that keeping them would be \"profiting from the proceeds of murder.\" This confrontation will prove significant."
+    },
+    "3.3": {
+      "ad_number": "3.3",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "3.4.1": {
+      "ad_number": "3.4.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "3.4.2": {
+      "ad_number": "3.4.2",
+      "jax_response": "*Third Respondent - RegimA Skin Treatments*  \nRegimA Skin Treatments CC (B1992/005371/23) owes R1,035,000 to Rezonance (Kayla's estate) since February 2023. When The First Respondent raised this debt on 15 May 2025, Rynette claimed it was paid\u2014a false statement. RegimA Skin Treatments receives stock from Adderory (Pty) Ltd, a company owned by Rynette's son.",
+      "dan_response": "*Third Respondent - RegimA Skin Treatments*  \nRegimA Skin Treatments CC (B1992/005371/23) owes R1,035,000 to Rezonance (Kayla's estate) since February 2023. When The First Respondent raised this debt on 15 May 2025, Rynette claimed it was paid\u2014a false statement. RegimA Skin Treatments receives stock from Adderory (Pty) Ltd, a company owned by Rynette's son."
+    },
+    "3.5.1": {
+      "ad_number": "3.5.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "3.5.2": {
+      "ad_number": "3.5.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "3.6.1": {
+      "ad_number": "3.6.1",
+      "jax_response": "*Fifth Respondent - Villa Via Arcadia No 2 CC*  \nVilla Via Arcadia No 2 CC (1996/004451/23) is owned by the Faucitt Family Trust. Financial analysis shows an 86% profit margin on rent charged to the group\u2014an excessive profit extraction. This was the fraud The Second Respondent reported to the accountant on 6 June 2025.",
+      "dan_response": "*Fifth Respondent - Villa Via Arcadia No 2 CC*  \nVilla Via Arcadia No 2 CC (1996/004451/23) is owned by the Faucitt Family Trust. Financial analysis shows an 86% profit margin on rent charged to the group\u2014an excessive profit extraction. This was the fraud The Second Respondent reported to the accountant on 6 June 2025."
+    },
+    "3.6.2": {
+      "ad_number": "3.6.2",
+      "jax_response": "*Windeed Printout Evidence for Villa Via Arcadia*  \nProperty registration confirms trust ownership. The trust has three trustees, but only two were known to the beneficiaries at the time of this application.",
+      "dan_response": "*Windeed Printout Evidence for Villa Via Arcadia*  \nProperty registration confirms trust ownership. The trust has three trustees, but only two were known to the beneficiaries at the time of this application."
+    },
+    "3.7.1": {
+      "ad_number": "3.7.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "3.7.2": {
+      "ad_number": "3.7.2",
+      "jax_response": "*Windeed Printout Evidence for Strategic Logistics*  \nProperty registration documents. In a SARS audit email concerning the R5.4M stock adjustment, Rynette claimed that The Second Respondentie Bantjies instructed her to make the huge payments related to this transaction.",
+      "dan_response": "*Windeed Printout Evidence for Strategic Logistics*  \nProperty registration documents. In a SARS audit email concerning the R5.4M stock adjustment, Rynette claimed that The Second Respondentie Bantjies instructed her to make the huge payments related to this transaction."
+    },
+    "3.8": {
+      "ad_number": "3.8",
+      "jax_response": "*Seventh Respondent - FirstRand Bank (FNB)*  \nFNB holds accounts for the companies. On 14 and 15 February 2025, unauthorized transfers of R450,000 each (R900,000 total) were made from RegimA SA's FNB account without The Second Respondent's authority as co-director. The account opened with R997,597.94 and closed at R5,284.08 within one month, despite 169 customer deposits totaling R566,598.57 proving active trade.",
+      "dan_response": "*Seventh Respondent - FirstRand Bank (FNB)*  \nFNB holds accounts for the companies. On 14 and 15 February 2025, unauthorized transfers of R450,000 each (R900,000 total) were made from RegimA SA's FNB account without The Second Respondent's authority as co-director. The account opened with R997,597.94 and closed at R5,284.08 within one month, despite 169 customer deposits totaling R566,598.57 proving active trade."
+    },
+    "3.9": {
+      "ad_number": "3.9",
+      "jax_response": "*Eighth and Ninth Respondents*  \nABSA Bank and CIPC are cited. Rynette may have opened 8 ABSA accounts using The Second Respondent's information without authorization. Revenue diversion for RegimA Worldwide began with an ABSA bank letter dated 14 April 2025.",
+      "dan_response": "*Eighth and Ninth Respondents*  \nABSA Bank and CIPC are cited. Rynette may have opened 8 ABSA accounts using The Second Respondent's information without authorization. Revenue diversion for RegimA Worldwide began with an ABSA bank letter dated 14 April 2025."
+    },
+    "3.10": {
+      "ad_number": "3.10",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "3.11": {
+      "ad_number": "3.11",
+      "jax_response": "*Reference to Respondents as Wife and Son*  \nThe Applicant refers to The First Respondent and The Second Respondent as \"my wife\" and \"my son.\" Both are beneficiaries of the Faucitt Family Trust. The First Respondent is also a co-trustee. The Trust Property Control Act Section 9(1) requires trustees to act with care, diligence, and skill in the interests of beneficiaries.",
+      "dan_response": "*Reference to Respondents as Wife and Son*  \nThe Applicant refers to The First Respondent and The Second Respondent as \"my wife\" and \"my son.\" Both are beneficiaries of the Faucitt Family Trust. The First Respondent is also a co-trustee. The Trust Property Control Act Section 9(1) requires trustees to act with care, diligence, and skill in the interests of beneficiaries."
+    },
+    "3.12": {
+      "ad_number": "3.12",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "3.13": {
+      "ad_number": "3.13",
+      "jax_response": "*Court Jurisdiction and Identity Confirmation*  \nJurisdiction confirmed. The affidavit is commissioned by The Second Respondentie Bantjies, who signs as \"Commissioner of Oaths.\" Bantjies's accounting firm is \"Bantjes and Company.\" His full relationship to the trust and companies will emerge through the evidence.\n\n---\n\n### RESPONSE TO AD PARAGRAPH: ACCOUNTANT'S CONFLICT OF INTEREST",
+      "dan_response": "*Court Jurisdiction and Identity Confirmation*  \nJurisdiction confirmed. The affidavit is commissioned by The Second Respondentie Bantjies, who signs as \"Commissioner of Oaths.\" Bantjies's accounting firm is \"Bantjes and Company.\" His full relationship to the trust and companies will emerge through the evidence.\n\n---\n\n### RESPONSE TO AD PARAGRAPH: ACCOUNTANT'S CONFLICT OF INTEREST"
+    },
+    "6.1": {
+      "ad_number": "6.1",
+      "jax_response": "*Relationships Between Parties*  \nThe Applicant describes family and corporate relationships. The evidence shows a different control structure: Rynette controlled all bank accounts (The Applicant had no access), controlled the Sage accounting system using The Applicant's email (pete@regima.com), and claimed to act under Bantjies's instructions rather than The Applicant's. Rynette's sister Linda was employed as bookkeeper, yet two years of expenses remained unallocated until 30 March 2025.",
+      "dan_response": "*Relationships Between Parties*  \nThe Applicant describes family and corporate relationships. The evidence shows a different control structure: Rynette controlled all bank accounts (The Applicant had no access), controlled the Sage accounting system using The Applicant's email (pete@regima.com), and claimed to act under Bantjies's instructions rather than The Applicant's. Rynette's sister Linda was employed as bookkeeper, yet two years of expenses remained unallocated until 30 March 2025."
+    },
+    "6.2": {
+      "ad_number": "6.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "6.3": {
+      "ad_number": "6.3",
+      "jax_response": "*Directors and Members of Respondent Entities*  \nThe Applicant describes directorships. Key facts: The First Respondent and The Second Respondent are co-directors of RegimA SA and RegimA Worldwide Distribution (RWD). RWD is owned by the Faucitt Family Trust. On 30 March 2025, Rynette and The Applicant dumped two years of unallocated expenses into RWD and demanded The Second Respondent sign off within 12 hours for SARS VAT and Annual Accounts. The Second Respondent used this deadline extension (until 6 June) to finalize reports and uncover the Villa Via fraud.",
+      "dan_response": "*Directors and Members of Respondent Entities*  \nThe Applicant describes directorships. Key facts: The First Respondent and The Second Respondent are co-directors of RegimA SA and RegimA Worldwide Distribution (RWD). RWD is owned by the Faucitt Family Trust. On 30 March 2025, Rynette and The Applicant dumped two years of unallocated expenses into RWD and demanded The Second Respondent sign off within 12 hours for SARS VAT and Annual Accounts. The Second Respondent used this deadline extension (until 6 June) to finalize reports and uncover the Villa Via fraud."
+    },
+    "6.4": {
+      "ad_number": "6.4",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "6.5": {
+      "ad_number": "6.5",
+      "jax_response": "*Banking and Registration of Respondent Entities*  \nThe Applicant describes banking arrangements. The evidence shows: (1) The Applicant had no access to any bank accounts; (2) Rynette controlled all accounts; (3) Revenue diversion for RegimA SA started 1 March 2025; (4) Revenue diversion for RWD started 14 April 2025 (ABSA bank letter); (5) On 11 September 2025, R1.73 million was transferred from accounts\u2014six months after sabotage began, The Second Respondent was still managing to pay creditors.\n\n---\n\n### RESPONSE TO AD PARAGRAPHS: URGENCY AND ALLEGED MISCONDUCT",
+      "dan_response": "*Banking and Registration of Respondent Entities*  \nThe Applicant describes banking arrangements. The evidence shows: (1) The Applicant had no access to any bank accounts; (2) Rynette controlled all accounts; (3) Revenue diversion for RegimA SA started 1 March 2025; (4) Revenue diversion for RWD started 14 April 2025 (ABSA bank letter); (5) On 11 September 2025, R1.73 million was transferred from accounts\u2014six months after sabotage began, The Second Respondent was still managing to pay creditors.\n\n---\n\n### RESPONSE TO AD PARAGRAPHS: URGENCY AND ALLEGED MISCONDUCT"
+    },
+    "7.1": {
+      "ad_number": "7.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.2": {
+      "ad_number": "7.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.3": {
+      "ad_number": "7.3",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.4": {
+      "ad_number": "7.4",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.5": {
+      "ad_number": "7.5",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.6": {
+      "ad_number": "7.6",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.7": {
+      "ad_number": "7.7",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.8": {
+      "ad_number": "7.8",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.9": {
+      "ad_number": "7.9",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.10": {
+      "ad_number": "7.10",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.11": {
+      "ad_number": "7.11",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.12": {
+      "ad_number": "7.12",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.13": {
+      "ad_number": "7.13",
+      "jax_response": "*Domain and Service Halts Due to Card Cancellations*  \nThe Applicant claims subscriptions were halted due to card cancellations. To prevent business collapse, The Second Respondent substituted his personal card (1927) for RegimA SA and The First Respondent her personal card (3212) for RegimA Zone. Meanwhile, the competing domain regimaskin.co.za was actively diverting customers.",
+      "dan_response": "*Domain and Service Halts Due to Card Cancellations*  \nThe Applicant claims subscriptions were halted due to card cancellations. To prevent business collapse, The Second Respondent substituted his personal card (1927) for RegimA SA and The First Respondent her personal card (3212) for RegimA Zone. Meanwhile, the competing domain regimaskin.co.za was actively diverting customers."
+    },
+    "7.14": {
+      "ad_number": "7.14",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.15": {
+      "ad_number": "7.15",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.16": {
+      "ad_number": "7.16",
+      "jax_response": "*Son's Interference with Business Operations*  \nThe Applicant alleges The Second Respondent interfered with operations. The evidence shows The Second Respondent built and managed 51+ Shopify stores generating R34.9 million annually. The Second Respondent's partner Kayla Pretorius co-built these operations before her murder on 13 July 2023. After Kayla's death, a court order was obtained to seize her email account (kayp@rzo.io), which interfered with a law enforcement investigation that had instructed a freeze on the account.",
+      "dan_response": "*Son's Interference with Business Operations*  \nThe Applicant alleges The Second Respondent interfered with operations. The evidence shows The Second Respondent built and managed 51+ Shopify stores generating R34.9 million annually. The Second Respondent's partner Kayla Pretorius co-built these operations before her murder on 13 July 2023. After Kayla's death, a court order was obtained to seize her email account (kayp@rzo.io), which interfered with a law enforcement investigation that had instructed a freeze on the account."
+    },
+    "7.17": {
+      "ad_number": "7.17",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.18": {
+      "ad_number": "7.18",
+      "jax_response": "*Email and Account Access Interference*  \nThe Applicant claims The Second Respondent restricted email access. The evidence shows: (1) The Applicant had no access to his own email (pete@regima.com)\u2014controlled by Rynette; (2) Sage screenshots from June and August 2025 show Rynette using The Applicant's email; (3) Rynette claimed to act under Bantjies's instructions, not The Applicant's; (4) Kayla's email was seized by court order after her murder.\n\n---\n\n### 7. RESPONSE TO AD PARAGRAPHS 7.1-7.20: DISCOVERY OF FINANCIAL IRREGULARITIES",
+      "dan_response": "*Email and Account Access Interference*  \nThe Applicant claims The Second Respondent restricted email access. The evidence shows: (1) The Applicant had no access to his own email (pete@regima.com)\u2014controlled by Rynette; (2) Sage screenshots from June and August 2025 show Rynette using The Applicant's email; (3) Rynette claimed to act under Bantjies's instructions, not The Applicant's; (4) Kayla's email was seized by court order after her murder.\n\n---\n\n### 7. RESPONSE TO AD PARAGRAPHS 7.1-7.20: DISCOVERY OF FINANCIAL IRREGULARITIES"
+    },
+    "7.19": {
+      "ad_number": "7.19",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "7.20": {
+      "ad_number": "7.20",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "8.1": {
+      "ad_number": "8.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "2025": {
+      "ad_number": "2025",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "8.2": {
+      "ad_number": "8.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "8.3": {
+      "ad_number": "8.3",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "8.4": {
+      "ad_number": "8.4",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "8.5": {
+      "ad_number": "8.5",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "8.6": {
+      "ad_number": "8.6",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "8.7": {
+      "ad_number": "8.7",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "8.8": {
+      "ad_number": "8.8",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "8.9": {
+      "ad_number": "8.9",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "8.10": {
+      "ad_number": "8.10",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "9.1": {
+      "ad_number": "9.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "9.2": {
+      "ad_number": "9.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "9.3": {
+      "ad_number": "9.3",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "9.4": {
+      "ad_number": "9.4",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.1": {
+      "ad_number": "10.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.2": {
+      "ad_number": "10.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.3": {
+      "ad_number": "10.3",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.4": {
+      "ad_number": "10.4",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.5.1": {
+      "ad_number": "10.5.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.5.2": {
+      "ad_number": "10.5.2",
+      "jax_response": "*Probation Relief Under Section 162*  \nThe Applicant seeks probation under Section 162. This section requires consideration of conflicts of interest. The evidence reveals: Bantjies (Trustee + Debtor + Accountant) commissioned this affidavit as Commissioner of Oaths. Bantjies had R18.685M reasons to prevent discovery of the fraud The Second Respondent reported.",
+      "dan_response": "*Probation Relief Under Section 162*  \nThe Applicant seeks probation under Section 162. This section requires consideration of conflicts of interest. The evidence reveals: Bantjies (Trustee + Debtor + Accountant) commissioned this affidavit as Commissioner of Oaths. Bantjies had R18.685M reasons to prevent discovery of the fraud The Second Respondent reported."
+    },
+    "10.6.1": {
+      "ad_number": "10.6.1",
+      "jax_response": "*Member's Duty to Manage in Corporation's Interest*  \nThe Applicant cites duty to manage in corporation's interest. The R5.4M stock adjustment in Strategic Logistics represents 46% of annual sales\u201410 times the historical adjustment. Rynette claimed Bantjies instructed the payments. This transaction was not in Strategic Logistics' interest.",
+      "dan_response": "*Member's Duty to Manage in Corporation's Interest*  \nThe Applicant cites duty to manage in corporation's interest. The R5.4M stock adjustment in Strategic Logistics represents 46% of annual sales\u201410 times the historical adjustment. Rynette claimed Bantjies instructed the payments. This transaction was not in Strategic Logistics' interest."
+    },
+    "10.6.2": {
+      "ad_number": "10.6.2",
+      "jax_response": "*Member's Duty Not to Exceed Powers*  \nThe Applicant cites duty not to exceed powers. The unauthorized R900,000 transfers from RegimA SA (14-15 Feb 2025) were made without The Second Respondent's authority as co-director. The Applicant exceeded his powers by acting unilaterally.",
+      "dan_response": "*Member's Duty Not to Exceed Powers*  \nThe Applicant cites duty not to exceed powers. The unauthorized R900,000 transfers from RegimA SA (14-15 Feb 2025) were made without The Second Respondent's authority as co-director. The Applicant exceeded his powers by acting unilaterally."
+    },
+    "10.6.3": {
+      "ad_number": "10.6.3",
+      "jax_response": "*Member's Duty to Avoid Conflicts of Interest*  \nThe Applicant cites duty to avoid conflicts. The evidence reveals multiple conflicts: (1) Bantjies: Trustee + Debtor + Accountant; (2) Rynette's son (Adderory) supplying stock to RegimA Skin Treatments while same stock type \"disappeared\" from Strategic Logistics; (3) Villa Via (trust-owned) charging 86% profit margin rent to group; (4) Regimaskin.co.za (owned by Rynette's son) competing with RegimA operations.",
+      "dan_response": "*Member's Duty to Avoid Conflicts of Interest*  \nThe Applicant cites duty to avoid conflicts. The evidence reveals multiple conflicts: (1) Bantjies: Trustee + Debtor + Accountant; (2) Rynette's son (Adderory) supplying stock to RegimA Skin Treatments while same stock type \"disappeared\" from Strategic Logistics; (3) Villa Via (trust-owned) charging 86% profit margin rent to group; (4) Regimaskin.co.za (owned by Rynette's son) competing with RegimA operations."
+    },
+    "10.7.1.1": {
+      "ad_number": "10.7.1.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.7.1.2": {
+      "ad_number": "10.7.1.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.9.1": {
+      "ad_number": "10.9.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.9.2": {
+      "ad_number": "10.9.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.9.3": {
+      "ad_number": "10.9.3",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.9.3.1": {
+      "ad_number": "10.9.3.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.9.3.2": {
+      "ad_number": "10.9.3.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.9.3.3": {
+      "ad_number": "10.9.3.3",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.10.1": {
+      "ad_number": "10.10.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.10.2": {
+      "ad_number": "10.10.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.10.2.1": {
+      "ad_number": "10.10.2.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.10.2.2": {
+      "ad_number": "10.10.2.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.10.2.3": {
+      "ad_number": "10.10.2.3",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.11": {
+      "ad_number": "10.11",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.12": {
+      "ad_number": "10.12",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "10.13": {
+      "ad_number": "10.13",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "11.1": {
+      "ad_number": "11.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "11.2": {
+      "ad_number": "11.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "11.3": {
+      "ad_number": "11.3",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "11.4": {
+      "ad_number": "11.4",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "11.5": {
+      "ad_number": "11.5",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "11.6": {
+      "ad_number": "11.6",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "11.7": {
+      "ad_number": "11.7",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "11.8": {
+      "ad_number": "11.8",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "11.9": {
+      "ad_number": "11.9",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "12.1": {
+      "ad_number": "12.1",
+      "jax_response": "*UK Branch Non-Payment and Fraud Concerns*  \nThe Applicant alleges UK branch non-payment and fraud. The Shopify invoices (DF5-DF7) prove the opposite: UK entities funded SA operations to the tune of R84,661+ annually. UK bank transactions corroborate the invoices. The Applicant's statement is demonstrably false\u2014perjury.",
+      "dan_response": "*UK Branch Non-Payment and Fraud Concerns*  \nThe Applicant alleges UK branch non-payment and fraud. The Shopify invoices (DF5-DF7) prove the opposite: UK entities funded SA operations to the tune of R84,661+ annually. UK bank transactions corroborate the invoices. The Applicant's statement is demonstrably false\u2014perjury."
+    },
+    "12.2": {
+      "ad_number": "12.2",
+      "jax_response": "*Misappropriation Leading to Insolvency Risk*  \nThe Applicant alleges misappropriation leading to insolvency. The actual insolvency risk was created by: (1) R900K unauthorized transfers; (2) Revenue diversions (1 Mar, 14 Apr); (3) Data expungement (22 May); (4) Card cancellation (7 June); (5) Warehouse sabotage (8 July); (6) Account emptying (11 Sep). Despite six months of sabotage, The Second Respondent was still managing to pay creditors until the accounts were emptied.",
+      "dan_response": "*Misappropriation Leading to Insolvency Risk*  \nThe Applicant alleges misappropriation leading to insolvency. The actual insolvency risk was created by: (1) R900K unauthorized transfers; (2) Revenue diversions (1 Mar, 14 Apr); (3) Data expungement (22 May); (4) Card cancellation (7 June); (5) Warehouse sabotage (8 July); (6) Account emptying (11 Sep). Despite six months of sabotage, The Second Respondent was still managing to pay creditors until the accounts were emptied."
+    },
+    "12.3": {
+      "ad_number": "12.3",
+      "jax_response": "*Purpose of Court Application*  \nThe Applicant states the purpose is to prevent further harm. The actual purpose: (1) Punish The First Respondent for investigating R1,035,000 debt (15 May); (2) Punish The Second Respondent for exposing Villa Via fraud (6 June); (3) Seize control of R34.9M operations The Second Respondent built; (4) Prevent forensic audit that would expose Bantjies's conflicts and the systematic fraud.",
+      "dan_response": "*Purpose of Court Application*  \nThe Applicant states the purpose is to prevent further harm. The actual purpose: (1) Punish The First Respondent for investigating R1,035,000 debt (15 May); (2) Punish The Second Respondent for exposing Villa Via fraud (6 June); (3) Seize control of R34.9M operations The Second Respondent built; (4) Prevent forensic audit that would expose Bantjies's conflicts and the systematic fraud."
+    },
+    "12.4": {
+      "ad_number": "12.4",
+      "jax_response": "*Alternative Roles for Wife and Son*  \nThe Applicant suggests alternative roles for The First Respondent and The Second Respondent. The evidence shows: (1) The First Respondent fulfilled trustee duties by investigating fraud; (2) The Second Respondent built and managed R34.9M profitable operations; (3) Both were systematically sabotaged after investigating/exposing fraud; (4) Both were attacked with interdict by co-trustees The Applicant and Bantjies; (5) The First Respondent was included in interdict two days after signing \"Main Trustee\" document.\n\n---\n\n### RESPONSE TO AD PARAGRAPHS STARTING WITH 13",
+      "dan_response": "*Alternative Roles for Wife and Son*  \nThe Applicant suggests alternative roles for The First Respondent and The Second Respondent. The evidence shows: (1) The First Respondent fulfilled trustee duties by investigating fraud; (2) The Second Respondent built and managed R34.9M profitable operations; (3) Both were systematically sabotaged after investigating/exposing fraud; (4) Both were attacked with interdict by co-trustees The Applicant and Bantjies; (5) The First Respondent was included in interdict two days after signing \"Main Trustee\" document.\n\n---\n\n### RESPONSE TO AD PARAGRAPHS STARTING WITH 13"
+    },
+    "13.1": {
+      "ad_number": "13.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "13.2.1": {
+      "ad_number": "13.2.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "13.2.2": {
+      "ad_number": "13.2.2",
+      "jax_response": "*Injury Sustained and Apprehension of Further Harm*  \nThe Applicant claims injury and apprehension of harm. The Applicant suffered no injury he didn't inflict on himself: (1) Card cancellation rendered documentation inaccessible; (2) Unauthorized transfers depleted accounts; (3) Revenue diversions reduced cash flow; (4) Warehouse sabotage destroyed operations. The apprehension of further harm was manufactured to justify ex parte relief.",
+      "dan_response": "*Injury Sustained and Apprehension of Further Harm*  \nThe Applicant claims injury and apprehension of harm. The Applicant suffered no injury he didn't inflict on himself: (1) Card cancellation rendered documentation inaccessible; (2) Unauthorized transfers depleted accounts; (3) Revenue diversions reduced cash flow; (4) Warehouse sabotage destroyed operations. The apprehension of further harm was manufactured to justify ex parte relief."
+    },
+    "13.3": {
+      "ad_number": "13.3",
+      "jax_response": "*Reasonable Apprehension of Irreparable Harm*  \nThe Applicant claims reasonable apprehension of irreparable harm. The irreparable harm was inflicted by The Applicant's six-month sabotage campaign: (1) R34.9M operations destroyed (93.3% revenue collapse); (2) Customer relationships diverted to competing domain; (3) Audit data expunged (100% loss); (4) Documentation rendered inaccessible; (5) Accounts emptied. The Second Respondent and The First Respondent suffered irreparable harm, not The Applicant.",
+      "dan_response": "*Reasonable Apprehension of Irreparable Harm*  \nThe Applicant claims reasonable apprehension of irreparable harm. The irreparable harm was inflicted by The Applicant's six-month sabotage campaign: (1) R34.9M operations destroyed (93.3% revenue collapse); (2) Customer relationships diverted to competing domain; (3) Audit data expunged (100% loss); (4) Documentation rendered inaccessible; (5) Accounts emptied. The Second Respondent and The First Respondent suffered irreparable harm, not The Applicant."
+    },
+    "13.4": {
+      "ad_number": "13.4",
+      "jax_response": "*Interdicts Essential for Corporation Survival*  \nThe Applicant claims interdicts essential for survival. The corporations were profitable under The Second Respondent's management (R34.9M annually). The survival threat came from The Applicant's sabotage: (1) Unauthorized transfers; (2) Revenue diversions; (3) Data destruction; (4) Card cancellations; (5) Warehouse sabotage; (6) Account emptying. Excluding The Second Respondent and The First Respondent threatened survival, not ensured it.",
+      "dan_response": "*Interdicts Essential for Corporation Survival*  \nThe Applicant claims interdicts essential for survival. The corporations were profitable under The Second Respondent's management (R34.9M annually). The survival threat came from The Applicant's sabotage: (1) Unauthorized transfers; (2) Revenue diversions; (3) Data destruction; (4) Card cancellations; (5) Warehouse sabotage; (6) Account emptying. Excluding The Second Respondent and The First Respondent threatened survival, not ensured it."
+    },
+    "13.5": {
+      "ad_number": "13.5",
+      "jax_response": "*Balance of Convenience Favours Granting Relief*  \nThe Applicant claims balance of convenience favors relief. The balance overwhelmingly favors The Second Respondent and The First Respondent: (1) They built and managed profitable operations; (2) They investigated and exposed fraud; (3) They were systematically sabotaged for doing so; (4) They substituted personal cards to prevent business collapse; (5) They support independent forensic audit. The Applicant obtained relief through material non-disclosures and false statements.",
+      "dan_response": "*Balance of Convenience Favours Granting Relief*  \nThe Applicant claims balance of convenience favors relief. The balance overwhelmingly favors The Second Respondent and The First Respondent: (1) They built and managed profitable operations; (2) They investigated and exposed fraud; (3) They were systematically sabotaged for doing so; (4) They substituted personal cards to prevent business collapse; (5) They support independent forensic audit. The Applicant obtained relief through material non-disclosures and false statements."
+    },
+    "13.6": {
+      "ad_number": "13.6",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "13.7": {
+      "ad_number": "13.7",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "14.1": {
+      "ad_number": "14.1",
+      "jax_response": "*Financial Constraints on Respondents*  \nThe Applicant seeks financial constraints on The First Respondent and The Second Respondent. The financial constraints were already imposed through sabotage: (1) R900K unauthorized transfers; (2) Revenue diversions; (3) Data expungement; (4) Card cancellations; (5) Warehouse sabotage; (6) Account emptying. Despite six months of sabotage, The Second Respondent was still managing to pay creditors.",
+      "dan_response": "*Financial Constraints on Respondents*  \nThe Applicant seeks financial constraints on The First Respondent and The Second Respondent. The financial constraints were already imposed through sabotage: (1) R900K unauthorized transfers; (2) Revenue diversions; (3) Data expungement; (4) Card cancellations; (5) Warehouse sabotage; (6) Account emptying. Despite six months of sabotage, The Second Respondent was still managing to pay creditors."
+    },
+    "14.2": {
+      "ad_number": "14.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "14.3": {
+      "ad_number": "14.3",
+      "jax_response": "*Constraint to Prevent Financial Prejudice*  \nThe Applicant seeks constraints to prevent prejudice. The prejudice was inflicted by The Applicant: (1) RegimA SA account opened R997,597.94, closed R5,284.08 (Feb-Mar 2025); (2) 169 customer deposits R566,598.57 proving active trade; (3) R1.73M transferred 11 Sep 2025; (4) R34.9M operations destroyed by warehouse sabotage.",
+      "dan_response": "*Constraint to Prevent Financial Prejudice*  \nThe Applicant seeks constraints to prevent prejudice. The prejudice was inflicted by The Applicant: (1) RegimA SA account opened R997,597.94, closed R5,284.08 (Feb-Mar 2025); (2) 169 customer deposits R566,598.57 proving active trade; (3) R1.73M transferred 11 Sep 2025; (4) R34.9M operations destroyed by warehouse sabotage."
+    },
+    "14.4": {
+      "ad_number": "14.4",
+      "jax_response": "*Forensic Audit Necessity and Remuneration*  \nThe Applicant seeks forensic audit. The Second Respondent and The First Respondent support independent forensic audit by impartial party. Such audit would reveal: (1) Bantjies's conflicts (Trustee + Debtor + Accountant); (2) R5.4M stock transfer pricing scheme (SLG \u2192 Adderory \u2192 RST); (3) R1,035,000 debt to Kayla's estate; (4) Two years unallocated expenses; (5) Unauthorized R900K transfers; (6) Revenue diversion scheme; (7) Rynette's control of systems using The Applicant's email.",
+      "dan_response": "*Forensic Audit Necessity and Remuneration*  \nThe Applicant seeks forensic audit. The Second Respondent and The First Respondent support independent forensic audit by impartial party. Such audit would reveal: (1) Bantjies's conflicts (Trustee + Debtor + Accountant); (2) R5.4M stock transfer pricing scheme (SLG \u2192 Adderory \u2192 RST); (3) R1,035,000 debt to Kayla's estate; (4) Two years unallocated expenses; (5) Unauthorized R900K transfers; (6) Revenue diversion scheme; (7) Rynette's control of systems using The Applicant's email."
+    },
+    "14.5": {
+      "ad_number": "14.5",
+      "jax_response": "*Request for Relief Under Part B*  \nThe Applicant requests Part B relief. The relief should include: (1) Setting aside ex parte order obtained through material non-disclosures; (2) Independent forensic audit; (3) Investigation of Bantjies's conflicts; (4) Investigation of R5.4M stock \"disappearance\"; (5) Recovery of R1,035,000 owed to Kayla's estate; (6) Investigation of Rynette's control and Adderory's role; (7) Consideration of The Applicant's delinquency under Section 162(5).\n\n---\n\n### RESPONSE TO AD PARAGRAPHS STARTING WITH 16",
+      "dan_response": "*Request for Relief Under Part B*  \nThe Applicant requests Part B relief. The relief should include: (1) Setting aside ex parte order obtained through material non-disclosures; (2) Independent forensic audit; (3) Investigation of Bantjies's conflicts; (4) Investigation of R5.4M stock \"disappearance\"; (5) Recovery of R1,035,000 owed to Kayla's estate; (6) Investigation of Rynette's control and Adderory's role; (7) Consideration of The Applicant's delinquency under Section 162(5).\n\n---\n\n### RESPONSE TO AD PARAGRAPHS STARTING WITH 16"
+    },
+    "16.1": {
+      "ad_number": "16.1",
+      "jax_response": "*Discovery of Respondents' Conduct*  \nThe Applicant claims discovery of conduct in mid-June 2025. The actual discovery: (1) 15 May: The First Respondent discovered R1,035,000 debt to Kayla's estate; (2) 6 June: The Second Respondent exposed Villa Via fraud to Bantjies; (3) 7 June: The Applicant cancelled cards (day after The Second Respondent's cooperation); (4) 10 June: Bantjies dismissed audit request. The Applicant's \"discovery\" was actually consciousness of guilt after The Second Respondent exposed fraud to Bantjies.",
+      "dan_response": "*Discovery of Respondents' Conduct*  \nThe Applicant claims discovery of conduct in mid-June 2025. The actual discovery: (1) 15 May: The First Respondent discovered R1,035,000 debt to Kayla's estate; (2) 6 June: The Second Respondent exposed Villa Via fraud to Bantjies; (3) 7 June: The Applicant cancelled cards (day after The Second Respondent's cooperation); (4) 10 June: Bantjies dismissed audit request. The Applicant's \"discovery\" was actually consciousness of guilt after The Second Respondent exposed fraud to Bantjies."
+    },
+    "16.2": {
+      "ad_number": "16.2",
+      "jax_response": "*R600,000 Transfer as Trigger for Action*  \nThe Applicant cites R600,000 transfer (later corrected to R500,000) as trigger. The actual triggers: (1) 15 May: The First Respondent confronted Rynette about R1,035,000 debt and \"profiting from proceeds of murder\"; (2) 6 June: The Second Respondent exposed Villa Via fraud to Bantjies (unknowingly to perpetrator); (3) 10 June: Bantjies dismissed audit request. The R500,000 transfer is a pretext.",
+      "dan_response": "*R600,000 Transfer as Trigger for Action*  \nThe Applicant cites R600,000 transfer (later corrected to R500,000) as trigger. The actual triggers: (1) 15 May: The First Respondent confronted Rynette about R1,035,000 debt and \"profiting from proceeds of murder\"; (2) 6 June: The Second Respondent exposed Villa Via fraud to Bantjies (unknowingly to perpetrator); (3) 10 June: Bantjies dismissed audit request. The R500,000 transfer is a pretext."
+    },
+    "16.3": {
+      "ad_number": "16.3",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "16.4": {
+      "ad_number": "16.4",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "16.5": {
+      "ad_number": "16.5",
+      "jax_response": "*Unawareness of Urgent Application Process*  \nThe Applicant claims unawareness of urgent process. The Applicant had access to legal advice and Bantjies as Commissioner of Oaths. The delay from mid-June to August contradicts urgency. The actual urgency: preventing forensic audit that would expose Bantjies's conflicts and systematic fraud.",
+      "dan_response": "*Unawareness of Urgent Application Process*  \nThe Applicant claims unawareness of urgent process. The Applicant had access to legal advice and Bantjies as Commissioner of Oaths. The delay from mid-June to August contradicts urgency. The actual urgency: preventing forensic audit that would expose Bantjies's conflicts and systematic fraud."
+    },
+    "16.6": {
+      "ad_number": "16.6",
+      "jax_response": "*Delay Would Have Been Avoided*  \nThe Applicant claims delay would have been avoided if he knew the process. The two-month delay (mid-June to August) contradicts urgency. The timing suggests: (1) Waiting to see if The Second Respondent's audit request would proceed; (2) Coordinating with Bantjies (who dismissed audit request 10 June); (3) Preparing The First Respondent's punishment (included in interdict 13 Aug, two days after signing \"Main Trustee\" document 11 Aug).",
+      "dan_response": "*Delay Would Have Been Avoided*  \nThe Applicant claims delay would have been avoided if he knew the process. The two-month delay (mid-June to August) contradicts urgency. The timing suggests: (1) Waiting to see if The Second Respondent's audit request would proceed; (2) Coordinating with Bantjies (who dismissed audit request 10 June); (3) Preparing The First Respondent's punishment (included in interdict 13 Aug, two days after signing \"Main Trustee\" document 11 Aug)."
+    },
+    "16.7": {
+      "ad_number": "16.7",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "16.8": {
+      "ad_number": "16.8",
+      "jax_response": "*State of Shock and Delayed Response*  \nThe Applicant claims state of shock. The Applicant was not in shock\u2014he was executing a systematic sabotage campaign: (1) 14-15 Feb: R900K unauthorized transfers; (2) 1 Mar: Revenue diversion started; (3) 30 Mar: Expense dumping; (4) 14 Apr: Bank letter for revenue diversion; (5) 7 Jun: Card cancellation; (6) 8 Jul: Warehouse sabotage; (7) 11 Sep: Account emptying. This is not shock\u2014this is systematic execution.",
+      "dan_response": "*State of Shock and Delayed Response*  \nThe Applicant claims state of shock. The Applicant was not in shock\u2014he was executing a systematic sabotage campaign: (1) 14-15 Feb: R900K unauthorized transfers; (2) 1 Mar: Revenue diversion started; (3) 30 Mar: Expense dumping; (4) 14 Apr: Bank letter for revenue diversion; (5) 7 Jun: Card cancellation; (6) 8 Jul: Warehouse sabotage; (7) 11 Sep: Account emptying. This is not shock\u2014this is systematic execution."
+    },
+    "16.9": {
+      "ad_number": "16.9",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "16.10": {
+      "ad_number": "16.10",
+      "jax_response": "*Attorney Consultation Timeline*  \nThe Applicant describes attorney consultation. The consultation occurred after: (1) The First Respondent's debt inquiry (15 May); (2) Data expungement (22 May); (3) Domain theft (29 May); (4) The Second Respondent's fraud exposure (6 June); (5) Card cancellation (7 June); (6) Bantjies's audit dismissal (10 June). The legal action was retaliation, not discovery.",
+      "dan_response": "*Attorney Consultation Timeline*  \nThe Applicant describes attorney consultation. The consultation occurred after: (1) The First Respondent's debt inquiry (15 May); (2) Data expungement (22 May); (3) Domain theft (29 May); (4) The Second Respondent's fraud exposure (6 June); (5) Card cancellation (7 June); (6) Bantjies's audit dismissal (10 June). The legal action was retaliation, not discovery."
+    },
+    "16.11": {
+      "ad_number": "16.11",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "16.12": {
+      "ad_number": "16.12",
+      "jax_response": "*Need for Urgent Court Assistance*  \nThe Applicant claims need for urgent assistance. The Applicant had alternative remedies: (1) Trustee with \"additional powers\" as Founder; (2) Could have conducted audit as trustee; (3) Could have consulted with co-trustee The First Respondent (instead, he attacked her); (4) Could have consulted with co-trustee Bantjies (who was facilitating the fraud). The Applicant chose ex parte process to avoid disclosure of Bantjies's conflicts and systematic sabotage.\n\n---\n\n### RESPONSE TO AD PARAGRAPHS STARTING WITH 17",
+      "dan_response": "*Need for Urgent Court Assistance*  \nThe Applicant claims need for urgent assistance. The Applicant had alternative remedies: (1) Trustee with \"additional powers\" as Founder; (2) Could have conducted audit as trustee; (3) Could have consulted with co-trustee The First Respondent (instead, he attacked her); (4) Could have consulted with co-trustee Bantjies (who was facilitating the fraud). The Applicant chose ex parte process to avoid disclosure of Bantjies's conflicts and systematic sabotage.\n\n---\n\n### RESPONSE TO AD PARAGRAPHS STARTING WITH 17"
+    },
+    "17.1": {
+      "ad_number": "17.1",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "17.2": {
+      "ad_number": "17.2",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    },
+    "17.3": {
+      "ad_number": "17.3",
+      "jax_response": "*Ex Parte Basis for Application*  \nThe Applicant justifies ex parte application. The ex parte process was abused through material non-disclosures: (1) Bantjies's trustee status; (2) Bantjies's R18.685M debt; (3) Timeline manipulation (card cancellation day after cooperation); (4) UK payment flow perjury (claimed SA \u2192 UK, actually UK \u2192 SA); (5) R34.9M revenue context omission; (6) The First Respondent's debt inquiry and retaliation pattern; (7) The Second Respondent's fraud exposure and retaliation pattern; (8) Rynette's control of The Applicant's email; (9) Adderory's competing domain; (10) R5.4M stock \"disappearance.\"",
+      "dan_response": "*Ex Parte Basis for Application*  \nThe Applicant justifies ex parte application. The ex parte process was abused through material non-disclosures: (1) Bantjies's trustee status; (2) Bantjies's R18.685M debt; (3) Timeline manipulation (card cancellation day after cooperation); (4) UK payment flow perjury (claimed SA \u2192 UK, actually UK \u2192 SA); (5) R34.9M revenue context omission; (6) The First Respondent's debt inquiry and retaliation pattern; (7) The Second Respondent's fraud exposure and retaliation pattern; (8) Rynette's control of The Applicant's email; (9) Adderory's competing domain; (10) R5.4M stock \"disappearance.\""
+    },
+    "17.4": {
+      "ad_number": "17.4",
+      "jax_response": "*Urgency Justifies Ex Parte Relief*  \nThe Applicant claims urgency justifies ex parte relief. The urgency was manufactured: (1) Two-month delay contradicts urgency; (2) Card cancellation day after cooperation shows consciousness of guilt; (3) Systematic sabotage from Feb-Sep shows premeditation; (4) The First Respondent included two days after signing document shows coordination; (5) Alternative remedies available as trustee. The ex parte relief was obtained to prevent The Second Respondent and The First Respondent from exposing the material non-disclosures and systematic fraud.\n\n---\n\n### RESPONSE TO AD PARAGRAPHS STARTING WITH 18",
+      "dan_response": "*Urgency Justifies Ex Parte Relief*  \nThe Applicant claims urgency justifies ex parte relief. The urgency was manufactured: (1) Two-month delay contradicts urgency; (2) Card cancellation day after cooperation shows consciousness of guilt; (3) Systematic sabotage from Feb-Sep shows premeditation; (4) The First Respondent included two days after signing document shows coordination; (5) Alternative remedies available as trustee. The ex parte relief was obtained to prevent The Second Respondent and The First Respondent from exposing the material non-disclosures and systematic fraud.\n\n---\n\n### RESPONSE TO AD PARAGRAPHS STARTING WITH 18"
+    },
+    "21": {
+      "ad_number": "21",
+      "jax_response": "[MISSING]",
+      "dan_response": "[MISSING]"
+    }
+  }
+}
