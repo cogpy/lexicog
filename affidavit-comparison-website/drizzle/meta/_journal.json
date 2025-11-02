@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1762095722586,
+      "tag": "0000_premium_gressill",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1762095810526,
+      "tag": "0001_dry_drax",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1762096942588,
+      "tag": "0002_cloudy_donald_blake",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1762098065425,
+      "tag": "0003_bizarre_meggan",
+      "breakpoints": true
+    }
+  ]
+}
