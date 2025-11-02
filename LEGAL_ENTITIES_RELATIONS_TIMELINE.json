@@ -1,0 +1,324 @@
+{
+  "entities": {
+    "persons": {
+      "Peter Andrew Faucitt": {
+        "id": "520430 5708 18 5",
+        "role": "Applicant, Director, Trustee",
+        "companies": [
+          "RegimA SA",
+          "RegimA Worldwide",
+          "Villa Via",
+          "Strategic Logistics"
+        ]
+      },
+      "Jacqueline Faucitt": {
+        "id": "570607 0898 18 1",
+        "role": "First Respondent, Director, Trustee, CEO RegimA Skin Treatments",
+        "companies": [
+          "RegimA SA",
+          "RegimA Worldwide"
+        ]
+      },
+      "Daniel James Faucitt": {
+        "id": "820715 5300 18 2",
+        "role": "Second Respondent, Director, CIO, Beneficiary",
+        "companies": [
+          "RegimA SA",
+          "RegimA Worldwide",
+          "RegimA Zone Ltd (UK)"
+        ]
+      },
+      "Danie Jacobus Bantjies": {
+        "role": "Accountant, Third Trustee (undisclosed), Debtor (R18.685M), Commissioner of Oaths",
+        "company": "Bantjes and Company",
+        "conflict": "Trustee + Debtor + Accountant + Company Controller"
+      },
+      "Rynette Farrar": {
+        "role": "Financial Controller, Sage System Operator",
+        "control": "All bank accounts, Sage accounting using pete@regima.com",
+        "family": "Sister: Linda (bookkeeper), Son: owns Adderory (Pty) Ltd"
+      },
+      "Kayla Pretorius": {
+        "role": "Dan's partner, Co-builder of Shopify operations",
+        "status": "Murdered 13 July 2023",
+        "estate": "Rezonance, owed R1,035,000 by RegimA Skin Treatments"
+      }
+    },
+    "companies": {
+      "RegimA Skin Treatments CC": {
+        "reg": "1992/005371/23",
+        "type": "Close Corporation",
+        "debt": "R1,035,000 to Rezonance (Kayla's estate) since Feb 2023",
+        "supplier": "Adderory (Pty) Ltd (Rynette's son's company)"
+      },
+      "RegimA Worldwide Distribution (Pty) Ltd": {
+        "reg": "2011/005722/07",
+        "type": "Private Company",
+        "owner": "Faucitt Family Trust (IT 3651/2013)",
+        "directors": "Jax, Dan (co-directors)",
+        "sabotage": "Revenue diversion started 14 Apr 2025 (ABSA bank letter)"
+      },
+      "Villa Via Arcadia No 2 CC": {
+        "reg": "1996/004451/23",
+        "type": "Close Corporation",
+        "owner": "Faucitt Family Trust",
+        "fraud": "86% profit margin on rent - excessive profit extraction",
+        "exposed": "6 June 2025 by Dan to Bantjies"
+      },
+      "Strategic Logistics CC": {
+        "reg": "2008/136496/23",
+        "type": "Close Corporation",
+        "fraud": "R5.4M stock adjustment (46% of R11.3M annual sales)",
+        "stock_type": "Matches Adderory inventory supplied to RegimA Skin Treatments"
+      },
+      "RegimA Zone Ltd": {
+        "reg": "UK 10697009",
+        "type": "UK Company",
+        "owner": "Dan (independent of RegimA UK Ltd)",
+        "operations": "Owns and funds 51+ Shopify platforms",
+        "revenue": "R34.9M annually (RegimA SA: R8.5M, RegimA Zone: R26.4M)"
+      },
+      "Adderory (Pty) Ltd": {
+        "owner": "Rynette's son",
+        "actions": [
+          "Supplies stock to RegimA Skin Treatments",
+          "Registered regimaskin.co.za on 29 May 2025",
+          "Diverted customers from Dan's platforms"
+        ]
+      },
+      "Faucitt Family Trust": {
+        "reg": "IT 3651/2013",
+        "trustees": [
+          "Peter (Founder)",
+          "Jax",
+          "Danie Bantjies (undisclosed)"
+        ],
+        "beneficiaries": [
+          "Jax",
+          "Dan"
+        ],
+        "owns": [
+          "RegimA Worldwide",
+          "Villa Via"
+        ],
+        "debt_owed_by_trustee": "Bantjies owes R18.685M (payout: May 2026, 2027, 2029)"
+      }
+    },
+    "banks": {
+      "FirstRand Bank (FNB)": {
+        "unauthorized_transfers": "R900,000 (14-15 Feb 2025)",
+        "account_depletion": "R997,597.94 to R5,284.08 in one month",
+        "active_trade": "169 customer deposits totaling R566,598.57"
+      },
+      "ABSA Bank": {
+        "accounts": "8 accounts possibly opened by Rynette using Dan's info",
+        "revenue_diversion": "Started 14 Apr 2025 for RegimA Worldwide"
+      }
+    }
+  },
+  "timeline": [
+    {
+      "date": "2023-02-01",
+      "event": "RegimA Skin Treatments debt to Rezonance begins",
+      "amount": "R1,035,000",
+      "parties": [
+        "RegimA Skin Treatments",
+        "Rezonance"
+      ]
+    },
+    {
+      "date": "2023-07-13",
+      "event": "Kayla Pretorius murdered",
+      "parties": [
+        "Kayla Pretorius"
+      ]
+    },
+    {
+      "date": "2025-02-14",
+      "event": "Unauthorized transfer from RegimA SA FNB account",
+      "amount": "R450,000",
+      "parties": [
+        "FNB",
+        "Dan"
+      ]
+    },
+    {
+      "date": "2025-02-15",
+      "event": "Second unauthorized transfer from RegimA SA FNB account",
+      "amount": "R450,000",
+      "parties": [
+        "FNB",
+        "Dan"
+      ]
+    },
+    {
+      "date": "2025-03-01",
+      "event": "Revenue diversion for RegimA SA begins",
+      "parties": [
+        "RegimA SA",
+        "Rynette"
+      ]
+    },
+    {
+      "date": "2025-03-30",
+      "event": "Rynette and Peter dump 2 years unallocated expenses into RWD, demand Dan sign off in 12 hours",
+      "parties": [
+        "Rynette",
+        "Peter",
+        "Dan",
+        "RWD"
+      ]
+    },
+    {
+      "date": "2025-04-14",
+      "event": "ABSA bank letter - Revenue diversion for RegimA Worldwide begins",
+      "parties": [
+        "ABSA",
+        "RegimA Worldwide",
+        "Rynette"
+      ]
+    },
+    {
+      "date": "2025-05-15",
+      "event": "Jax confronts Rynette about R1,035,000 debt - 'profiting from proceeds of murder'",
+      "parties": [
+        "Jax",
+        "Rynette",
+        "RegimA Skin Treatments",
+        "Rezonance"
+      ]
+    },
+    {
+      "date": "2025-05-22",
+      "event": "Shopify data expunged (100% audit data loss)",
+      "impact": "7 days after Jax's confrontation",
+      "parties": [
+        "Dan",
+        "Shopify"
+      ]
+    },
+    {
+      "date": "2025-05-29",
+      "event": "Domain regimaskin.co.za registered by Adderory",
+      "impact": "14 days after Jax's confrontation",
+      "parties": [
+        "Adderory",
+        "Rynette"
+      ]
+    },
+    {
+      "date": "2025-06-06",
+      "event": "Dan provides comprehensive reports to Bantjies, exposes Villa Via fraud",
+      "parties": [
+        "Dan",
+        "Bantjies",
+        "Villa Via"
+      ]
+    },
+    {
+      "date": "2025-06-07",
+      "event": "Peter cancels 15 UK business cards without notice",
+      "impact": "1 day after Dan's cooperation",
+      "parties": [
+        "Peter",
+        "Dan"
+      ]
+    },
+    {
+      "date": "2025-06-10",
+      "event": "Bantjies dismisses Dan's audit request - 'going on holiday'",
+      "parties": [
+        "Bantjies",
+        "Dan"
+      ]
+    },
+    {
+      "date": "2025-06-20",
+      "event": "Gee instructed to send 'don't use regima.zone only use regimaskin.co.za' email",
+      "parties": [
+        "Gee",
+        "Rynette",
+        "Adderory"
+      ]
+    },
+    {
+      "date": "2025-07-08",
+      "event": "Warehouse sabotage - R34.9M operations destroyed",
+      "parties": [
+        "Dan",
+        "RegimA Zone"
+      ]
+    },
+    {
+      "date": "2025-07-16",
+      "event": "Jax transfers R500,000 to Dan as 'birthday gift' without Peter's authorization",
+      "parties": [
+        "Jax",
+        "Dan",
+        "Peter"
+      ]
+    },
+    {
+      "date": "2025-08-19",
+      "event": "Ex parte order granted",
+      "parties": [
+        "Peter",
+        "Court"
+      ]
+    },
+    {
+      "date": "2025-09-11",
+      "event": "R1.73M transferred from accounts",
+      "impact": "6 months after sabotage began, Dan still managing to pay creditors",
+      "parties": [
+        "Dan",
+        "Creditors"
+      ]
+    }
+  ],
+  "legal_aspects": {
+    "Companies Act 71 of 2008": {
+      "Section 162(2)": "Locus standi for directors/shareholders",
+      "Section 162(5)(c)(ii)": "Grossly abused position of director/member",
+      "Section 162(5)(c)(iii)": "Intentionally or by gross negligence inflicted harm",
+      "Section 162(5)(c)(iv)": "Gross negligence, wilful misconduct, breach of trust",
+      "Section 162(a)(iii)": "Oppressive or unfairly prejudicial conduct",
+      "Section 42(2)(a)(ii)": "Director shall not exceed powers",
+      "Section 77(3)(b)": "Acquiescence in conduct"
+    },
+    "Trust Property Control Act": {
+      "Section 9(1)": "Trustees must act with care, diligence, and skill in interests of beneficiaries"
+    },
+    "Legal Principles": {
+      "venire contra factum proprium": "Acting contrary to one's own previous conduct (Peter created problem he complains about)",
+      "anton piller order": "Ex parte application to prevent destruction of evidence",
+      "conflict of interest": "Bantjies: Trustee + Debtor + Accountant + Company Controller"
+    }
+  },
+  "financial_evidence": {
+    "IT Expenses (Peter's claims)": {
+      "2024_tax_year": "R6,738,007.47",
+      "2025_tax_year": "R2,116,159.47",
+      "context_omitted": "Supported 51+ Shopify stores generating R34.9M annually",
+      "percentage_of_revenue_2024": "19.3%",
+      "percentage_of_revenue_2025": "6.1%"
+    },
+    "Revenue Performance": {
+      "RegimA_SA": "25 stores, R8.5M turnover",
+      "RegimA_Zone": "26 stores, R26.4M turnover",
+      "Total": "51+ stores, R34.9M annually"
+    },
+    "Fraudulent Transactions": {
+      "Unauthorized_FNB_transfers": "R900,000 (14-15 Feb 2025)",
+      "Birthday_gift": "R500,000 (16 July 2025, unauthorized)",
+      "Stock_adjustment_SLG": "R5.4M (46% of R11.3M sales)",
+      "Villa_Via_fraud": "86% profit margin on rent",
+      "RegimA_debt_to_Kayla_estate": "R1,035,000 (since Feb 2023)"
+    },
+    "Bantjies Debt": {
+      "amount": "R18,685,000",
+      "payout_schedule": "May 2026, 2027, 2029",
+      "conflict": "Debtor to trust while serving as trustee and accountant"
+    }
+  }
+}
