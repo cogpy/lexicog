@@ -1,458 +1,649 @@
-# Integrated Narrative Framework
+# INTEGRATED NARRATIVE FRAMEWORK
 
-**Purpose:** Combine Jax's AD notes with existing repository structure to create a coherent narrative that reveals systematic fraud and retaliation through gradual, evidence-based revelation.
+Case 2025-137857: Coherent Story Arc
+Repository: cogpy/canima
+Created: November 2, 2025
+Purpose: Integrate Jax's AD notes into the overall narrative structure
 
-**Date:** November 2, 2025  
-**Status:** Integration Complete  
+## EXECUTIVE SUMMARY
 
----
+This document integrates Jacqueline Faucitt's detailed commentary on Peter's founding affidavit (AD paragraphs) into a coherent narrative framework that reveals the systematic nature of the fraud, retaliation, and abuse of process.
 
-## The Complete Story Arc
+## PART I: THE NARRATIVE ARCHITECTURE
 
-### Act I: Building Success (2017-2024)
+### The Central Story Arc
 
-Jacqueline Faucitt built RegimA Skin Treatments over 33 years into one of South Africa's most successful skin treatment companies, winning all major industry awards. She serves as CEO and is the only person at the office who can treat patients. She is essential as the Responsible Person for UK and European business operations.
+**Act I: Building Success (2017-2024)**
 
-Daniel Faucitt and Kayla Pretorius built a global e-commerce operation generating R34.9 million annually through 51+ Shopify stores. RegimA SA operated 25 stores with R8.5M turnover, while RegimA Zone (UK) operated 26 stores with R26.4M turnover. The UK company funded SA operations with R84,661+ annually, creating profitable operations across all entities.
+• Jacqui builds RegimA Skin Treatments into one of South Africa's most successful skin treatment companies (33 years)
+• Daniel and Kayla build 51+ Shopify stores generating R34.9M annually
+• UK company (RegimA Zone Ltd) funds SA operations with R84,661+ annually
+• Profitable operations across multiple entities
 
-### Act II: Discovery and Confrontation (March-May 2025)
+**Act II: Discovery and Confrontation (March-May 2025)**
 
-On March 30, 2025, Rynette Farrar and Peter Faucitt dumped two years of unallocated expenses from all companies into RegimA Worldwide, pressuring Daniel to sign off within 12 hours for SARS VAT and Annual Accounts. Daniel used the time until June 6 to finalize comprehensive reports and uncover fraud.
+• March 30, 2025: Two years of unallocated expenses dumped into RegimA Worldwide with 12-hour deadline
+• May 15, 2025: Jacqui confronts Rynette about R1,035,000 owed to Kayla's estate ("profiting from proceeds of murder")
+• May 22, 2025: Shopify audit trail becomes unavailable (7 days after confrontation)
+• May 29, 2025: Domain regimaskin.co.za registered by Adderory (14 days after confrontation)
+• June 6, 2025: Daniel exposes Villa Via fraud to Bantjies (unknowingly to perpetrator)
 
-On May 15, 2025, Jacqueline confronted Rynette about R1,035,000 owed to Kayla Pretorius's estate since February 2023, stating Rynette was "profiting from proceeds of murder." Seven days later, on May 22, Shopify data was expunged. Fourteen days after the confrontation, on May 29, the domain regimaskin.co.za was registered by Adderory (Rynette's son's company).
+**Act III: Systematic Retaliation (June-August 2025)**
 
-On June 6, 2025, Daniel exposed Villa Via fraud to Danie Jacobus Bantjies, the accountant. Daniel provided comprehensive reports documenting the fraud, including Villa Via's 86% profit margin and excessive profit extraction from the group.
+• June 7, 2025: 15 company cards cancelled (1 day after fraud exposure)
+• June 10, 2025: Bantjies dismisses audit request (4 days after fraud exposure)
+• July 8, 2025: Warehouse operations stopped, destroying R34.9M business
+• August 11, 2025: Jacqui deceived into signing "Main Trustee" document
+• August 13, 2025: Interdict granted against Jacqui and Daniel (2 days after document signing)
 
-### Act III: Systematic Retaliation (June-August 2025)
+**Act IV: The Ex Parte Deception (August 2025)**
 
-One day after Daniel's fraud exposure on June 6, Peter cancelled 15 cards on June 7, 2025, rendering Daniel unable to access documentation or continue operations. Four days after the fraud exposure, on June 10, Bantjies dismissed Daniel's audit request, claiming he was "going on holiday."
+• Material non-disclosures in founding affidavit
+• False statements about UK payment flows
+• Timeline manipulation to create false urgency
+• Bantjies certifies affidavit despite being undisclosed trustee and R18.685M debtor
 
-On June 20, 2025, Gee (database administrator) sent an email explaining to Jacqueline that she had been instructed to send out a message stating "don't use regima.zone, only use regimaskin.co.za email." This diverted customers to Adderory's domain.
+**Act V: Final Sabotage (September 2025)**
 
-On July 8, 2025, warehouse operations were stopped by Peter's instruction, destroying the operational capacity of the R34.9M e-commerce business.
+• September 11, 2025: Company accounts emptied (R1.73M transferred)
+• Daniel was still managing to pay creditors despite 6 months of sabotage
+• Accounts emptied to prevent continued operations
 
-On August 11, 2025, Jacqueline was deceived into signing a "Main Trustee" document, which was backdated to July 1, 2025. Two days later, on August 13, the interdict was granted ex parte, preventing Jacqueline and Daniel from conducting business.
+## PART II: THE NETWORK OF CONTROL
 
-### Act IV: The Ex Parte Deception (August 2025)
+### The Power Structure
 
-Peter's founding affidavit contained material non-disclosures and false statements. Bantjies certified the affidavit as Commissioner of Oaths despite being an undisclosed trustee of the Faucitt Family Trust and owing R18.685M to the trust (payout schedule: May 2026, 2027, 2029).
+**Bantjies: The Hidden Hand**
 
-The affidavit falsely stated that SA companies funded UK operations, when evidence proves the opposite: UK → SA flow of R84,661+ annually. The affidavit omitted revenue context for IT expenses, characterizing R6.7M (2024) and R2.1M (2025) as "unexplainable" when they represented 19.3% and 6.1% of R34.9M annual revenue - reasonable operational costs.
+• Undisclosed trustee of Faucitt Family Trust
+• Debtor owing R18.685M to the trust
+• Accountant for all RegimA companies
+• Controller of financial systems
+• Commissioner of Oaths who certified Peter's affidavit
+• Dismissed Daniel's audit request on June 10, 2025
+• Allegedly instructed Rynette to make substantial payments (per SARS audit email)
 
-The affidavit manipulated the timeline to create false urgency, claiming recent discovery when Daniel had exposed the fraud to Bantjies on June 6, and there was a 67-day delay between Daniel's cooperation and the interdict application.
+**Rynette Farrar: The Administrator**
 
-### Act V: Final Sabotage (September 2025)
+• Controlled accounting system using Peter's email (pete@regima.com)
+• Controlled all bank accounts
+• Made false statement to Jacqui that R1,035,000 debt was paid
+• Sister Linda employed as bookkeeper (yet expenses unallocated for 2 years)
+• Claimed to act under Bantjies's instructions, not Peter's
+• Impersonated Peter using his email address
 
-On September 11, 2025, the accounts were emptied with R1.73M transferred. Daniel had been paying creditors despite 6 months of systematic sabotage. The accounts were emptied to prevent Daniel from continuing operations.
+**Adderory (Rynette's Son): The Beneficiary**
 
----
+• Registered competing domain regimaskin.co.za on May 29, 2025
+• Supplied stock to RegimA Skin Treatments
+• Same stock type as R5.4M that "disappeared" from Strategic Logistics
+• Received customer diversions via email instructions (June 20, 2025)
 
-## The Network of Control
+**Peter: The Figurehead**
 
-### Bantjies: The Hidden Hand
+• No access to email (controlled by Rynette)
+• No access to bank accounts (controlled by Rynette)
+• No access to accounting systems (controlled by Rynette)
+• Does not use a computer
+• Does not do any banking
+• Made unauthorized R900K transfers without Daniel's authority
+• Cancelled 15 cards secretly without informing Jacqui or Daniel
 
-Danie Jacobus Bantjies of Bantjes and Company serves in four conflicting roles:
+## PART III: JAX'S COMMENTARY INTEGRATION
 
-**Trustee:** Undisclosed trustee of the Faucitt Family Trust, giving him control over trust decisions and assets.
+### Section 4: Urgency and Delay (AD 7-7.20)
 
-**Debtor:** Owes R18.685M to the Faucitt Family Trust with payout schedule in May 2026, 2027, and 2029. This creates a massive conflict of interest - he controls the entity to which he owes millions.
+**Jax's Core Arguments:**
 
-**Accountant:** Serves as accountant for all RegimA companies, giving him access to all financial systems and the ability to give instructions to Rynette Farrar for multi-million rand transactions.
+**1. No Urgency for Applicant**
 
-**Commissioner of Oaths:** Certified Peter's founding affidavit despite the material conflicts of interest and non-disclosures.
+• Peter claimed urgency only in July when Jacqui and Daniel were trying to resolve SARS audit
+• Complete mischaracterization to claim urgency and manipulate timeline proximity
+• 67-day delay between Daniel's reports (June 6) and interdict (August 13) contradicts urgency
 
-Bantjies received Daniel's fraud report on June 6, 2025, exposing Villa Via's excessive profit extraction. Four days later, on June 10, Bantjies dismissed Daniel's audit request, claiming he was "going on holiday." Bantjies had motive to prevent discovery of fraud that might reveal his R18.685M debt or the control structure he managed.
+**2. Actual Urgency for Respondents**
 
-### Rynette Farrar: The Administrator
+• Financial impact due to Peter's actions
+• Rynette (bookkeeper) doing all banking transactions daily
+• Jacqui and Daniel unable to see any accounts
+• Massive impact on RegimA Skin Treatments from incompetent bookkeeper
 
-Rynette Farrar controlled all operational systems while Peter had no access:
+**3. Jacqui's Essential Role**
 
-**Email Control:** Controlled the accounting system using Peter's email (pete@regima.com), despite Peter not using computers.
+• CEO who launched RegimA Skin Treatments 33 years ago
+• Built company into one of SA's most successful skin treatment companies
+• Won all major industry awards
+• Every word ever written about RegimA written by Jacqui
+• Treated thousands of patients referred from leading plastic surgeons
+• Only person at RegimA office who can treat patients
+• Essential for UK and European business as Responsible Person
 
-**Bank Control:** Controlled all bank accounts and performed all banking transactions daily, while Peter does not do any banking.
+**4. Price Increase Sabotage**
 
-**Accounting Control:** Controlled the Sage accounting system, where two years of expenses remained unallocated despite her sister Linda being employed as bookkeeper.
+• Annual price increase usually done by Daniel (mathematician)
+• Bookkeeper did it instead and caused "dreadful harm" to the structure
+• Demonstrates incompetence and operational damage
 
-**Transaction Authority:** Made substantial payments allegedly under Bantjies's instructions, as stated in an email concerning a SARS audit regarding the R5.4M stock adjustment.
+**5. Card Cancellations**
 
-Rynette made a false statement claiming the R1,035,000 debt to Kayla Pretorius's estate had been paid, when it remained unpaid since February 2023. When Jacqueline confronted her about this on May 15, 2025, retaliation began seven days later with Shopify data expungement.
+• All card cancellations carried out by Peter alone in secret
+• Nobody informed Jacqui or Daniel
+• Peter cancelled all worldwide FNB cards, specifically Jacqui and Dan's cards
+• Payments defaulted because of secret cancellations
 
-### Adderory (Rynette's Son): The Beneficiary
+**6. Rynette's Interference**
 
-Adderory's company benefited from the systematic sabotage:
+• Took RegimA logo and IP information and put it in her son's name
+• Sent emails instructing RegimA database not to use regima.zone email addresses
+• Used new addresses she put in place (regimaskin.co.za)
+• Did this without informing Jacqui or Daniel
+• Cancelled regima.zone email addresses
+• Impersonated Peter using pete@regima.com
 
-**Domain Registration:** Registered the competing domain regimaskin.co.za on May 29, 2025, fourteen days after Jacqueline's confrontation with Rynette.
+**7. System Cancellations**
 
-**Stock Supply:** Supplied stock to RegimA Skin Treatments - the same type of stock as the R5.4M that "disappeared" from Strategic Logistics in a suspicious inventory adjustment.
+• Peter instructed Rynette to cancel all Shopify and other systems
+• These systems had been set up to automate sales
+• Were working very well (same system UK successfully uses)
+• Deliberate sabotage of profitable operations
 
-**Customer Diversion:** Received diverted customers through the instruction to use regimaskin.co.za instead of regima.zone.
+### Section 5: Financial Discrepancies (AD 8.4-9.3)
 
-**Logo Appropriation:** Rynette took the RegimA logo and registered it in Adderory's name.
+**Jax's Core Arguments:**
 
-### Peter: The Figurehead
+**1. Bantjies's Conflict of Interest (AD 8.4)**
 
-Peter Faucitt had no operational control despite being named as applicant:
+• Accountant who "discovered" discrepancies is also:
+  - Undisclosed trustee
+  - Debtor owing R18.685M
+  - Controller of financial systems
+  - Recipient of Daniel's fraud report (June 6, 2025)
+  - Dismissed Daniel's audit request on June 10, 2025
+• "Discovery" occurred after Daniel exposed fraud to the person facilitating it
 
-**No Email Access:** Email controlled by Rynette using pete@regima.com. Peter does not use computers.
+**2. Two Years of Unallocated Expenses (AD 8.5)**
 
-**No Bank Access:** All banking controlled by Rynette. Peter does not do any banking.
+• Occurred while Rynette controlled accounting system using Peter's email
+• Linda (Rynette's sister) employed as bookkeeper
+• Bantjies was the accountant
+• Question: Why were expenses unallocated for 2 years if accountant and bookkeeper were performing duties?
+• Dumped into RegimA Worldwide on March 30, 2025
 
-**No Accounting Access:** Accounting system controlled by Rynette. Peter has no access to financial systems.
+**3. IT Expenses Context (AD 8.7)**
 
-**Limited Actions:** Peter's documented actions were limited to card cancellations (June 7, 2025) and signing documents prepared by others.
+• Peter claims R6.7M (2024) and R2.1M (2025) are "almost entirely unexplainable"
+• Context omitted: These expenses supported 51+ Shopify stores generating R34.9M annually
+• IT expenses represent 19.3% of revenue (2024) and 6.1% of revenue (2025)
+• Reasonable for global e-commerce operation
+• Peter deliberately fails to disclose revenue context
 
-This raises the critical question: Who was actually directing Peter's actions if he had no access to the systems or information needed to make informed decisions?
+**4. International Payment Flow (AD 8.10, 9.2)**
 
----
+• Peter claims expenses are "seemingly international" and accounts "almost exceeded yearly allowable quota"
+• Shopify platforms funded by UK company RegimA Zone Ltd (company 10697009)
+• UK bank transactions demonstrate continuous Shopify payments
+• International expenses were legitimate costs of UK-owned e-commerce operations
+• Actual payment flow: UK → SA (R84,661+ annually)
+• Peter's affidavit implies opposite direction (SA → UK)
+• Demonstrable misrepresentation
 
-## The Evidence Web
+**5. Actual Financial Misconduct (AD 9.3)**
+
+• R900,000 unauthorized transfers from RegimA SA (Feb 14-15, 2025) without Daniel's authority
+• R5.4 million stock "disappeared" from Strategic Logistics
+• Same stock type supplied by Adderory to RegimA Skin Treatments
+• Rynette claimed Bantjies instructed substantial payments (SARS audit email)
+• R1,035,000 owed to Kayla's estate since Feb 2023
+• Unpaid despite Rynette's false claim to Jacqui that it was paid
+• Kayla murdered July 13, 2023
+• "Profiting from proceeds of murder"
+
+### Section 6: Delinquency Application (AD 10.1-10.14)
+
+**Jax's Core Arguments:**
+
+**1. Grounds for Peter's Delinquency (AD 10.1)**
+
+• Unauthorized R900K transfers in breach of fiduciary duty as co-director
+• Card cancellation sabotage one day after Daniel's cooperation
+• False statements about UK payment flows
+• Abuse of ex parte process through material non-disclosures
+
+**2. Jacqui's Actual Conduct (AD 10.3)**
+
+• Fulfilled fiduciary duty as trustee by investigating R1,035,000 debt (May 15, 2025)
+• Confronted Rynette about profiting from proceeds of murder
+• Deceived by co-trustees into signing "Main Trustee" document (Aug 11, 2025)
+• Punished with interdict two days later (Aug 13, 2025)
+
+**3. Peter's Bad Faith (AD 10.4)**
+
+• Manufactured crisis (card cancellation day after cooperation)
+• Material non-disclosures in ex parte application
+• False statements about UK operations
+• Systematic sabotage of profitable businesses
+
+**4. Bantjies's Triple Conflict (AD 10.5.2)**
+
+• Trustee + Debtor + Accountant
+• Commissioned Peter's affidavit as Commissioner of Oaths
+• Had R18.685M reasons to prevent discovery of fraud Daniel reported
+
+**5. Close Corporations Act Violations (AD 10.6-10.7)**
+
+• RegimA Skin Treatments owes R1,035,000 to Kayla's estate since Feb 2023
+• Strategic Logistics lost R5.4M in stock that "disappeared"
+• Same stock type supplied by Adderory
+• Transactions not in corporations' interests
+
+**6. Multiple Conflicts of Interest (AD 10.6.3)**
+
+• Bantjies: Trustee + Debtor + Accountant
+• Rynette's son (Adderory) supplying stock while same type "disappeared" from Strategic Logistics
+• Villa Via (trust-owned) charging 86% profit margin rent to group
+• Regimaskin.co.za (owned by Rynette's son) competing with RegimA operations
+
+**7. Financial Irregularities (AD 10.7)**
+
+• R900,000 unauthorized transfers
+• R5.4M stock "disappeared" from Strategic Logistics
+• R1,035,000 owed to Kayla's estate
+• 86% profit margin on Villa Via rent
+• Customer diversion to regimaskin.co.za (Adderory)
+
+**8. Systematic Fraud Pattern (AD 10.8-10.9)**
+
+• R5.4M stock adjustment (46% of sales, 10x historical)
+• Rynette claimed Bantjies instructed payments
+• Same stock type supplied by Adderory
+• Suggests systematic fraud and transfer pricing manipulation
+
+### Section 7: UK Operations (AD 11.2-12.4)
+
+**Jax's Core Arguments:**
+
+**1. UK Ownership and Funding (AD 11.2, 11.8)**
+
+• UK companies owned by Daniel Faucitt
+• Monies from UK transactions owed to Daniel
+• Daniel personally funded Shopify stores with his own funds
+• Proven by bank records and Shopify invoices
+
+**2. Peter's Non-Role (AD 11.3, 11.4)**
+
+• Peter has no role whatsoever in UK entity
+• Only Jacqui and Daniel are essential for UK entity
+• Peter does not own any UK entities
+• Daniel paid for all UK business with personal cards
+
+**3. Payment Direction Truth (AD 12.1, 12.2)**
+
+• Peter does not own any UK entities
+• Daniel has paid for all UK business with personal cards
+• Daniel pays for Shopify with personal cards
+• Opposite of Peter's claims
+
+### Section 8: Interdictory Relief (AD 13.2-13.8)
+
+**Jax's Core Arguments:**
+
+**1. No Prejudice to Peter (AD 13.2)**
+
+• Peter is not prejudiced whatsoever
+• Manufactured the crisis himself
+
+**2. Actual Injury to Respondents (AD 13.2.2)**
+
+• Jacqui and Daniel being injured since interdict enforced
+• RegimA businesses injured on daily basis by interdict
+• Ongoing operational damage
+
+**3. Irreparable Harm to Companies (AD 13.3)**
+
+• Irreparable harm being done to RegimA companies every day interdict is in place
+• Restriction of daily access to companies
+• Operational paralysis
+
+**4. Jacqui's Essential Role (AD 13.4, 13.5)**
+
+• Interdicts stop Jacqui being Responsible Person for UK and European business
+• Essential role necessary for overseas sales
+• Only legal when Responsible Person is in office to oversee all sales
+• Jacqui and Daniel essential for RegimA business
+
+## PART IV: THE EVIDENCE WEB
 
 ### Timeline of Retaliation
 
-**Jacqueline's Investigation (May 15, 2025):**
+**Jacqui's Timeline:**
 
-Jacqueline confronted Rynette about R1,035,000 owed to Kayla Pretorius's estate since February 2023. Rynette had falsely claimed the debt was paid. Jacqueline stated Rynette was "profiting from proceeds of murder."
+• May 15, 2025: Confronts Rynette about R1,035,000 debt
+• May 22, 2025: Shopify data expunged (7 days later)
+• May 29, 2025: Domain regimaskin.co.za registered by Adderory (14 days later)
+• June 20, 2025: Email instructions to use new domain
+• August 11, 2025: Deceived into signing "Main Trustee" document
+• August 13, 2025: Included in interdict (2 days later)
 
-The retaliation was immediate and systematic:
-- May 22 (7 days later): Shopify data expunged
-- May 29 (14 days later): Domain regimaskin.co.za registered by Adderory
-- June 20: Customer diversion email sent
+**Daniel's Timeline:**
 
-**Daniel's Fraud Exposure (June 6, 2025):**
+• March 30, 2025: Two years unallocated expenses dumped with 12-hour deadline
+• June 6, 2025: Exposes Villa Via fraud to Bantjies
+• June 7, 2025: 15 cards cancelled (1 day later)
+• June 10, 2025: Audit request dismissed by Bantjies (4 days later)
+• July 8, 2025: Warehouse operations stopped
+• September 11, 2025: Accounts emptied
 
-Daniel provided comprehensive reports to Bantjies exposing Villa Via fraud, including 86% profit margin and excessive profit extraction. Daniel cooperated fully, providing all requested documentation.
+**Convergence:** Both timelines show immediate retaliation after investigating/exposing fraud
 
-The retaliation was immediate and systematic:
-- June 7 (1 day later): 15 cards cancelled by Peter
-- June 10 (4 days later): Bantjies dismisses audit request
-- June 20: Customer diversion email sent
-- July 8: Warehouse operations stopped
-- August 13: Interdict granted
+### The Financial Web
 
-**Convergence Pattern:**
+**Revenue Streams:**
 
-Both Jacqueline and Daniel were punished immediately after fulfilling their fiduciary duties. Jacqueline investigated a debt to the estate as a trustee should. Daniel exposed fraud as a director should. Both actions threatened the control structure managed by Bantjies and Rynette.
+• 51+ Shopify stores generating R34.9M annually
+• UK company funding SA operations (R84,661+ annually)
+• RegimA Skin Treatments (33 years, award-winning)
 
-The systematic destruction of the R34.9M annual operations was not mismanagement by the respondents - it was retaliation by those who controlled the systems.
+**Diversions and Theft:**
 
-### Financial Web
+• R900,000 unauthorized transfers (Feb 14-15, 2025)
+• R5.4M stock "disappeared" from Strategic Logistics
+• R1,035,000 owed to Kayla's estate (unpaid since Feb 2023)
+• Revenue diverted to regimaskin.co.za (Adderory)
+• Villa Via 86% profit margin rent extraction
 
-**Revenue and Operations:**
+**Sabotage:**
 
-The e-commerce operations generated R34.9 million annually through 51+ Shopify stores:
-- RegimA SA: 25 stores, R8.5M turnover
-- RegimA Zone (UK): 26 stores, R26.4M turnover
+• Card cancellations (June 7, 2025)
+• Data expungement (May 22, 2025)
+• Domain theft (May 29, 2025)
+• Warehouse stoppage (July 8, 2025)
+• Account emptying (September 11, 2025)
+• System cancellations (Shopify, Sage, etc.)
 
-The UK company (RegimA Zone Ltd, UK 10697009) funded SA operations with R84,661+ annually, proven by bank records and Shopify invoices. This directly contradicts Peter's claim that SA companies funded UK operations.
+### The Control Structure
 
-IT expenses of R6.7M (2024) and R2.1M (2025) represented 19.3% and 6.1% of revenue respectively - reasonable operational costs for global e-commerce. Peter deliberately omitted the revenue context to create a misleading impression.
+**Who Controls What:**
 
-**Actual Financial Fraud:**
+• Bantjies: Trustee + Accountant + Debtor + Commissioner of Oaths
+• Rynette: Email (pete@regima.com) + Bank accounts + Accounting system + Daily transactions
+• Linda (Rynette's sister): Bookkeeper (yet expenses unallocated for 2 years)
+• Adderory (Rynette's son): Competing domain + Stock supplier + Customer diversion beneficiary
+• Peter: No email access + No bank access + No accounting access + No computer use
 
-R900,000 in unauthorized transfers were made from RegimA SA FNB account on February 14-15, 2025, without Daniel's authority as co-director. These transfers occurred while Rynette controlled all banking.
+**Who Instructs Whom:**
 
-R5.4 million in stock "disappeared" from Strategic Logistics in a suspicious inventory adjustment. This is the same type of stock supplied by Adderory (Rynette's son's company). The adjustment was 10x larger than the prior year and represented 46% of annual sales. Rynette claimed in an email that Bantjies instructed her to make huge payments related to this stock adjustment.
+• Rynette claims to act under Bantjies's instructions (not Peter's)
+• Bantjies allegedly instructed substantial payments (per SARS audit email)
+• Peter appears to be figurehead, not actual controller
 
-R1,035,000 has been owed to Kayla Pretorius's estate since February 2023. Rynette falsely claimed this debt was paid. When Jacqueline confronted her about this on May 15, 2025, systematic retaliation began.
+## PART V: THE NARRATIVE STRATEGY
 
-Villa Via extracted profits at an 86% profit margin, creating excessive profit extraction from the group while other entities were kept in debt. This was part of the fraud Daniel exposed to Bantjies on June 6, 2025.
+### Gradual Revelation Technique
 
-**Revenue Stream Hijacking:**
+The narrative should reveal connections gradually, allowing the reader to discover the truth:
 
-The systematic sabotage included diversion of revenue streams, leaving Daniel responsible for payments to creditors while his ability to pay was sabotaged:
+**Layer 1: Surface Claims**
 
-- March 1, 2025: Diversion started with RegimA SA
-- April 14, 2025: Rynette bank letter for RegimA Worldwide diversion
-- May 23, 2025: Removal of orders from Shopify
-- June 7, 2025: Secret card cancellations
-- June 20, 2025: Email instruction to use regimaskin.co.za instead of regima.zone
-- September 11, 2025: Accounts emptied (R1.73M) because Daniel was still paying creditors despite 6 months of sabotage
+• Peter claims urgency
+• Peter claims financial mismanagement
+• Peter claims need for protection
 
-### Control Structure Web
+**Layer 2: Timeline Contradictions**
 
-**Rynette's Control Mechanisms:**
-- Email system (pete@regima.com) - Peter doesn't use computers
-- All bank accounts - Peter doesn't do banking
-- Accounting system (Sage) - Two years unallocated expenses
-- Daily transactions - Complete operational control
+• 67-day delay contradicts urgency
+• Card cancellation day after cooperation
+• Interdict 2 days after document signing
 
-**Bantjies's Control Mechanisms:**
-- Faucitt Family Trust (undisclosed trustee)
-- All companies (as accountant)
-- Financial systems (gave instructions to Rynette)
-- Certification authority (Commissioner of Oaths)
+**Layer 3: Control Structure**
 
-**Peter's Lack of Control:**
-- No email access
-- No bank access
-- No accounting access
-- No computer use
-- No banking activity
+• Rynette controls everything using Peter's email
+• Peter has no access to systems
+• Rynette claims to act under Bantjies's instructions
 
-This control structure reveals that Peter could not have made informed decisions about the matters in his founding affidavit. Someone else was directing the actions taken in his name.
+**Layer 4: Financial Connections**
 
----
+• Bantjies is undisclosed trustee and R18.685M debtor
+• Adderory (Rynette's son) benefits from domain and stock
+• R5.4M stock "disappeared" - same type Adderory supplies
 
-## Cross-References to Repository Evidence
+**Layer 5: The Pattern Emerges**
 
-### Warehouse Fraud Evidence
+• Jacqui investigates debt → immediate retaliation
+• Daniel exposes fraud → immediate sabotage
+• Both punished for fulfilling duties
+• Systematic destruction of R34.9M operations
 
-The warehouse operations were stopped on July 8, 2025, by Peter's instruction. This destroyed the operational capacity of the R34.9M e-commerce business. Jacqueline's essential role as CEO for 33 years made her irreplaceable for RegimA Skin Treatments operations. She is the only person at the office who can treat patients and is essential as the Responsible Person for UK/European business.
+**Layer 6: The Truth Revealed**
 
-**Repository Links:**
-- Warehouse sabotage documentation
-- Operational impact analysis
-- Jacqueline's role and qualifications
+• Not mismanagement, but systematic fraud
+• Not urgency, but manufactured crisis
+• Not protection, but punishment
+• Not Peter in control, but Bantjies and Rynette
 
-### Perjury Analysis
+### Tone and Style
 
-Peter's founding affidavit contains demonstrable false statements about UK payment flows. The affidavit implies SA → UK payment flow, suggesting South African companies funded UK operations. Bank records and Shopify invoices prove the opposite: UK → SA flow of R84,661+ annually.
+**Professional Elegance:**
 
-**Repository Links:**
-- UK payment flow evidence (AD 11.2-12.4)
-- Shopify invoices
-- RegimA Zone UK bank transactions
-- Material non-disclosures analysis
+• Formal but accessible language
+• Well-structured paragraphs with clear topic sentences
+• Logical flow between sections
+• Appropriate legal terminology
 
-### UK Funding Perjury
+**Neutral Presentation:**
 
-Daniel personally funded all UK operations with his own cards. The UK company (RegimA Zone Ltd, UK 10697009) funded SA operations, not vice versa. Peter has no role whatsoever in UK entities and does not own any UK entities. Only Jacqueline and Daniel are essential for UK operations.
+• Objective statements of fact
+• Evidence-based assertions
+• No hyperbolic language
+• Let connections become self-evident
 
-**Repository Links:**
-- RegimA Zone UK bank statements
-- Shopify invoice analysis
-- UK company ownership documentation
-- Daniel's personal funding evidence
+**Material Evidence Support:**
 
-### Systematic Blackout
+• Every claim supported by annexure reference
+• Specific dates, amounts, documents cited
+• Timeline analysis with documentary support
+• Financial figures from official records
 
-Two years of expenses remained unallocated in the accounting system controlled by Rynette using Peter's email (pete@regima.com). This occurred despite Linda (Rynette's sister) being employed as bookkeeper and Bantjies serving as accountant. On March 30, 2025, these unallocated expenses were dumped into RegimA Worldwide with 12 hours given to Daniel to sign off for SARS.
+## PART VI: INTEGRATION WITH EXISTING EVIDENCE
 
-**Repository Links:**
-- Unallocated expenses analysis
-- March 30, 2025 expense dumping
-- Rynette's control documentation
-- Linda's employment records
+### Cross-References to Repository Documents
 
-### Power Structure
+**Warehouse Fraud Evidence:**
 
-Bantjies controlled the trust (as undisclosed trustee), the companies (as accountant), and the financial systems (giving instructions to Rynette). He also owed R18.685M to the trust with payout in May 2026, 2027, and 2029. This created a massive conflict of interest where he controlled the entity to which he owed millions.
+• Links to Jax's commentary on operational sabotage
+• Warehouse stoppage (July 8, 2025) destroyed R34.9M operations
+• Jacqui's essential role as CEO and only person who can treat patients
 
-**Repository Links:**
-- Bantjies trustee documentation
-- R18.685M debt payout schedule
-- Bantjies's instructions to Rynette
-- Commissioner of Oaths certification conflict
+**Perjury Analysis:**
 
-### Nine Prong Attack
+• Links to Jax's commentary on UK payment flow misrepresentation
+• False statements about international transfers
+• Material non-disclosures about Bantjies's roles
 
-The systematic sabotage followed a clear pattern of retaliation after Jacqueline's confrontation (May 15) and Daniel's fraud exposure (June 6):
+**UK Funding Perjury:**
 
-1. Shopify data expungement (May 22)
-2. Domain registration by Adderory (May 29)
-3. Card cancellations (June 7)
-4. Audit dismissal (June 10)
-5. Customer diversion email (June 20)
-6. Warehouse sabotage (July 8)
-7. "Main Trustee" deception (August 11)
-8. Interdict grant (August 13)
-9. Account emptying (September 11)
+• Links to Jax's commentary on AD 11.2-12.4
+• Shopify invoices prove UK → SA payment flow
+• Daniel personally funded UK operations
 
-**Repository Links:**
-- Systematic sabotage timeline
-- Retaliation pattern analysis
-- Nine prong attack documentation
+**Systematic Blackout:**
 
-### Criminal Motive Analysis
+• Links to Jax's commentary on two years unallocated expenses
+• Rynette's control of systems using Peter's email
+• Linda employed as bookkeeper yet expenses unallocated
 
-Bantjies had R18.685M in motive to prevent discovery of the control structure and financial fraud. The R1,035,000 debt to Kayla's estate provided motive for Rynette to prevent investigation. The R5.4M stock "disappeared" from Strategic Logistics - the same type supplied by Adderory - provided motive for Adderory to benefit from the sabotage.
+**Power Structure:**
 
-**Repository Links:**
-- Bantjies R18.685M debt documentation
-- Kayla estate R1,035,000 debt evidence
-- Strategic Logistics R5.4M stock adjustment
-- Adderory stock supply records
+• Links to Jax's commentary on control mechanisms
+• Bantjies: Trustee + Debtor + Accountant
+• Rynette: Email + Banks + Accounting + Daily transactions
 
----
+**Nine Prong Attack:**
 
-## Narrative Strategy: Gradual Revelation Technique
+• Links to Jax's commentary on systematic sabotage
+• Timeline of retaliation after Jacqui's confrontation (May 15)
+• Timeline of sabotage after Daniel's fraud exposure (June 6)
 
-### Layer 1: Surface Claims
+**Criminal Motive Analysis:**
 
-Peter claims urgency, mismanagement, and need for protection of trust assets. The founding affidavit presents a narrative of concerned father protecting family interests from wayward wife and son.
+• Links to Jax's commentary on R18.685M debt
+• Bantjies had motive to prevent discovery
+• R1,035,000 debt to Kayla's estate ("profiting from proceeds of murder")
 
-### Layer 2: Timeline Contradictions
+## PART VII: COHERENT STORY FRAMEWORK
 
-The 67-day delay between Daniel's cooperation (June 6) and interdict application (August 13) contradicts any claim of urgency. Card cancellation occurred one day after Daniel's cooperation, not before. The interdict was granted two days after Jacqueline signed the "Main Trustee" document, suggesting coordination rather than urgency.
+### The Complete Narrative Arc
 
-### Layer 3: Control Structure Revelation
+**Chapter 1: Success Built**
 
-Rynette controlled everything using Peter's email (pete@regima.com), despite Peter not using computers. Peter had no access to banks, despite Rynette controlling all banking. Peter had no access to accounting, despite two years of unallocated expenses. Rynette claimed to act under Bantjies's instructions.
+Jacqui built RegimA Skin Treatments over 33 years into one of South Africa's most successful skin treatment companies, winning all major industry awards. Daniel and Kayla built 51+ Shopify stores generating R34.9M annually, funded by UK company RegimA Zone Ltd. The operations were profitable and growing.
 
-### Layer 4: Financial Connections Emerge
+**Chapter 2: The Hidden Structure**
 
-Bantjies is revealed as undisclosed trustee owing R18.685M to the trust. Adderory benefits from domain registration and customer diversion. The R5.4M stock "disappeared" is the same type Adderory supplies. Rynette's sister Linda was employed as bookkeeper, yet expenses were unallocated for two years.
+Behind the scenes, a control structure operated:
+• Bantjies held triple role: Trustee + Accountant + Debtor (R18.685M)
+• Rynette controlled all systems using Peter's email
+• Linda (Rynette's sister) employed as bookkeeper
+• Adderory (Rynette's son) supplied stock and later registered competing domain
+• Peter had no access to email, banks, or accounting systems
 
-### Layer 5: The Pattern Becomes Clear
+**Chapter 3: The Confrontation**
 
-Jacqueline investigates R1,035,000 debt (May 15) → immediate retaliation begins (May 22, May 29). Daniel exposes fraud (June 6) → immediate sabotage begins (June 7, June 10). Both were punished for fulfilling their fiduciary duties. The systematic destruction of R34.9M operations was not mismanagement - it was punishment.
+On May 15, 2025, Jacqui confronted Rynette about R1,035,000 owed to Kayla's estate since Feb 2023. Jacqui stated this was "profiting from proceeds of murder" (Kayla murdered July 13, 2023). Rynette had falsely claimed the debt was paid.
 
-### Layer 6: The Truth Revealed
+**Chapter 4: Immediate Retaliation (Jacqui)**
 
-This is not a case of mismanagement by Jacqueline and Daniel. This is systematic fraud by Bantjies and Rynette, with Peter as a figurehead who had no access to the information or systems needed to make informed decisions. The interdict was not protection - it was punishment for threatening to expose the control structure and financial fraud.
+• May 22, 2025 (7 days): Shopify audit trail becomes unavailable
+• May 29, 2025 (14 days): Domain regimaskin.co.za registered by Adderory
+• June 20, 2025: Email instructions sent to use new domain instead of regima.zone
+
+**Chapter 5: The Fraud Exposure**
+
+On March 30, 2025, two years of unallocated expenses were dumped into RegimA Worldwide with a 12-hour deadline. Daniel used this time (until June 6) to analyze and expose fraud, including Villa Via's 86% profit margin rent extraction. He reported findings to Bantjies, unknowingly reporting to the person facilitating the fraud.
+
+**Chapter 6: Immediate Retaliation (Daniel)**
+
+• June 7, 2025 (1 day): 15 company cards cancelled secretly
+• June 10, 2025 (4 days): Bantjies dismisses audit request
+• July 8, 2025: Warehouse operations stopped, destroying R34.9M business
+• September 11, 2025: Accounts emptied (Daniel was still managing to pay creditors)
+
+**Chapter 7: The Ex Parte Deception**
+
+Peter's founding affidavit contained material non-disclosures and false statements:
+• Omitted Bantjies's undisclosed trustee status
+• Omitted Bantjies's R18.685M debt
+• Omitted R34.9M revenue context for IT expenses
+• Falsely implied SA → UK payment flow (actually UK → SA)
+• Manipulated timeline to create false urgency (67-day delay)
+• Omitted Jacqui's debt inquiry and subsequent retaliation
+• Omitted Daniel's fraud exposure and subsequent sabotage
+
+**Chapter 8: The Punishment**
+
+• August 11, 2025: Jacqui deceived into signing "Main Trustee" document
+• August 13, 2025: Interdict granted against Jacqui and Daniel (2 days later)
+• Both excluded from profitable businesses they built
+• Both punished by co-trustees for fulfilling duties
+
+**Chapter 9: The Truth Emerges**
 
 The evidence reveals:
-- Not mismanagement, but systematic fraud
-- Not urgency, but manufactured crisis
-- Not protection, but punishment
-- Not Peter in control, but Bantjies and Rynette
+• Not mismanagement, but systematic fraud
+• Not urgency, but manufactured crisis (card cancellation created the problem)
+• Not protection, but punishment (for investigating and exposing fraud)
+• Not Peter in control, but Bantjies and Rynette (Peter had no access to systems)
+• Not SA funding UK, but UK funding SA (R84,661+ annually)
+• Not unexplainable expenses, but reasonable costs for R34.9M operations
 
----
+**Chapter 10: The Pattern**
 
-## Implementation Guidance
+Two beneficiaries fulfilled their duties:
+• Jacqui as trustee investigated R1,035,000 debt
+• Daniel as director exposed systematic fraud
+
+Both were immediately retaliated against:
+• Jacqui: Data expungement (7 days), domain theft (14 days), interdict (3 months)
+• Daniel: Card cancellation (1 day), audit dismissal (4 days), warehouse sabotage, account emptying
+
+The co-trustees (Peter and Bantjies) used trust, companies, banks, and courts to attack the beneficiaries who exposed the fraud.
+
+## PART VIII: IMPLEMENTATION GUIDANCE
 
 ### For Jacqueline's Affidavit
 
-**Key Sections to Develop:**
+**Sections to Emphasize:**
 
-Jacqueline should establish her role as trustee and CEO, demonstrating 33 years of building RegimA Skin Treatments into an award-winning company. She should detail her May 15, 2025 confrontation with Rynette about the R1,035,000 debt to Kayla's estate, emphasizing this was fulfillment of fiduciary duty.
+1. Trustee role and fiduciary duty fulfillment
+2. May 15 confrontation about R1,035,000 debt
+3. Rynette's false statement that debt was paid
+4. Immediate retaliation timeline (7 days, 14 days)
+5. Essential role as CEO and Responsible Person
+6. Deception into signing "Main Trustee" document
+7. Punishment with interdict 2 days later
+8. Operational damage from incompetent bookkeeper
+9. Daily harm to RegimA businesses from interdict
 
-The immediate retaliation timeline must be documented: Shopify data expunged 7 days later (May 22), domain registered by Adderory 14 days later (May 29), customer diversion email sent (June 20). This establishes the pattern of punishment for investigating fraud.
+**Evidence to Reference:**
 
-Jacqueline should detail the deception into signing the "Main Trustee" document on August 11, 2025 (backdated to July 1), followed by the interdict grant 2 days later on August 13. This demonstrates coordination and manufactured urgency.
-
-The daily operational damage from the interdict should be documented, emphasizing that Jacqueline is the only person at the office who can treat patients and is essential as Responsible Person for UK/European business operations.
-
-**Critical Evidence to Reference:**
-
-- Email regarding R1,035,000 debt (May 15, 2025) - [Annexure JR-1]
-- Rynette's false statement documentation - [Annexure JR-2]
-- Domain registration records (regimaskin.co.za, May 29) - [Annexure JR-3]
-- "Main Trustee" document (August 11, backdated to July 1) - [Annexure JR-4]
-- Interdict order (August 13, 2025) - [Annexure JR-5]
-- Email from Gee regarding domain diversion (June 20) - [Annexure JR-6]
-- RegimA Skin Treatments awards and qualifications - [Annexure JR-7]
-- UK Responsible Person documentation - [Annexure JR-8]
+• Email correspondence re R1,035,000 debt (May 15, 2025)
+• Rynette's false statement documentation
+• Domain registration records (regimaskin.co.za, May 29, 2025)
+• "Main Trustee" document (signed Aug 11, backdated to July 1)
+• Interdict order (Aug 13, 2025)
+• Email from Gee re domain diversion (June 20, 2025)
 
 ### For Daniel's Affidavit
 
-**Key Sections to Develop:**
+**Sections to Emphasize:**
 
-Daniel should establish the building of R34.9M operations with Kayla Pretorius through 51+ Shopify stores (RegimA SA: 25 stores, R8.5M; RegimA Zone UK: 26 stores, R26.4M). This demonstrates profitable management, not mismanagement.
+1. Building R34.9M operations with Kayla
+2. March 30 expense dumping trap
+3. June 6 fraud exposure to Bantjies
+4. Immediate retaliation (card cancellation 1 day later)
+5. UK funding evidence (Shopify invoices, bank transactions)
+6. IT expenses context (19.3% and 6.1% of revenue)
+7. Systematic sabotage timeline
+8. Continued creditor payments despite sabotage
+9. Account emptying to prevent continued operations
 
-The March 30, 2025 expense dumping should be detailed: two years of unallocated expenses dumped into RegimA Worldwide with 12 hours to sign off for SARS. Daniel used this time until June 6 to finalize comprehensive reports uncovering fraud.
+**Evidence to Reference:**
 
-The June 6, 2025 fraud exposure to Bantjies must be documented, including Villa Via's 86% profit margin, R5.4M stock "disappeared" from Strategic Logistics, and R1,035,000 debt to Kayla's estate. This establishes Daniel's cooperation and fulfillment of director duties.
+• Shopify operations overview (51+ stores, R34.9M revenue)
+• Villa Via fraud analysis (86% profit margin)
+• Email correspondence with Bantjies (June 6, 2025)
+• Card cancellation records (June 7, 2025)
+• Shopify invoices (UK → SA payment flow, R84,661+ annually)
+• UK bank transactions (corroborating Shopify payments)
+• Unauthorized transfer records (R900K, Feb 14-15, 2025)
+• Warehouse sabotage instruction (July 8, 2025)
+• Expense dumping documentation (March 30, 2025)
 
-The immediate retaliation timeline must be documented: 15 cards cancelled 1 day later (June 7), audit request dismissed 4 days later (June 10), warehouse sabotage (July 8), account emptying (September 11). This establishes the pattern of punishment for exposing fraud.
+### For Shared Evidence
 
-UK funding evidence must be presented: bank records and Shopify invoices proving UK → SA flow of R84,661+ annually, contradicting Peter's false claim of SA → UK flow.
+**Critical Annexures:**
 
-IT expenses context must be provided: R6.7M (2024) and R2.1M (2025) represented 19.3% and 6.1% of R34.9M revenue - reasonable operational costs deliberately mischaracterized by omitting revenue context.
+• **SF1:** Bantjies debt documentation (R18.685M)
+• **SF2:** Sage screenshots (Rynette using pete@regima.com)
+• **SF3:** Strategic Logistics R5.4M stock adjustment
+• **SF4:** SARS audit email (Rynette claiming Bantjies instructed payments)
+• **SF5:** Adderory company registration and stock supply documentation
+• **SF6:** Kayla Pretorius estate documentation (R1,035,000 debt)
+• **SF7:** Court order seizing Kayla's email account
+• **SF8:** Linda employment records (bookkeeper)
 
-Daniel should document continued creditor payments despite 6 months of systematic sabotage, demonstrating commitment and capability contradicting allegations of mismanagement.
+## CONCLUSION
 
-**Critical Evidence to Reference:**
+This integrated narrative framework combines Jax's detailed AD commentary with the existing repository structure to create a coherent story arc that reveals:
 
-- Shopify operations overview (51+ stores, R34.9M) - [Annexure DR-1]
-- Villa Via fraud analysis (86% profit margin) - [Annexure DR-2]
-- Email to Bantjies (June 6, 2025) - [Annexure DR-3]
-- Card cancellation records (June 7, 2025) - [Annexure DR-4]
-- Shopify invoices (UK → SA, R84,661+ annually) - [Annexure DR-5]
-- RegimA Zone UK bank transactions - [Annexure DR-6]
-- Unauthorized transfers (R900K, February 14-15) - [Annexure DR-7]
-- Warehouse sabotage instruction (July 8) - [Annexure DR-8]
-- Strategic Logistics R5.4M stock adjustment - [Annexure DR-9]
-- Creditor payment records (despite sabotage) - [Annexure DR-10]
-- March 30 expense dumping documentation - [Annexure DR-11]
+1. **The Control Structure:** Bantjies and Rynette controlled everything; Peter was a figurehead
+2. **The Financial Fraud:** R5.4M stock disappeared, R1,035,000 debt unpaid, Villa Via 86% profit extraction
+3. **The Retaliation Pattern:** Immediate punishment for investigating/exposing fraud
+4. **The Ex Parte Deception:** Material non-disclosures and false statements
+5. **The Manufactured Crisis:** Peter created the problems he complains about
+6. **The Truth:** UK funded SA (not vice versa), IT expenses reasonable for R34.9M operations
 
----
+The narrative allows connections to become self-evident through gradual revelation, maintaining professional tone while building an irrefutable case through documentary evidence.
 
-## Complementary Narrative Structure
-
-Jacqueline's affidavit should focus on:
-- Trustee role and fiduciary duty fulfillment
-- CEO role and operational essentiality
-- May 15 confrontation and immediate retaliation
-- August 11 deception and August 13 punishment
-- Daily operational damage from interdict
-
-Daniel's affidavit should focus on:
-- Building profitable R34.9M operations
-- March 30 expense dumping trap
-- June 6 fraud exposure and immediate retaliation
-- UK funding evidence contradicting Peter's claims
-- IT expenses context deliberately omitted by Peter
-- Systematic sabotage timeline
-- Continued operations despite sabotage
-
-Together, the affidavits should reveal:
-- Both fulfilled fiduciary duties
-- Both were punished for threatening control structure
-- Peter had no access to systems or information
-- Bantjies and Rynette controlled everything
-- The interdict was punishment, not protection
-- The fraud was by Bantjies and Rynette, not by respondents
-
----
-
-## Legal Principles to Invoke
-
-### Venire Contra Factum Proprium
-
-Peter cancelled Daniel's cards on June 7, 2025, one day after Daniel cooperated by providing comprehensive reports. Peter then complained about missing documentation that became inaccessible due to his own card cancellations. This constitutes acting contrary to one's own previous conduct.
-
-**Application:** Peter created the problem he complains about, then used it as justification for the interdict.
-
-### Material Non-Disclosure
-
-Peter's founding affidavit failed to disclose:
-- Bantjies's status as undisclosed trustee
-- Bantjies's R18.685M debt to the trust
-- UK → SA payment flow (claimed opposite)
-- R34.9M revenue context for IT expenses
-- Daniel's June 6 fraud exposure to Bantjies
-- Jacqueline's May 15 investigation of debt
-
-**Application:** The ex parte interdict was obtained through material non-disclosures that would have changed the court's decision.
-
-### Conflict of Interest
-
-Bantjies served as:
-- Trustee (undisclosed)
-- Debtor (R18.685M)
-- Accountant (all companies)
-- Commissioner of Oaths (certified affidavit)
-
-**Application:** Bantjies had disqualifying conflicts of interest that invalidate his certification and participation.
-
-### Fiduciary Duty
-
-Jacqueline investigated R1,035,000 debt to Kayla's estate as a trustee should. Daniel exposed fraud as a director should. Both fulfilled their fiduciary duties and were punished for it.
-
-**Application:** The interdict punishes proper fulfillment of fiduciary duties, which is contrary to law.
-
----
-
-## Repository Status
-
-**Files Created:**
-1. JAX_AD_NOTES.md (163 lines) - Structured commentary on AD paragraphs 7-17
-2. INTEGRATED_NARRATIVE_FRAMEWORK.md (this file, 598 lines) - Comprehensive narrative integration
-
-**Integration Points:**
-- Cross-referenced with existing repository evidence
-- Aligned with AD paragraph structure
-- Coordinated with complementary affidavit strategy
-- Grounded in documentary evidence
-
-**Next Steps:**
-1. Update Jacqueline's refined affidavit with Jax's commentary
-2. Update Daniel's refined affidavit with complementary evidence
-3. Verify integration maintains evidence-based approach
-4. Commit and push integrated affidavits
-5. Deliver final integrated affidavits with summary
-
----
-
-## End of INTEGRATED_NARRATIVE_FRAMEWORK.md
+**Framework Completed:** November 2, 2025
+**Repository:** cogpy/canima
+**Next Steps:** Generate updated affidavits using this integrated framework
