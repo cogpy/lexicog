@@ -1,0 +1,1301 @@
+Received: from JN1P275MB1875.ZAFP275.PROD.OUTLOOK.COM (2603:1086:0:87::5) by
+ JNZP275MB1321.ZAFP275.PROD.OUTLOOK.COM with HTTPS; Fri, 29 Aug 2025 09:45:23
+ +0000
+Received: from JN3P275CA0087.ZAFP275.PROD.OUTLOOK.COM (2603:1086:0:c8::16) by
+ JN1P275MB1875.ZAFP275.PROD.OUTLOOK.COM (2603:1086:0:87::5) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.9052.24; Fri, 29 Aug 2025 09:45:19 +0000
+Received: from JN3PEPF00000310.ZAFP275.PROD.OUTLOOK.COM
+ (2603:1086:0:c8:cafe::b9) by JN3P275CA0087.outlook.office365.com
+ (2603:1086:0:c8::16) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9052.25 via Frontend Transport; Fri,
+ 29 Aug 2025 09:45:19 +0000
+Authentication-Results: spf=fail (sender IP is 67.231.154.184)
+ smtp.mailfrom=ensafrica.com; dkim=fail (body hash did not verify)
+ header.d=ensafrica.com;dmarc=fail action=quarantine
+ header.from=ensafrica.com;compauth=none reason=451
+Received-SPF: Fail (protection.outlook.com: domain of ensafrica.com does not
+ designate 67.231.154.184 as permitted sender)
+ receiver=protection.outlook.com; client-ip=67.231.154.184;
+ helo=dispatch1-us1.ppe-hosted.com;
+Received: from dispatch1-us1.ppe-hosted.com (67.231.154.184) by
+ JN3PEPF00000310.mail.protection.outlook.com (10.167.240.5) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9052.8
+ via Frontend Transport; Fri, 29 Aug 2025 09:45:19 +0000
+Authentication-Results-Original: ppe-hosted.com; spf=pass
+ smtp.mailfrom=ensafrica.com; dkim=pass header.d=ensafrica.com
+ header.s=mimecast20210503; dmarc=pass header.from=ensafrica.com
+ header.policy=none; 
+X-Virus-Scanned: Proofpoint Essentials engine
+Received: from za-smtp-delivery-121.mimecast.co.za (za-smtp-delivery-121.mimecast.co.za [41.74.201.121])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx1-us1.ppe-hosted.com (PPE Hosted ESMTP Server) with ESMTPS id 418C6C00074
+	for <dan@regima.com>; Fri, 29 Aug 2025 09:45:12 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ensafrica.com;
+	s=mimecast20210503; t=1756460705;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:cc:mime-version:mime-version:content-type:content-type:
+	 in-reply-to:in-reply-to:references:references;
+	bh=YZ+JswrEFUWDupJ3LxStlrnJJ8UGe0oGxCqXjllDoWs=;
+	b=mCUNPbQPFPHvsqqX6Z/o99s9w9ZgM14TRnF5sGUHmgJ05O9BiLjFEq9leZNEw/ljjwchnF
+	o7Miyn0CvrYiWuNwk0Xti2WgRdGFG4XUKAHAp5NsXGZ00EKJ7lAZqbhFjCixDFT5Ntrxsg
+	4H+jRWmmVoxAITlJW6DdPB7vDmKAvKM5urYE5f/rfCHK72nD9F7FhUfZj/ohTbLjI9Tjnn
+	COnDP9jSaGgM8ytsnaZAk0TkM5YtD5+wXHNmml83sR8REgJ/0rWW1RaWpo+DAturV0LVjP
+	YvvoieNZmYQzYqIFvYDTVw7f4IfktRHTU5tQujfln7BDi1AXrZ6moF/SSI080g==
+Received: from CT2P275CU008.outbound.protection.outlook.com
+ (mail-southafricawestazon11021096.outbound.protection.outlook.com
+ [40.107.145.96]) by relay.mimecast.com with ESMTP with STARTTLS
+ (version=TLSv1.3, cipher=TLS_AES_256_GCM_SHA384) id
+ za-mta-113-gDM1WT0tNb-edhhC5Z_T3Q-2; Fri, 29 Aug 2025 11:45:00 +0200
+X-MC-Unique: gDM1WT0tNb-edhhC5Z_T3Q-2
+X-Mimecast-MFC-AGG-ID: gDM1WT0tNb-edhhC5Z_T3Q_1756460700
+Received: from JNAP275MB2000.ZAFP275.PROD.OUTLOOK.COM (2603:1086:0:94::5) by
+ JN1P275MB2400.ZAFP275.PROD.OUTLOOK.COM (2603:1086:0:a8::14) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.9052.24; Fri, 29 Aug 2025 09:44:54 +0000
+Received: from JNAP275MB2000.ZAFP275.PROD.OUTLOOK.COM
+ ([fe80::c3a:ac69:395:9922]) by JNAP275MB2000.ZAFP275.PROD.OUTLOOK.COM
+ ([fe80::c3a:ac69:395:9922%5]) with mapi id 15.20.9052.023; Fri, 29 Aug 2025
+ 09:44:54 +0000
+From: Shenaaz Munga <smunga@ensafrica.com>
+To: Daniel Faucitt <d@rzo.io>, j faucitt <jfaucitt@proton.me>
+CC: "Dan@regima Com (dan@regima.com)" <dan@regima.com>
+Subject: Re: The RegimA Group results and Computer Expense analysis
+Thread-Topic: The RegimA Group results and Computer Expense analysis
+Thread-Index: AQHb2d2K1qQjUAPjME2NxLYR/V6vQrP8EckAgABS5ICAfXkNHIAAAZUH
+Date: Fri, 29 Aug 2025 09:44:54 +0000
+Message-ID: <JNAP275MB2000AFED7F8DC03131FAB42ED03AA@JNAP275MB2000.ZAFP275.PROD.OUTLOOK.COM>
+References: <CANC4RXfOGA=KXM5Sxftk9_RiH49wbhPUX0HvD_r4LE3yztR2gA@mail.gmail.com>
+ <DB9PR09MB67430306FB13B959DEE61154D16AA@DB9PR09MB6743.eurprd09.prod.outlook.com>
+ <CANC4RXe+YAHqWH2XNOD7S0D+W5hW_cEceV+NXzAwfcj9o4mTCg@mail.gmail.com>
+ <DB9PR09MB6743648AAD42D3F8D089CF3AD13AA@DB9PR09MB6743.eurprd09.prod.outlook.com>
+In-Reply-To: <DB9PR09MB6743648AAD42D3F8D089CF3AD13AA@DB9PR09MB6743.eurprd09.prod.outlook.com>
+Accept-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-reactions: allow
+x-ms-traffictypediagnostic: JNAP275MB2000:EE_|JN1P275MB2400:EE_|JN3PEPF00000310:EE_|JN1P275MB1875:EE_|JNZP275MB1321:EE_
+X-MS-Office365-Filtering-Correlation-Id: f3a930cf-1984-4f4e-df24-08dde6e0c46a
+x-egress-defend-domain: ensafrica.com
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+X-Microsoft-Antispam-Untrusted: BCL:0;ARA:13230040|1800799024|366016|376014|38070700018|8096899003|7053199007|19033499003
+X-Microsoft-Antispam-Message-Info-Original: =?us-ascii?Q?1yccqcZS4ocEF/Shf+AMlQX4bT2c8kaZA67vS690cEONATGimAiUFlJGnxoV?=
+ =?us-ascii?Q?cnrlGF7brvWhq1hVWfFaU92RCWmd4oTT13+bWs3Y5tX1Hqb9yO4wOlUIzZPK?=
+ =?us-ascii?Q?8uYTupRklQ6VmE+bm2373pb0Kdn95pXsG9ebtFzT67isWowjufDW5Qk1j+ct?=
+ =?us-ascii?Q?iAyJY5Iqqv3W+2bMyJW6f9PN/Q2YNtn6ctV6A8u/GGlRrIiiq5lFDwYWcnye?=
+ =?us-ascii?Q?1H2W7RcIwBDJFbhyvsm0c2bIQbTc/k2XNSNAkTHMFOSltEJISJ+F8OENIbsy?=
+ =?us-ascii?Q?tvPrJOxul9Eapai1YN2UyKDRn7Sw8SmiLHBkWppH8cbeLBTScEHQBHpKZRIV?=
+ =?us-ascii?Q?iH5MTneD9DB2lX9cMfYTeOamA2F05X2jzeajhFA61BGojSbvYPHYLfNaO/b/?=
+ =?us-ascii?Q?ox/MsNivhFpuSJxzq2nr3zzq6QHFnBOelf0030ROl6i+rtOhZhu1P808u688?=
+ =?us-ascii?Q?K/42gzu5/jAWGsFDGgbFcuf2RiLWwkOr3Y5O9qAtnauaE715rUQNZB7bYBBO?=
+ =?us-ascii?Q?ERLNDRLiveTvLCC09zUHdAYhxA2mJ/0QoQ7Izn9bYKxQkAq7dCyasssgPMcw?=
+ =?us-ascii?Q?YhduyDAPGmNulNPDILBkdS1gBMD3bdoBqs/NlMUmT3KIMaMY5um2BsmR22bj?=
+ =?us-ascii?Q?Iyv8KnBCgvGiG4iWoXYWjUZ7bukcgxD55mfgCxdmyZV5cAn7EI8vMgyv7YIT?=
+ =?us-ascii?Q?xiUjR7HatP0H4DbN6ukFBetvzGXTxj+2eDfTHiyLbDbOi5ojh5f1tIIT/EVe?=
+ =?us-ascii?Q?iq16GXm9aubuN3JHZICvq7kFSIItG1FQhmKDPMYE7VQtrjP4Zm2hku0v1Kbj?=
+ =?us-ascii?Q?oRgHqlDQj3Jl5VWsZ1FciqyjmY/su//18hi9D0qwttCmyqnsTepkAAKkMtSV?=
+ =?us-ascii?Q?7h1qtU9prZ2Tsz5rRcwQJtqRFQ4DbxVCOhOTqLN33u+CqvaqCIefmevWSTiE?=
+ =?us-ascii?Q?CiGUDxlwy7LcggBtjTeWhabFYQs1ceKdIfGEaZcokkkC0ibiyNrtJkxQGON3?=
+ =?us-ascii?Q?rEIRIBFqIoXO7xTuvm5r1yVrEojHIL2K9+zCwXbhRIzzpJgw1CpTSCRVymrI?=
+ =?us-ascii?Q?+bHJzGutpmFTG2C09CJT1oXvq0M++V95iUlXUBYwF6HbU9h6S4tRAhPajc+J?=
+ =?us-ascii?Q?B9y9cBynf9NSwopG7gOmzYVZHLdKbXEA9gqTbgZB4GduQSkRSPXQgie7W/rH?=
+ =?us-ascii?Q?+pxnzR39luLmUodemj69BH2cyf3gCNUnH+6gi01bB+v5mu8o6hlHZWi01R1p?=
+ =?us-ascii?Q?dvkEV6NA1FjOD5z4vJokfdfdMR/nramBYZXCl4101Vpms2+GS5/jOPZvQDA6?=
+ =?us-ascii?Q?Vp44uESTI5n+uqysji0TVRUUJ1wo34u+z1b3Ha68T4QffaJdh3c1ZBvChe9H?=
+ =?us-ascii?Q?oXA3uJjESD0W+VSQUMEvnNlf7J5SB2pbMJSfBSi1/oC0IbQsjLN0msJ55r7+?=
+ =?us-ascii?Q?cowwR7eScQV9lmWO44pjQH6WyETLyyvhalYGDDvdE0l7A5u2e//ZeA=3D=3D?=
+X-Forefront-Antispam-Report-Untrusted: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:JNAP275MB2000.ZAFP275.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(1800799024)(366016)(376014)(38070700018)(8096899003)(7053199007)(19033499003);DIR:OUT;SFP:1102
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: JN1P275MB2400
+X-Mimecast-Spam-Score: 0
+X-Mimecast-MFC-PROC-ID: cp_wtq1F8TdLMwPio6qhf0W5SpI9PLnU3z-6OkxfED4_1756460700
+X-Mimecast-Originator: ensafrica.com
+Content-Type: multipart/alternative;
+	boundary="_000_JNAP275MB2000AFED7F8DC03131FAB42ED03AAJNAP275MB2000ZAFP_"
+X-MDID: 1756460714-k7bmuCMIAeYe
+X-PPE-STACK: {"stack":"us4"}
+X-MDID-I: us4;at1;1756460714;k7bmuCMIAeYe;<smunga@ensafrica.com>;fc3d84a00028f550b053538769a6753b
+X-PPE-TRUSTED: V=1;DIR=IN;
+Return-Path: smunga@ensafrica.com
+X-MS-Exchange-Organization-ExpirationStartTime: 29 Aug 2025 09:45:19.8879
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: f3a930cf-1984-4f4e-df24-08dde6e0c46a
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: afbfb300-576b-4e53-ad7b-258cc55f3642:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: JN3PEPF00000310.ZAFP275.PROD.OUTLOOK.COM
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource: JN3PEPF00000310.ZAFP275.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 67ea5e30-8b87-4f49-7268-08dde6e0b57f
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;ARA:13230040|12012899012|35042699022|4022899009|5073199012|5063199012|22103399003|69100299015|1032899013|4123199012|8096899003|2066899003|7053199007;
+X-Forefront-Antispam-Report: CIP:67.231.154.184;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:dispatch1-us1.ppe-hosted.com;PTR:dispatch1-us1.ppe-hosted.com;CAT:NONE;SFS:(13230040)(12012899012)(35042699022)(4022899009)(5073199012)(5063199012)(22103399003)(69100299015)(1032899013)(4123199012)(8096899003)(2066899003)(7053199007);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 29 Aug 2025 09:45:19.3486
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: f3a930cf-1984-4f4e-df24-08dde6e0c46a
+X-MS-Exchange-CrossTenant-Id: afbfb300-576b-4e53-ad7b-258cc55f3642
+X-MS-Exchange-CrossTenant-AuthSource: JN3PEPF00000310.ZAFP275.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: JN1P275MB1875
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:04.0835502
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.9052.000
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(4710137)(4712097)(4999163)(920097)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?QXJFZ1BiM1dkenJqYVhXZUVYV2hheWM3RElKK0hNZTE5TXFUd2JmdVB6dzhB?=
+ =?utf-8?B?K0hOeEhoTW0zQTh0M0xQSjVOdFBIcmIwQWpTQng1MU42MGJHOUpDRFZjSWVa?=
+ =?utf-8?B?N0syUUJQM3ZlQjkyN2lhWTFBSVRydDZkdGRTa0VNMlBvWThGLzh2V25lSTN4?=
+ =?utf-8?B?NlBUQmRQenBSN2E3SW1UU2FYb2ZiZUJVcitnQUYydEJjRFJVV0VaUVdBa2lw?=
+ =?utf-8?B?dm5uVERySmZUOFFUTDkvdklqZnVXdjlYek9tSlZlUkt3eE52OHJmK3Vud0Uw?=
+ =?utf-8?B?N2gvaDJQZ0MvQ1hFcVgxZGtieWdLbFNvcklNSXc1SFFtOWNXdklmbUN3Rnhl?=
+ =?utf-8?B?NGJaaENMUFZuaUhtVmltT2dFenB6bHFGdTlDczlkUUhoR3VRdWhTVmFvaW4y?=
+ =?utf-8?B?bjA1bDU1K2Jua1QvRk4rckQ5eUQ3LzZYcFptblZJSndBRTd4NFRCOStXamx3?=
+ =?utf-8?B?RHZMWWJKcHJ5OHpMbUpwN0x6VDN5eS8rVmpFSEVvMUJMZmdVcE1aeFVka29n?=
+ =?utf-8?B?SHJkb3J6Q051emRab3FaUjdFZ0hxVnMyd0V6UDZxQnUyQ241RXVZM09TeFd3?=
+ =?utf-8?B?ZlJuYW83a0pjSXZQUmp1YWFaY1hkQnhlSjRsOWI0TXgzcGFIWGdYOGZWdVpV?=
+ =?utf-8?B?NEVDNjFTM2crc3ZwakQ5ZEJHaTZvazRUZ2dBRVl0dUdkanlsWEhqRHgzWDZp?=
+ =?utf-8?B?NEJEVXhwLzFGelVFQTZ3Y3pVbkR2bDA3bGcxYWx0TjZtNUkycjdNYytpdTVk?=
+ =?utf-8?B?VEo3bnhXT1p3T0E2UkNzQk1QUzNHVmZKYUFDQ0c5Ny9IZlJOdldFdm81M0d0?=
+ =?utf-8?B?SWV3V0dySFh1UlF4MU9uNEdzVW5qRUNid1hpbFZ0T05DU1pnNHJoSnk1akll?=
+ =?utf-8?B?NnU5Rnk4OUNhaDNWOTZZODRHblhnT1o4QWxBbHIycTg5L2pFQ0lpUitZcDNV?=
+ =?utf-8?B?L1FIR1pablpZbjZBMklSUWlQRmZHdUlDazRwdEEyTHdjMkoyQUFRWlY0NTJt?=
+ =?utf-8?B?cXNJSFdZckZXTGFOR3Zpd0NLZ3h6MUNzd1ZTY2V5dHBuTUc4NDgxV0xxaVls?=
+ =?utf-8?B?OVREWm14UE5BREhIZm91bDM3QWU2RHZkd3pHNXJEOGJqWWpBOEp5WnRzZkJm?=
+ =?utf-8?B?K2RGNEhNaVloSzhTQW92eFo2U3RsMm1ERnpCaW8zWk5UdUxMdDUyMUhvSWMr?=
+ =?utf-8?B?bHZlVWk0MGc1WUI2TUY0VWt1cWhsVW9ZeGFaQ1IwVnF0WVB1bWs0M0k0Y1cx?=
+ =?utf-8?B?UGpVUTQwcTl4aythY2s4WWd5RzZzelVaUGc4ejZtZS9yOVg1YmtMQXA0cGMy?=
+ =?utf-8?B?VWVydTgzTERSSXFzYWtQRitnS3dac1V1cktuMEtiTTVidGtzV3dMZUJybE5j?=
+ =?utf-8?B?cmgvY1lSOHJ0dVVaZzlaRXQvbDNxVkZwdFY4VFAvY3ozSjN2VWxjc1lSbjE3?=
+ =?utf-8?B?WjUvdDhjaFhvWDdKTTBIczZTQ3Z0MkZNUmszcmJ4ZWQwY0RRYTZJd3VuU0Fv?=
+ =?utf-8?B?WlRDU3VYVysxdm9yTTRzN0ZRMlpZY003YWcrSVhvTlVQWjJzdExLbDloMDNk?=
+ =?utf-8?B?akpTeDJ1SStOY3FjWnhQQW5aS005bzJWWjh3QVFodjZFMDFpRHUxOHFVWnVy?=
+ =?utf-8?B?WkNJcnA5dDM0SVZuaEkxYlE2K2RwL2IvWHNkdnJQT2p0a2h0M0Q0NzNJOTBQ?=
+ =?utf-8?B?aUdxSVJoVGZBSUZjR1VZYVhEckZEckFGRFlyTFNMcE1GVnhhWWppYVdzS3Zp?=
+ =?utf-8?B?eUh3TXJHcEpkQkhLRk5RK3FFZ0Y2eitleGIxRFdQa3U2bGlMazRjRThaTFhq?=
+ =?utf-8?B?SjBNY3lJY1lMK2REbFF1NzhUSjhPVjlJN09iMFk5cjFQUEh1MFBCRGxXWlBO?=
+ =?utf-8?B?S3dWRVdac2oya1hWR3o3M3RtdUJTR210Tm0zTVZRL3RidThZTlRRT2IyeUFi?=
+ =?utf-8?B?R2x6Q2c4Rk5qTUZEUzg4OStXWU84N05lbHdsSTJCQS8zd2FRd2lxM2FoV2I2?=
+ =?utf-8?B?NXZIOXdNUGUyMWpydUZQcHRTRlB3Mkh6NUx6TjByalBid2FTTXJvT1kxWXpH?=
+ =?utf-8?B?a0pxSzlwM3hFRTVjWU5SSEVUTks5RHg3U29DYUJHK29qZFpWQ1EvRkZjRVBM?=
+ =?utf-8?B?ejhQVDRFQWJDTUhkZUQvNVpyNXNDYWo5d29yMW9weVMwbmwzdk5lSFErWkpx?=
+ =?utf-8?B?K0xKZnFSc0V3dVhwNVVzSFZWSFl4Z1JGWnk3aHp1a2NHSDArWFNNNGxKSEVY?=
+ =?utf-8?B?RlRwYnJLNDd3eldzRG0rdEJlNk5RNUE5ck45bFAreUJlSG1qQndsN0o0bTRm?=
+ =?utf-8?B?cDZmNmkrSFhhZGs0ZG9QdFVnZzFtR25oeXJxRE5KOFd4c3EvNnczWE9xdW5a?=
+ =?utf-8?B?ZkZYMWtxY3F6N09DeE0zMmlxSXVKaUhCRVF4WG5jeVkyY1BTVVdaN1U3dDZ6?=
+ =?utf-8?B?WHJJNnluU1grYVdvODMxeFpYc3plVXBmMW8xc1N0TlZuT2NKYkFCMjlaWk91?=
+ =?utf-8?B?Y0dGTUxhRDVTRXNaeXJxci93SUtLRFVFeUdlWUQ4Uk9KL3M5SjlxT1VGR3Iz?=
+ =?utf-8?B?SkswNnN6bkpKMkN3enlKRTIwNnRjNlQ3UkxNYTZUYTRESEJtbEgrNjJScU9r?=
+ =?utf-8?B?SzlHVzRUVUh3T1hNRTA1UlppeXBmOE1jNm5LTVVNY0VXUlVIdHNvbnNjRnZX?=
+ =?utf-8?B?YUJ6aGY1Y1dFTEdYZytpbkI3S2ZTR2Y5UEk1MWp6aXp3NkVNQnJESlU4bTFG?=
+ =?utf-8?B?UlBJdDNJRDRhbmlFRGZIakNLK1h4MU9JL3NVaGhJNURwYlJzelU0dTVraWx4?=
+ =?utf-8?Q?7bW6FD5vekdrsplOrpo/Q=3D?=
+MIME-Version: 1.0
+
+--_000_JNAP275MB2000AFED7F8DC03131FAB42ED03AAJNAP275MB2000ZAFP_
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-length: 14738
+
+Received, thanks Daniel.
+
+We look forward to receiving the other information you were collating for u=
+s.
+
+Kind regards
+
+
+=20
+
+=20
+tel:=20=20=20=20=20
+mobile:=20
+email:  smunga@ensafrica.com
+offices: ENSafrica Locations
+
+Be Alert
+Before depositing funds, please call the person responsible for your matter=
+ to verify that the bank account you have on record is a legitimate bank ac=
+count of ENSafrica
+
+This email contains confidential information. It may also be legally privil=
+eged. Interception of this email is illegal. The information contained in t=
+his=20
+email is only for the use of the intended recipient. If you are not the int=
+ended recipient, any disclosure, copying and/or distribution of the content=
+ of=20
+this email, or the taking of any action in reliance thereon, or pursuant th=
+ereto, is strictly prohibited. Should you have received this email in error=
+,=20
+please notify us immediately by return email. Edward Nathan Sonnenbergs sha=
+ll not be liable if any variation is effected to any document or correspond=
+ence=20
+emailed unless that variation has been approved in writing by the attorney =
+dealing with the matter.
+
+________________________________
+From: Daniel Faucitt <d@rzo.io>
+Sent: Friday, August 29, 2025 11:40:05 AM
+To: Shenaaz Munga <smunga@ensafrica.com>; j faucitt <jfaucitt@proton.me>
+Cc: Dan@regima Com (dan@regima.com) <dan@regima.com>
+Subject: Fw: The RegimA Group results and Computer Expense analysis
+
+
+CAUTION: This email originates from outside ENS. Do not click links or open=
+ attachments unless you recognise the sender and know the content is safe. =
+If in doubt please contact IT@ensafrica.com<mailto:IT@ensafrica.com>.
+
+________________________________
+
+________________________________
+From: Danie Bantjes <https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__=
+danie.bantjes-40gmail.com&d=3DDwIFaQ&c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v5A_Cd=
+pgnVfiiMM&r=3D7ZULBZmD5L4dM8U3nU-5WA&m=3DkWN0kDdzEHqBGja65ng2TMVXo2icoc-dcU=
+vcyQ-rIl2gBnbvTcA918a8zjLGamdY&s=3DLqHcUOXmpEkQu-kFtr0xfaw6WwKfJlDHZwzT0tLs=
+T4U&e=3D>
+Sent: 10 June 2025 3:33 PM
+To: Daniel Faucitt <d@rzo.io>
+Cc: Peter Andrew Faucitt <pete@regima.com>; Jacqui Faucitt <jax@regima.zone=
+>; Daniel Faucitt (dan@regima.zone) <dan@regima.zone>
+Subject: Re: The RegimA Group results and Computer Expense analysis
+
+Dear Dan
+
+Thank you for the speedy response.
+
+Your comments and assertions will be taken under consideration in due cours=
+e.
+
+I am unfortunately away for 2 weeks, with little or no access to my communi=
+cations.
+
+In the meantime I implore everyone to try and work out a solution to the po=
+sition we find ourselves in.
+
+
+Kind regards,
+
+Danie Bantjes
+
+
+On Tue, 10 Jun 2025 at 11:45, Daniel Faucitt <d@rzo.io<mailto:d@rzo.io>> wr=
+ote:
+Hi Danie
+
+Fundamentally the issue is that Worldwide has found itself absorbing all co=
+sts of all companies when the cards all expired in Aug 2023 2 weeks after K=
+ayla's murder. As an emergency measure the expenses were put on the Worldwi=
+de cards which had a different expiry date. This is why RegimA Skin Treatme=
+nts and Strategic have no record of their actual computer expenses. Eerythi=
+ng was dumped in Worldwide. The majority of these tranasactions belong in R=
+ezonance, a technology and IT company Kayla and I spent nearly a decade bui=
+lding. As an IT company and service provider, the operating expenses are es=
+sentially different from a skincare distribution company, so an operating e=
+xpense for the former would often be considered capital expenditure in the =
+latter etc. As you can see from the ProfitandLoss.pdf Rezonance made its fi=
+rst annual profit in Feb 2023 which Kayla and I celebrated as all the hard =
+work finally paying off. Rezonance currently owes me ZAR 1.8 million as a d=
+irector from my investments over the years, you can understand why I firmly=
+ rejected Pete's insistence that I just close the company. In addition ther=
+e was an ongoing murder investigation where the authorities reminded me of =
+the familiar firearms rule that life comes before property and instructed m=
+e to freeze all activity immediately while they conducted their investigati=
+ons and resolve the financial issues later. Which is exactly what I have do=
+ne.
+
+Further to the question of necessity to the business, as can be seen from t=
+he ProfitandLossReport (RWD).pdf RegimA Worldwide Distribution absorbed the=
+ operational overhead of 4 large distribution partners between 2020 and 202=
+3. It did so with no additional staff as I single-handedly rebuilt the enti=
+re demand side of the distribution function into the marketplace and ecomme=
+rce platforms to allow continuity of business in the wake of cascading fail=
+ure of our distribution partners. The margins are structured so that each h=
+ub uses its margin to cover the costs. The recent moves to take all of the =
+payments directly into an account which only Rynette has access to and deny=
+ me any visibility while leaving all the expenses with me are not only biza=
+rre but will ultimately prevent us from ever being able to resolve anything=
+ while placing someone who is neither a director or employee of Worldwide D=
+istribution in complete control without any liability. This is conerning as=
+ it makes me as a director liable for their actions without my knowledge or=
+ consent. This cannot continue.
+
+As can be seen in the Worldwide Distribution P&L, the year-on-year turnover=
+ increase from 2M to 12M to 19M reflects the additional distribution activi=
+ty it took on over the period.
+The significant drop of 1M to 18M the following year was after Pete signed =
+an affidavit to make himself the administrator on the Worldwide accounts an=
+d all my automations were unhooked. I informed Pete and Rynette prior to th=
+is not to touch it or it would break the automations but they did so anyway=
+. I informed them after that I could no longer see the things i needed to c=
+omplete the accounts and that they need to ensure they know what they are d=
+oing. Over the past year the bank contacted me on several occasions to ask =
+for my approval where Pete and Rynette had attempted to draft mandates to c=
+hange the ownership structure, have my accounts closed and cancel my cards,=
+ all without my knowledge or consent. I informed the bank these must be err=
+ors and informed both Pete and Rynette to cease this activity immediately.
+
+As you can see in AccountTransactionsReport.pdf the correct format up to Au=
+g 2023 shows invoices from Rezonance which group the services with itemized=
+ billing. This involves a 10% mark-up for Rezonance managed services which =
+I use to also cover the account processing where I have a system that remun=
+erates R50 for whoever is managing the 3rd party service for each invoice, =
+ensuring its line items, forex rates etc are correctly filled in on quickbo=
+oks for comprehensive records. After Aug 2023 you can see all items are all=
+ocated to FNB which is the auto bank feed i have on Worldwide accounts.
+
+The actual companies RegimA Zone and RegimA SA that operate the Shopify sys=
+tems were configured to operate the distribution functions using trust acco=
+unts and RegimA SA with Pete and I as directors was doing this with Dermal =
+(Barend) and RegimA Zone (Only me as director) was an aggregation of 3 smal=
+ler distributions. I had specifically structured it this way to prevent Pet=
+e from doing to me what he did to Kachan, simply taking the revenue for him=
+self by instructing people to pay into another account (which is basically =
+what has happened). The problem is that since the ownership of the companie=
+s is not the same (i.e. I am not a member of RegimA Skin Treatments and the=
+ other companies are not subsidiaries), therefore there is no fixed "group"=
+ or intercompany and moving assets from a company where I am a director to =
+a company where I am not is essentially theft or at the very least fraudule=
+nt for tax purposes. I urge you to keep this in mind as these issues should=
+ not be dismissed as "family disputes" when there is a distinct material an=
+d legal difference between ownership of companies which should be treated a=
+s such.
+
+I have been telling both Pete and Rynette for 4 years now that the outstand=
+ing amounts owed to Rezonance need to be paid before I am able to purchase =
+the services and continue as normal, attached is the Rezonance Febr 2023.PD=
+F showing over 1M outstanding owed by RegimA Skin Treatments to Rezonance. =
+I have been telling Pete for over a year that I cannot file the accounts fo=
+r Rezonance until the errors of 2024 are corrected in RegimA Skin Treatment=
+s. RST has had an account with GoDaddy since 2014 which is also an internat=
+ional payments account with some forex etc. For reasons I can only speculat=
+e, in 2024 Rynette made the debt to Rezonance "disappear" by misallocating =
+international GoDaddy payments as though they were local payments made to R=
+ezonance, yet Rezonance received no such payments (the amounts are still ou=
+tstanding). I was explaining to Pete that these need to be corrected before=
+ I submit Rezonance accounts as there will immediately be a mismatch showin=
+g Rezonance never received the payments and they will flag as fraudulent on=
+ RegimA Skin Treatments with SARS. This was just ignored and they opted ins=
+tead to try and close my accounts and dissolve my company. This cannot cont=
+inue.
+
+To the best of my understanding the course we need to follow for correct ac=
+counts is:
+
+
+  1.
+Inform SARS about my freezing activity on the accounts in cooperaion with l=
+aw enforcement for the murder inquiry
+  2.
+Explain that we are now in the process of updating the affected records to =
+reconcile the past 2 years so it reflects an accurate account
+  3.
+Make the payments from RegimA Skin Treatments to Rezonance and correctly al=
+locate the 2014 GoDaddy expenses to GoDaddy
+  4.
+Process the Invoices in the same way I had been doing up until Aug 2023 so =
+there is a single invoice from Rezonance each month.
+  5.
+Configure the Paystack systems on Shopify to split the payments directly in=
+to Distrivbution and Manufacturer accounts.
+
+Other than that I can't see any other way to properly remedy the situation.=
+ We cannot just try to shoehorn an entire architecture for multiple distrib=
+ution operations into one account. The transactions on RegimA Skin Treatmen=
+ts must not be signed off as they will later show up as fraudulent. Bear in=
+ mind that Pete does not use the computer and has never seen the actual acc=
+ounts for the company, nor has Jacqui and nor have I. They exist solely on =
+Rynette's computer and nobody else is able to see them. The amounts I can s=
+ee going through Strategic and RegimA Skin Treatments seem off the charts s=
+o we need an internal audit with extreme urgency to see what is going on th=
+ere.
+
+Warm Regards,
+Dan
+
+________________________________
+From: Danie Bantjes <https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__=
+danie.ba&d=3DDwIFaQ&c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=3D7ZU=
+LBZmD5L4dM8U3nU-5WA&m=3DkWN0kDdzEHqBGja65ng2TMVXo2icoc-dcUvcyQ-rIl2gBnbvTcA=
+918a8zjLGamdY&s=3D2DOfd5QUfPWrVJq6eSkjDMJSy6VNb3QE0VLEEt1x9Bg&e=3Dntjes@gma=
+il.com<mailto:danie.bantjes@gmail.com>>
+Sent: 10 June 2025 09:58
+To: Peter Andrew Faucitt <pete@regima.com<mailto:pete@regima.com>>; Jacqui =
+Faucitt <jax@regima.zone>; Daniel Faucitt <d@rzo.io<mailto:d@rzo.io>>
+Subject: The RegimA Group results and Computer Expense analysis
+
+Good morning Pete, Jacqui and Danny
+
+It saddens me to write this email this morning, as in my 30-odd year involv=
+ement with the Faucitt family business I have never had to encounter or get=
+ involved with an internal dispute of this serious nature.
+
+Although perhaps difficult for you as family members, I suggest we try and =
+keep the emotions at bay and resolve this dispute regarding the spend on Co=
+mputer related expenses by applying basic business principles in deciding w=
+hat needs to be done to restore the profitability and ultimate survival of =
+the business going forward. What do you think?
+
+Just a friendly request please, not to send me any relevant information and=
+ comments privately. We all need to be working as a team to be able to asce=
+rtain the potential problem/s and focus on finding the most viable solution=
+/s.
+
+Danny has responded to my email of 26th May, his email attached. Danny, man=
+y thanks for the very professional and detailed analyses you have provided.
+
+I would still like for the Excel printouts I've attached to be answered lin=
+e by line please.
+
+Your email contains a lot of information. It is a lot to digest. By doing a=
+ category analysis helps tremendously to understand the nature and purpose =
+of all the various IT related services and platforms that are used througho=
+ut the RegimA Group.
+
+I am neither an IT expert, nor am I an e-Commerce expert so I would not be =
+able to comment on the necessity, use and value each expense adds to the co=
+mpany.
+
+What is clear though, is that the RegimA group has over the past few years =
+invested heavily in IT and e-commerce platforms and continues to do so. For=
+ any business to spend in excess of 20% of revenue generated on these servi=
+ces, the spend needs to be justified, transparent, relevant and needs to ad=
+d the desired value to the business, i.e. it has to benefit the "bottom lin=
+e".
+
+Insofar as these computer expenses are concerned, I suggest we need to ask =
+ourselves these questions to start off with:
+1. Do we have the necessary invoices for each expense to be able to satisfy=
+ a SARS investigation?
+2. Verify what each expense is used for on a daily basis?
+3. Confirm the sales volume and value generated by each and every e-commerc=
+e platform the company is paying for.
+4. Consider the relevance and necessity of all collaboration, communication=
+, marketing, development , AI services as well as Analytics & Monitoring to=
+ols and do a cost-benefit analysis.on each and every service paid for.
+
+The other concerning aspect is that from my high-level analysis of the stat=
+e of the finances of the RegimA Group as at 28 February 2025, it is concern=
+ing to notice that the Group has, for the first time in its history, made a=
+ substantial trading loss in the past financial year.
+
+This reflects in the bank balances as well, which saw a decline of R10m yea=
+r-on-year for the Group, including Villa Via.
+
+So, besides considering Computer Expenses, other aspects of the business li=
+ke product margins, selling and distribution costs etc. needs to be looked =
+at in depth again.
+
+This will hopefully be the start of an in-depth discussion regarding the pr=
+ofitability and ultimate future viability of the business.
+
+
+Kind regards,
+
+Danie Bantjes
+
+--_000_JNAP275MB2000AFED7F8DC03131FAB42ED03AAJNAP275MB2000ZAFP_
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-length: 34715
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<style>
+
+
+a, a:hover {
+color: black;
+}
+</style></head><body>
+
+
+
+
+
+=09
+=09
+=09
+
+    <div style=3D"font-family: Aptos, -apple-system, HelveticaNeue, sans-se=
+rif;font-size: 12pt">
+<div style=3D"font-family: Aptos, Aptos_MSFontService, -apple-system, Robot=
+o, Arial, Helvetica, sans-serif; font-size: 12pt;" dir=3D"ltr">
+Received, thanks Daniel.&nbsp;</div>
+<div style=3D"font-family: Aptos, Aptos_MSFontService, -apple-system, Robot=
+o, Arial, Helvetica, sans-serif; font-size: 12pt;" dir=3D"ltr">
+<br>
+</div>
+<div style=3D"font-family: Aptos, Aptos_MSFontService, -apple-system, Robot=
+o, Arial, Helvetica, sans-serif; font-size: 12pt;" dir=3D"ltr">
+We look forward to receiving the other information you were collating for u=
+s.&nbsp;</div>
+<div style=3D"font-family: Aptos, Aptos_MSFontService, -apple-system, Robot=
+o, Arial, Helvetica, sans-serif; font-size: 12pt;" dir=3D"ltr">
+<br>
+</div>
+<div style=3D"font-family: Aptos, Aptos_MSFontService, -apple-system, Robot=
+o, Arial, Helvetica, sans-serif; font-size: 12pt;" dir=3D"ltr">
+Kind regards&nbsp;</div><br>
+
+
+
+
+
+
+
+
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"
+	width: 750px;
+	padding: 0;
+	margin: 0;
+">
+	<tbody><tr>
+		<td width=3D"30" style=3D"background-color: #eedc00;">
+	=09
+	=09
+		=09
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"
+				width: 30px;
+				padding: 0;
+				margin: 0;
+			">
+			</table>
+		=09
+		=09
+		</td>
+		<td align=3D"right" valign=3D"top" width=3D"720" style=3D"background-colo=
+r: #eedc00;">
+=09
+		=09
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"
+				width: 720px;
+				padding: 0;
+				margin: 0;
+			">
+				<tbody><tr>
+					<td align=3D"left" valign=3D"top" style=3D"
+						width: 395px;
+						font-family: outfit, calibri, arial, sans serif;
+						font-weight: 200;
+						font-size: 9px;
+						/* line-height: 1.25em; */
+					">
+
+					=09
+						<div style=3D"
+							font-family: outfit, calibri, arial, sans serif;
+							font-size: 16px;
+							font-weight: 400;
+							border-top: 8px solid #eedc00;					=09
+							/* line-height: 1.3em; */
+							width: 100%;
+							float: left;
+						">
+						Shenaaz Munga
+						</div>
+						=09
+						<div style=3D"
+							font-family: outfit, calibri, arial, sans serif;
+							font-size: 12px;
+							font-weight: 400;
+							/* line-height: 1.3em; */
+							width: 100%;
+							float: left;
+						">
+						Executive    =20
+                        </div>
+						<div style=3D"
+							font-family: outfit, calibri, arial, sans serif;
+							font-size: 12px;
+							font-weight: 400;
+							/* line-height: 1.3em; */
+							width: 100%;
+							float: left;
+						">
+						Dispute Resolution    =20
+                        </div>
+						=09
+						<div style=3D"
+							font-family: outfit, calibri, arial, sans serif;
+							font-size: 10px;
+							font-weight: 400;
+							/* line-height: 1.3em; */
+							padding-top: 5px;
+							width: 100%;
+							float: left;
+						">
+						+27 67 180 4706
+						<br>
+						+27 11 269 7600
+						<br>
+						smunga@ensafrica.com
+
+						<br>
+						<br>
+
+						<a style=3D"color: black;" href=3D"https://urldefense.proofpoint.com/=
+v2/url?u=3Dhttps-3A__www.ensafrica.com_contact-2Dus&amp;d=3DDwMFaQ&amp;c=3D=
+euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&=
+amp;m=3DkWN0kDdzEHqBGja65ng2TMVXo2icoc-dcUvcyQ-rIl2gBnbvTcA918a8zjLGamdY&am=
+p;s=3Dng8MQu4rjsBfPr8o8rZz4bQh4N_eAIWLXf6OBT_lc6s&amp;e=3D" target=3D"_blan=
+k">ENS locations</a>
+						<br>
+						<a style=3D"color: black;" href=3D"mailto:info@ENSafrica.com?subject=
+=3DUNsubscribe me from mailing lists" target=3D"_blank">UNsubscribe</a> | <=
+a style=3D"color: black;" href=3D"https://urldefense.proofpoint.com/v2/url?=
+u=3Dhttps-3A__www.ENSafrica.com_Uploads_PDF_privacy-2Dpolicy-2DJUN-2D2021-2=
+D001.pdf&amp;d=3DDwMFaQ&amp;c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM=
+&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;m=3DkWN0kDdzEHqBGja65ng2TMVXo2icoc-dcUv=
+cyQ-rIl2gBnbvTcA918a8zjLGamdY&amp;s=3Dm3-DQU6HzrsY-lGynsUzeaYwLk6R7GNJgOlc4=
+1bv9kk&amp;e=3D" target=3D"_blank">Privacy Policy</a> | <a style=3D"color: =
+black;" href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttps-3A__www.=
+ensafrica.com_payment-2Dcaution&amp;d=3DDwMFaQ&amp;c=3DeuGZstcaTDllvimEN8b7=
+jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;m=3DkWN0kDdzEHqB=
+Gja65ng2TMVXo2icoc-dcUvcyQ-rIl2gBnbvTcA918a8zjLGamdY&amp;s=3DxDtMiqr0xBSErT=
+G4rkSCYHzw0GdTGLUV16uQF6tRz1I&amp;e=3D" target=3D"_blank">Be Alert</a>
+						<div style=3D"
+							padding: 0;
+							margin: 0;
+							border-top: 5px solid #eedc00;					=09
+							border-bottom: 2px solid #eedc00;					=09
+							width: 100%;
+							float: left;
+						">
+							<table>
+                                <tbody><tr>  =20
+                                    <td><table border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0"><tr><td><a href=3D"https://urldefense.proofpoint.com/v=
+2/url?u=3Dhttps-3A__www.facebook.com_ENSafrica_&amp;d=3DDwMFaQ&amp;c=3DeuGZ=
+stcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;=
+m=3DkWN0kDdzEHqBGja65ng2TMVXo2icoc-dcUvcyQ-rIl2gBnbvTcA918a8zjLGamdY&amp;s=
+=3DVSWSx_ejSRFE5YDMpd_21SVyIMFPcgeMHtc9ooKWfow&amp;e=3D"><img border=3D"0" =
+src=3D"https://za-api.mimecast.com/s/store/XujAZpejvFW2OIhYbUKIG5JmHzo9WH0U=
+YZxW7gzzWpo6v7cHsTchjaERf0AIHQKoOZ7zYaA1HU5GCLmDZpiDIH4oVuWzd2vUfj0hikgvpWU=
+65PY2RHpsge9ze65urbtX8bNSIsziCuEx10H2dwngg8jT9hM_fGOVRsPS8RXoEKgwMaJ-B1SbPj=
+BlbretOwxP"></a></td></tr></table></td>
+                                        <td><table border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td><a href=3D"https://urldefense.proofpoint.c=
+om/v2/url?u=3Dhttps-3A__twitter.com_ENSlaw&amp;d=3DDwMFaQ&amp;c=3DeuGZstcaT=
+DllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;m=3Dk=
+WN0kDdzEHqBGja65ng2TMVXo2icoc-dcUvcyQ-rIl2gBnbvTcA918a8zjLGamdY&amp;s=3DfBv=
+yPY6e2C4ITDpyQsdMdGYYfNes4FNYxcvI8ftjCxs&amp;e=3D"><img border=3D"0" src=3D=
+"https://za-api.mimecast.com/s/store/aAnxMhtIAIegyIsmzeIXH2BCl-9JDpM40QZXgD=
+jgAo4jlWe9u_HtGJWcJnaoaRstdAAt6546plnY6X8VbnSEu5t1mt2r3UhtTO76_FsegiI_PSbHw=
+Pf-PhVwqa8qIIjFm9f6OhoBpxp9qfloZ6z1lMl44IYCLBE4bYYWI-8wPkrFNLESt9c6IlVltFXv=
+PH98"></a></td></tr></table></td>
+                                        <td><table border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td><a href=3D"https://urldefense.proofpoint.c=
+om/v2/url?u=3Dhttps-3A__www.linkedin.com_company_ensafrica_&amp;d=3DDwMFaQ&=
+amp;c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U=
+3nU-5WA&amp;m=3DkWN0kDdzEHqBGja65ng2TMVXo2icoc-dcUvcyQ-rIl2gBnbvTcA918a8zjL=
+GamdY&amp;s=3DnkNYxRhtrweSL0oqJTqIsDvEaiA42GFnYTWU7jdp9vE&amp;e=3D"><img bo=
+rder=3D"0" src=3D"https://za-api.mimecast.com/s/store/0SsEpZCKvmnLm4uQnDElV=
+7KAh1k0Ms2neD-ZH39Uu-ZKxGygl35NXiP2NR9Mtfg8mXUTykCSCVvfZ6NlyjEYDslv3B93bFfy=
+rDT7CwaK1jG8NdnT4u50ZGpEAPpxIKMc5SjTKdao2G8feMJFiyqlZ20guX59M-Gl1z0uumNEbAY=
+-1SyiGFlZYvnaYRn62TmZ"></a></td></tr></table></td><td><table border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0"><tr><td><a href=3D"https://urldefense.pr=
+oofpoint.com/v2/url?u=3Dhttps-3A__www.instagram.com_ensafrica_&amp;d=3DDwMF=
+aQ&amp;c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4d=
+M8U3nU-5WA&amp;m=3DkWN0kDdzEHqBGja65ng2TMVXo2icoc-dcUvcyQ-rIl2gBnbvTcA918a8=
+zjLGamdY&amp;s=3DJrDaluBGV14iS95h11X9cvxuC-xy0IyS7ztdWEFRhlk&amp;e=3D"><img=
+ border=3D"0" src=3D"https://za-api.mimecast.com/s/store/btwFrcV0PWUUfgI6Ra=
+yYF-6nlJQIcw2rd31cB_VJO7NdYoEToCeFQxiKx59f_YJqtyJi_aWA9VaFWdz59PMNC-9ksnQiU=
+OudSmTvepWx10FR9nTP5x-rmyNBgN7uK-ZjEgNW2REfMihW_ogf0wFcbYB20Wv5O4BReQh6TT8M=
+3PkzOL-D1G78RvE_I16-bv04"></a></td></tr></table></td>
+                                        <td><table border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td><a href=3D"https://urldefense.proofpoint.c=
+om/v2/url?u=3Dhttps-3A__www.youtube.com_channel_UCq5BOGiiAeATJ6YPHz3obsA-3F=
+view-5Fas-3Dsubscriber&amp;d=3DDwMFaQ&amp;c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v=
+5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;m=3DkWN0kDdzEHqBGja65ng2T=
+MVXo2icoc-dcUvcyQ-rIl2gBnbvTcA918a8zjLGamdY&amp;s=3DYby_w_6PJ5cmAmJOmLtKz7R=
+ffq1SZzrYTWNRGsOieX0&amp;e=3D"><img border=3D"0" src=3D"https://za-api.mime=
+cast.com/s/store/wrUY_kXFUIbmyk8Yj9WXEc40UN9Ji-5PoMTyd-u_GX4aSEicKqux9XHqCa=
+3IYUT_guVUvVno1rRWwMV2w8SSBe1_mhacUeBBBoQtt7bgLiOI5ggfPLlbVobUpJ5Wuu-YR1CX1=
+6vPgLGjlIv76k1SQaPULpwQVU9FdwyEcnNceFfHOQKVDKIgfU5fRHuF9MN9"></a></td></tr>=
+</table></td>
+                                   =20
+                                </tr>
+                            </tbody></table>
+						</div>
+
+
+						<div style=3D"
+							font-family: outfit, calibri, arial, sans serif;
+							font-size: 9.5px;
+							/* line-height: 1.3em; */
+							width: 100%;
+							float: left;
+						">
+						Before depositing funds, please call the person responsible for your =
+matter to
+						verify that the bank account you have on record is a legitimate bank =
+account of ENS
+						</div>
+
+
+					</div></td>
+					<td align=3D"right" valign=3D"bottom" width=3D"325">
+                        <a style=3D"align: block; line-height: .2em; vertic=
+al-align:text-bottom;" target=3D"_blank"><table border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0"><tr><td><a href=3D"https://urldefense.proofpoint.com/=
+v2/url?u=3Dhttps-3A__www.ensafrica.com&amp;d=3DDwMFaQ&amp;c=3DeuGZstcaTDllv=
+imEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;m=3DkWN0k=
+DdzEHqBGja65ng2TMVXo2icoc-dcUvcyQ-rIl2gBnbvTcA918a8zjLGamdY&amp;s=3D532PkDZ=
+s8YYCkTe7aBfsvMSG0PFGrBojPLWysyvzFhk&amp;e=3D"><img border=3D"0" alt=3D"ENS=
+africa" src=3D"https://za-api.mimecast.com/s/store/wrUY_kXFUIbmyk8Yj9WXEdH2=
+pfwGGrJ_q8ODHruza2Ao9qcetRrdfivIQsTWk0JDbaV9VljbsqgWAo1dKFE3qiK9TJubO4jcF0V=
+X3s-mnv-z3ZbPoUAPEF24DWj7Msnc6nVHfEBYy9aGFNF-atPwohg5Q2ajvnwX5ZcQ8RDZhq0lnO=
+CLr5AWf-ePGO55jWil"></a></td></tr></table> </a>
+					</td>
+				</tr>
+		=09
+			</tbody></table>
+		=09
+		=09
+		=09
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		</td>
+	=09
+		<td style=3D"
+			width: 690px;
+		">
+		=09
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"
+				width: 690px;
+				padding: 0;
+				margin: 0;
+				border-top: 6px solid white;
+			">
+				<tbody><tr>
+					<td style=3D"
+						font-family: outfit, calibri, arial, sans serif;
+					font-weight: 200;
+					font-size: 9.5px;
+					/* line-height: 1.3em; */
+					">
+
+					=09
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"
+							width: 690px;
+							padding: 0;
+							margin: 0;
+						">
+							<tbody><tr>
+								<td style=3D"
+                                                                        wid=
+th: 20px;">
+									<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><i=
+mg border=3D"0" src=3D"https://za-api.mimecast.com/s/store/wrUY_kXFUIbmyk8Y=
+j9WXEVziDBKQdxjJLzh00gN6JcKZMlFxZt3Mz0R2lts33krXttI3zW_lgY8BLtY0tAKCM0u2KJS=
+f5GPmvscWxp_QPkj_ayWwbblvZccrsa6BncBKOI7wjGdRpjAY-Kd-gVf5F2DK4BUI3dyGhD7klg=
+RuVEKSlQsa2EKN5MZfrrSEKPbp"></td></tr></table>
+								</td>
+								<td style=3D"
+									font-family: outfit, calibri, arial, sans serif;
+									font-weight: 200;=09
+									font-size: 9.5px;
+									/* line-height: 1.3em; */
+								">
+									Edward Nathan Sonnenbergs Incorporated registration number 2006/01=
+8200/21
+									<br>
+									level 1 B-BBEE rating
+								</td>
+							</tr>
+						</tbody></table>
+					=09
+
+						<br>
+					=09
+						This email contains confidential information. It may also be legally =
+privileged. Interception of this email is prohibited. The information conta=
+ined in this email is only for the use of the intended recipient. If you ar=
+e not the intended recipient, any disclosure, copying and/or distribution o=
+f the content of this email, or the taking of any action in reliance thereo=
+n, or pursuant thereto, is strictly prohibited. Should you have received th=
+is email in error, please notify us immediately by return email. ENSafrica =
+(ENS and its affiliates) shall not be liable if any variation is effected t=
+o any document or correspondence emailed unless that variation has been app=
+roved in writing by the attorney dealing with the matter.
+					</td>
+				</tr>
+			</tbody></table>
+			=09
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+</div>
+<div id=3D"ms-outlook-mobile-body-separator-line" style=3D"font-family: Apt=
+os, -apple-system, HelveticaNeue, sans-serif;font-size: 12pt" dir=3D"auto">
+<br>
+</div>
+<div id=3D"ms-outlook-mobile-signature" style=3D"font-family: Aptos, -apple=
+-system, HelveticaNeue, sans-serif;font-size: 12pt">
+<div></div>
+</div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Daniel Faucitt &lt;d@=
+rzo.io&gt;<br>
+<b>Sent:</b> Friday, August 29, 2025 11:40:05 AM<br>
+<b>To:</b> Shenaaz Munga &lt;smunga@ensafrica.com&gt;; j faucitt &lt;jfauci=
+tt@proton.me&gt;<br>
+<b>Cc:</b> Dan@regima Com (dan@regima.com) &lt;dan@regima.com&gt;<br>
+<b>Subject:</b> Fw: The RegimA Group results and Computer Expense analysis<=
+/font>
+<div>&nbsp;</div>
+</div>
+<style type=3D"text/css" style=3D"display:none">
+<!--
+p
+	{margin-top:0;
+	margin-bottom:0}
+-->
+</style>
+<div dir=3D"ltr">
+<div class=3D"x_mc-ip-hide" style=3D"display:block!important; height:auto!i=
+mportant; background:#FFFFFF!important; opacity:1!important; visibility:vis=
+ible!important; color:#000000!important; font-size:12px!important; font-fam=
+ily:Helvetica,Arial,sans-serif!important; text-align:left!important">
+<strong style=3D"display:block!important; height:auto!important; background=
+:#FFFFFF!important; opacity:1!important; visibility:visible!important; colo=
+r:#000000!important; font-size:12px!important; font-family:Helvetica,Arial,=
+sans-serif!important; text-align:left!important">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" styl=
+e=3D"margin:0; border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"background:#ff0000; width:8px; padding:0"></td>
+<td style=3D"background:#ffe599; padding:7px 5px 7px 15px; word-wrap:break-=
+word">
+<div style=3D"margin:0; padding:0">
+<p style=3D"margin:0"><span style=3D"font-size:10pt; font-family:Arial,sans=
+-serif; color:#212121"><b style=3D"color:#ff0000">CAUTION:</b> This email o=
+riginates from outside ENS. Do not click links or open attachments unless y=
+ou recognise the sender and know the content
+ is safe. If in doubt please contact <a href=3D"mailto:IT@ensafrica.com" ta=
+rget=3D"_blank" style=3D"color:#1155cc; text-decoration:underline">
+IT@ensafrica.com</a>. </span></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</strong><br>
+<hr>
+</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+<br>
+</div>
+<div id=3D"x_appendonsend"></div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"x_divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" =
+color=3D"#000000" style=3D"font-size:11pt"><b>From:</b> Danie Bantjes &lt;d=
+anie.bantjes@gmail.com&gt;<br>
+<b>Sent:</b> 10 June 2025 3:33 PM<br>
+<b>To:</b> Daniel Faucitt &lt;d@rzo.io&gt;<br>
+<b>Cc:</b> Peter Andrew Faucitt &lt;pete@regima.com&gt;; Jacqui Faucitt &lt=
+;jax@regima.zone&gt;; Daniel Faucitt (dan@regima.zone) &lt;dan@regima.zone&=
+gt;<br>
+<b>Subject:</b> Re: The RegimA Group results and Computer Expense analysis<=
+/font>
+<div>&nbsp;</div>
+</div>
+<div>
+<div dir=3D"ltr">
+<div>Dear Dan</div>
+<div><br>
+</div>
+<div>Thank you for the speedy response.</div>
+<div><br>
+</div>
+<div>Your comments and assertions will be taken under consideration in due =
+course.</div>
+<div><br>
+</div>
+<div>I am unfortunately away for 2 weeks, with little or no access to my co=
+mmunications.</div>
+<div><br>
+</div>
+<div>In the meantime I implore everyone to try and work out a solution to t=
+he position we find ourselves&nbsp;in.</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div>
+<div dir=3D"ltr" class=3D"x_x_gmail_signature" data-smartmail=3D"gmail_sign=
+ature">
+<div dir=3D"ltr">Kind regards,
+<div><br>
+</div>
+<div>Danie Bantjes</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class=3D"x_x_gmail_quote x_x_gmail_quote_container">
+<div dir=3D"ltr" class=3D"x_x_gmail_attr">On Tue, 10 Jun 2025 at 11:45, Dan=
+iel Faucitt &lt;<a href=3D"mailto:d@rzo.io">d@rzo.io</a>&gt; wrote:<br>
+</div>
+<blockquote class=3D"x_x_gmail_quote" style=3D"margin:0px 0px 0px 0.8ex; bo=
+rder-left:1px solid rgb(204,204,204); padding-left:1ex">
+<div class=3D"x_x_msg-9000333644921175205">
+<div dir=3D"ltr">
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+Hi Danie</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+Fundamentally the issue is that Worldwide has found itself absorbing all co=
+sts of all companies when the cards all expired in Aug 2023 2 weeks after K=
+ayla's murder. As an emergency measure the expenses were put on the Worldwi=
+de cards which had a different expiry
+ date. This is why RegimA Skin Treatments and Strategic have no record of t=
+heir actual computer expenses. Eerything was dumped in Worldwide. The major=
+ity of these tranasactions belong in Rezonance, a technology and IT company=
+ Kayla and I spent nearly a decade
+ building. As an IT company and service provider, the operating expenses ar=
+e essentially different from a skincare distribution company, so an operati=
+ng expense for the former would often be considered capital expenditure in =
+the latter etc. As you can see from
+ the ProfitandLoss.pdf Rezonance made its first annual profit in Feb 2023 w=
+hich Kayla and I celebrated as all the hard work finally paying off. Rezona=
+nce currently owes me ZAR 1.8 million as a director from my investments ove=
+r the years, you can understand
+ why I firmly rejected Pete's insistence that I just close the company. In =
+addition there was an ongoing murder investigation where the authorities re=
+minded me of the familiar firearms rule that life comes before property and=
+ instructed me to freeze all activity
+ immediately while they conducted their investigations and resolve the fina=
+ncial issues later. Which is exactly what I have done.</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+Further to the question of necessity to the business, as can be seen from t=
+he ProfitandLossReport (RWD).pdf RegimA Worldwide Distribution absorbed the=
+ operational overhead of 4 large distribution partners between 2020 and 202=
+3. It did so with no additional
+ staff as I single-handedly rebuilt the entire demand side of the distribut=
+ion function into the marketplace and ecommerce platforms to allow continui=
+ty of business in the wake of cascading failure of our distribution partner=
+s. The margins are structured so
+ that each hub uses its margin to cover the costs. The recent moves to take=
+ all of the payments directly into an account which only Rynette has access=
+ to and deny me any visibility while leaving all the expenses with me are n=
+ot only bizarre but will ultimately
+ prevent us from ever being able to resolve anything while placing someone =
+who is neither a director or employee of Worldwide Distribution in complete=
+ control without any liability. This is conerning as it makes me as a direc=
+tor liable for their actions without
+ my knowledge or consent. This cannot continue.</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+As can be seen in the Worldwide Distribution P&amp;L, the year-on-year turn=
+over increase from 2M to 12M to 19M reflects the additional distribution ac=
+tivity it took on over the period.</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+The significant drop of 1M to 18M the following year was after Pete signed =
+an affidavit to make himself the administrator on the Worldwide accounts an=
+d all my automations were unhooked. I informed Pete and Rynette prior to th=
+is not to touch it or it would break
+ the automations but they did so anyway. I informed them after that I could=
+ no longer see the things i needed to complete the accounts and that they n=
+eed to ensure they know what they are doing. Over the past year the bank co=
+ntacted me on several occasions
+ to ask for my approval where Pete and Rynette had attempted to draft manda=
+tes to change the ownership structure, have my accounts closed and cancel m=
+y cards, all without my knowledge or consent. I informed the bank these mus=
+t be errors and informed both Pete
+ and Rynette to cease this activity immediately.</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+As you can see in AccountTransactionsReport.pdf the correct format up to Au=
+g 2023 shows invoices from Rezonance which group the services with itemized=
+ billing. This involves a 10% mark-up for Rezonance managed services which =
+I use to also cover the account
+ processing where I have a system that remunerates R50 for whoever is manag=
+ing the 3<sup>rd</sup>&nbsp;party service for each invoice, ensuring its li=
+ne items, forex rates etc are correctly filled in on quickbooks for compreh=
+ensive records. After Aug 2023 you can
+ see all items are allocated to FNB which is the auto bank feed i have on W=
+orldwide accounts.&nbsp;</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+The actual companies RegimA Zone and RegimA SA that operate the Shopify sys=
+tems were configured to operate the distribution functions using trust acco=
+unts and RegimA SA with Pete and I as directors was doing this with Dermal =
+(Barend) and RegimA Zone (Only me
+ as director) was an aggregation of 3 smaller distributions. I had specific=
+ally structured it this way to prevent Pete from doing to me what he did to=
+ Kachan, simply taking the revenue for himself by instructing people to pay=
+ into another account (which is
+ basically what has happened). The problem is that since the ownership of t=
+he companies is not the same (i.e. I am not a member of RegimA Skin Treatme=
+nts and the other companies are not subsidiaries), therefore there is no fi=
+xed &quot;group&quot; or intercompany and
+ moving assets from a company where I am a director to a company where I am=
+ not is essentially theft or at the very least fraudulent for tax purposes.=
+ I urge you to keep this in mind as these issues should not be dismissed as=
+ &quot;family disputes&quot; when there is
+ a distinct material and legal difference between ownership of companies wh=
+ich should be treated as such.</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+I have been telling both Pete and Rynette for 4 years now that the outstand=
+ing amounts owed to Rezonance need to be paid before I am able to purchase =
+the services and continue as normal, attached is the Rezonance Febr 2023.PD=
+F showing over 1M outstanding owed
+ by RegimA Skin Treatments to Rezonance. I have been telling Pete for over =
+a year that I cannot file the accounts for Rezonance until the errors of 20=
+24 are corrected in RegimA Skin Treatments. RST has had an account with GoD=
+addy since 2014 which is also an
+ international payments account with some forex etc. For reasons I can only=
+ speculate, in 2024 Rynette made the debt to Rezonance &quot;disappear&quot=
+; by misallocating international GoDaddy payments as though they were local=
+ payments made to Rezonance, yet Rezonance
+ received no such payments (the amounts are still outstanding). I was expla=
+ining to Pete that these need to be corrected before I submit Rezonance acc=
+ounts as there will immediately be a mismatch showing Rezonance never recei=
+ved the payments and they will flag
+ as fraudulent on RegimA Skin Treatments with SARS. This was just ignored a=
+nd they opted instead to try and close my accounts and dissolve my company.=
+ This cannot continue.</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+To the best of my understanding the course we need to follow for correct ac=
+counts is:</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<ol start=3D"1" style=3D"margin-top:0px; margin-bottom:0px; list-style-type=
+:decimal">
+<li style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calib=
+ri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<div role=3D"presentation">Inform SARS about my freezing activity on the ac=
+counts in cooperaion with law enforcement for the murder inquiry</div>
+</li><li style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,=
+Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<div role=3D"presentation">Explain that we are now in the process of updati=
+ng the affected records to reconcile the past 2 years so it reflects an acc=
+urate account</div>
+</li><li style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,=
+Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<div role=3D"presentation">Make the payments from RegimA Skin Treatments to=
+ Rezonance and correctly allocate the 2014 GoDaddy expenses to GoDaddy</div=
+>
+</li><li style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,=
+Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<div role=3D"presentation">Process the Invoices in the same way I had been =
+doing up until Aug 2023 so there is a single invoice from Rezonance each mo=
+nth.</div>
+</li><li style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,=
+Calibri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<div role=3D"presentation">Configure the Paystack systems on Shopify to spl=
+it the payments directly into Distrivbution and Manufacturer accounts.</div=
+>
+</li></ol>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+Other than that I can't see any other way to properly remedy the situation.=
+ We cannot just try to shoehorn an entire architecture for multiple distrib=
+ution operations into one account. The transactions on RegimA Skin Treatmen=
+ts must not be signed off as they
+ will later show up as fraudulent. Bear in mind that Pete does not use the =
+computer and has never seen the actual accounts for the company, nor has Ja=
+cqui and nor have I. They exist solely on Rynette's computer and nobody els=
+e is able to see them. The amounts
+ I can see going through Strategic and RegimA Skin Treatments seem off the =
+charts so we need an internal audit with extreme urgency to see what is goi=
+ng on there.</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+Warm Regards,</div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+Dan</div>
+<div id=3D"x_x_m_-9000333644921175205appendonsend"></div>
+<div style=3D"font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Cali=
+bri,Helvetica,sans-serif; font-size:12pt; color:rgb(0,0,0)">
+<br>
+</div>
+<hr style=3D"display:inline-block; width:98%">
+<div id=3D"x_x_m_-9000333644921175205divRplyFwdMsg">
+<div style=3D"direction:ltr; font-family:Calibri,sans-serif; font-size:11pt=
+; color:rgb(0,0,0)">
+<b>From:</b>&nbsp;Danie Bantjes &lt;<a href=3D"mailto:danie.bantjes@gmail.c=
+om" target=3D"_blank">danie.bantjes@gmail.com</a>&gt;<br>
+<b>Sent:</b>&nbsp;10 June 2025 09:58<br>
+<b>To:</b>&nbsp;Peter Andrew Faucitt &lt;<a href=3D"mailto:pete@regima.com"=
+ target=3D"_blank">pete@regima.com</a>&gt;; Jacqui Faucitt &lt;jax@regima.z=
+one&gt;; Daniel Faucitt &lt;<a href=3D"mailto:d@rzo.io" target=3D"_blank">d=
+@rzo.io</a>&gt;<br>
+<b>Subject:</b>&nbsp;The RegimA Group results and Computer Expense analysis=
+</div>
+<div style=3D"direction:ltr">&nbsp;</div>
+</div>
+<div style=3D"direction:ltr">Good morning Pete, Jacqui and Danny</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">It saddens me to write this email this morning=
+, as in my 30-odd year involvement with the Faucitt family business I have =
+never had to encounter or get involved with an internal dispute of this ser=
+ious nature.&nbsp;</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">Although perhaps difficult for you as family m=
+embers, I suggest we try and keep the emotions&nbsp;at bay and resolve this=
+ dispute regarding the spend on Computer related expenses by applying basic=
+ business principles in deciding what needs
+ to be done to restore the profitability and ultimate&nbsp;survival of the =
+business going forward. What&nbsp;do you think?</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">Just a friendly request please, not to send me=
+ any relevant information and comments privately. We all need to be working=
+ as a team to be able to ascertain the potential problem/s and focus on fin=
+ding the most viable solution/s.</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">Danny has responded to my email of 26th May, h=
+is email attached. Danny, many thanks for the very professional and detaile=
+d analyses you have provided.&nbsp;</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">I would still like for the Excel printouts I'v=
+e attached to be answered line&nbsp;by line please.</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">Your email contains a lot of information. It i=
+s a lot to digest. By doing a category analysis helps tremendously to under=
+stand the nature and purpose of all the various IT related services and pla=
+tforms that are used throughout the
+ RegimA Group.&nbsp;</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">I am neither an IT expert, nor am I an e-Comme=
+rce expert so I would not be able to comment on the necessity, use and valu=
+e each expense adds to the company.&nbsp;</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">What is clear though, is that the RegimA group=
+ has over the past few years invested heavily in IT and e-commerce platform=
+s and continues to do so. For any business to spend in excess of 20% of rev=
+enue generated on these services,
+ the spend needs to be justified, transparent, relevant and needs to add th=
+e desired value to the business, i.e. it has to benefit the &quot;bottom li=
+ne&quot;.</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">Insofar as these computer expenses are concern=
+ed, I suggest we need to ask ourselves these questions to start off with:</=
+div>
+<div style=3D"direction:ltr">1. Do we have the necessary invoices for each =
+expense to be able to satisfy a SARS investigation?</div>
+<div style=3D"direction:ltr">2. Verify what each expense is used for on a d=
+aily basis?</div>
+<div style=3D"direction:ltr">3. Confirm the sales volume and value generate=
+d by each and every e-commerce platform the company is paying for.</div>
+<div style=3D"direction:ltr">4. Consider the relevance and necessity of all=
+ collaboration, communication, marketing, development , AI services as well=
+ as Analytics &amp; Monitoring tools and do a cost-benefit analysis.on each=
+ and every service paid for.</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">The other concerning aspect is that from my hi=
+gh-level analysis&nbsp;of the state of the finances of the RegimA Group as =
+at 28 February 2025, it is concerning to notice that the Group has, for the=
+ first time in its history, made a substantial
+ trading loss in the past financial year.&nbsp;</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">This reflects in the bank balances as well, wh=
+ich saw a decline of R10m year-on-year for the Group, including Villa Via.&=
+nbsp;</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">So, besides considering Computer Expenses, oth=
+er aspects of the business like product margins, selling and distribution c=
+osts etc. needs to be looked at in depth again.</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">This will hopefully be the start of an in-dept=
+h discussion regarding the profitability and ultimate future viability of t=
+he business.</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">Kind regards,</div>
+<div style=3D"direction:ltr"><br>
+</div>
+<div style=3D"direction:ltr">Danie Bantjes</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+
+
+
+
+
+</body></html>
+
+--_000_JNAP275MB2000AFED7F8DC03131FAB42ED03AAJNAP275MB2000ZAFP_--
