@@ -1,0 +1,684 @@
+Received: from JN1P275MB0458.ZAFP275.PROD.OUTLOOK.COM (2603:1086:0:d::5) by
+ JNZP275MB1321.ZAFP275.PROD.OUTLOOK.COM with HTTPS; Mon, 8 Sep 2025 07:35:19
+ +0000
+Received: from JN3P275CA0028.ZAFP275.PROD.OUTLOOK.COM (2603:1086:0:71::14) by
+ JN1P275MB0458.ZAFP275.PROD.OUTLOOK.COM (2603:1086:0:d::5) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.9094.19; Mon, 8 Sep 2025 07:35:16 +0000
+Received: from JN3PEPF00000312.ZAFP275.PROD.OUTLOOK.COM
+ (2603:1086:0:71:cafe::15) by JN3P275CA0028.outlook.office365.com
+ (2603:1086:0:71::14) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9094.22 via Frontend Transport; Mon,
+ 8 Sep 2025 07:35:16 +0000
+Authentication-Results: spf=fail (sender IP is 148.163.129.48)
+ smtp.mailfrom=ensafrica.com; dkim=fail (body hash did not verify)
+ header.d=ensafrica.com;dmarc=fail action=quarantine
+ header.from=ensafrica.com;compauth=none reason=451
+Received-SPF: Fail (protection.outlook.com: domain of ensafrica.com does not
+ designate 148.163.129.48 as permitted sender)
+ receiver=protection.outlook.com; client-ip=148.163.129.48;
+ helo=dispatch1-us1.ppe-hosted.com;
+Received: from dispatch1-us1.ppe-hosted.com (148.163.129.48) by
+ JN3PEPF00000312.mail.protection.outlook.com (10.167.240.7) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9115.13
+ via Frontend Transport; Mon, 8 Sep 2025 07:35:15 +0000
+Authentication-Results-Original: ppe-hosted.com; spf=pass
+ smtp.mailfrom=ensafrica.com; dkim=pass header.d=ensafrica.com
+ header.s=mimecast20210503; dmarc=pass header.from=ensafrica.com
+ header.policy=none; 
+X-Virus-Scanned: Proofpoint Essentials engine
+Received: from za-smtp-delivery-121.mimecast.co.za (za-smtp-delivery-121.mimecast.co.za [41.74.201.121])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx1-us1.ppe-hosted.com (PPE Hosted ESMTP Server) with ESMTPS id C071328008B
+	for <dan@regima.com>; Mon,  8 Sep 2025 07:35:07 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ensafrica.com;
+	s=mimecast20210503; t=1757316899;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 in-reply-to:in-reply-to:references:references;
+	bh=ebPPmSdzO9mTrlO0TY9pM8JMITIMzUkJ6C6MYEZobrE=;
+	b=RrWKyUxrwuo12zcl0fHmncHjJ+uSHROB6WH+jPl5hQ3DaVDk038Hq1ZDwPlcDEM7dwNilE
+	i7TNsOVOW/OgAkhY1KhQvhO2onV+m/RuW5cktjfIPVZWok7WINtddjCvhieRaADw3MHD7R
+	xWa3V+tgeUQGPCyysp11aQ7bwIam7FvD8WFznVFsGXhjFruryzropAAnpzRNndXpzLU6KJ
+	aji9D+x1QeDyo6xqcK6aLj73UU46cznAcKd3HLMSSNlfr1pT6CG8+imSFEa3MoO4mBCcUA
+	lrhClcnGCPU+npH8zkKKXMqs5UuZdFxKK23SoGigNI6TDEz9DeSSNKYBd5TzdA==
+Received: from JN3P275CU003.outbound.protection.outlook.com
+ (mail-southafricanorthazon11021116.outbound.protection.outlook.com
+ [40.107.141.116]) by relay.mimecast.com with ESMTP with STARTTLS
+ (version=TLSv1.3, cipher=TLS_AES_256_GCM_SHA384) id
+ za-mta-131-d_bJkVQrMyKuqs09p81iDg-1; Mon, 08 Sep 2025 09:34:55 +0200
+X-MC-Unique: d_bJkVQrMyKuqs09p81iDg-1
+X-Mimecast-MFC-AGG-ID: d_bJkVQrMyKuqs09p81iDg_1757316895
+Received: from JNAP275MB2000.ZAFP275.PROD.OUTLOOK.COM (2603:1086:0:94::5) by
+ CP7P275MB1521.ZAFP275.PROD.OUTLOOK.COM (2603:1086:100:30::11) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.9094.19; Mon, 8 Sep 2025 07:34:51 +0000
+Received: from JNAP275MB2000.ZAFP275.PROD.OUTLOOK.COM
+ ([fe80::c3a:ac69:395:9922]) by JNAP275MB2000.ZAFP275.PROD.OUTLOOK.COM
+ ([fe80::c3a:ac69:395:9922%5]) with mapi id 15.20.9094.018; Mon, 8 Sep 2025
+ 07:34:50 +0000
+From: Shenaaz Munga <smunga@ensafrica.com>
+To: jfaucitt <jfaucitt@proton.me>, "dan@regima.com" <dan@regima.com>
+Subject: Re: belongs to regimA
+Thread-Topic: belongs to regimA
+Thread-Index: AQHcII/OkVUwBM6VzU69kkQpnIF8QrSI5LP/
+Date: Mon, 8 Sep 2025 07:34:50 +0000
+Message-ID: <JNAP275MB2000E3D0065EC53A307AB9B1D00CA@JNAP275MB2000.ZAFP275.PROD.OUTLOOK.COM>
+References: <mhdLtyq7EJJ8l9TUAufeAFJGLKXnlL6eATb95Ce-L68ii_7T1YKmQXichZDKCq4yldE3a2OvJjfO7B1y3LT62bf1G8Rr1ydHwoXl50tYGkc=@proton.me>
+In-Reply-To: <mhdLtyq7EJJ8l9TUAufeAFJGLKXnlL6eATb95Ce-L68ii_7T1YKmQXichZDKCq4yldE3a2OvJjfO7B1y3LT62bf1G8Rr1ydHwoXl50tYGkc=@proton.me>
+Accept-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-reactions: allow
+x-ms-traffictypediagnostic: JNAP275MB2000:EE_|CP7P275MB1521:EE_|JN3PEPF00000312:EE_|JN1P275MB0458:EE_|JNZP275MB1321:EE_
+X-MS-Office365-Filtering-Correlation-Id: a1f41312-6e04-478a-fb5f-08ddeeaa40e4
+x-egress-defend-domain: ensafrica.com
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+X-Microsoft-Antispam-Untrusted: BCL:0;ARA:13230040|376014|366016|1800799024|38070700018|8096899003|7053199007
+X-Microsoft-Antispam-Message-Info-Original: =?us-ascii?Q?KyKfhBJ+eouPVXwG3v7PFuD8saudLoOVbVJMPd85SNQk+5ABsg2ySxEnhtUX?=
+ =?us-ascii?Q?wj5qGOsdcM9RE8VaooOCZjzIxSReHxBsdXG8eldlQr7eHNAgu1fDGX6XRDsD?=
+ =?us-ascii?Q?O0hsEn4LX457qQ0xta+e+pg2+rU9/8KTGTQx+UoTc/JYNvPzt4fiw8mohhN4?=
+ =?us-ascii?Q?fF9lhqhRLluA4/6MvPm4idJ+Qz7NtYbAyvW7FcfSMN2aTrNxbAY4ouh2faLd?=
+ =?us-ascii?Q?KF9qbL1JRDrbdiunPkxa8g5a0fLHXRHsqzaJKaOnMnyj79prQoQnAid6cabL?=
+ =?us-ascii?Q?jgB2H7E6EhQQmQK0VEhA81j6HmBSMkah14jKzvzWHDxfD9NYbhA3Kds7laBe?=
+ =?us-ascii?Q?BFS11nUoxeu/khgp+B39wl9EbcEtCIHDqBxbTlfgdGP4eZT+d1N9868brpq2?=
+ =?us-ascii?Q?rEs6NqhKe/Bh7zcM9ZOKfldl/GgZKL4woFO+xMgmqgX55rTB0cyvk7mbYNgm?=
+ =?us-ascii?Q?oPUfPrglFSHOg7iRDXS9gX6E+xyAmvfSATr52W7U+iVJa96plPyac7AsutyI?=
+ =?us-ascii?Q?dMekOgmKwiXAyGBMt7dc0mCJLdHxvMj7vw79t6x3O3CwmSdBJESfwvzmVNr4?=
+ =?us-ascii?Q?oZcpRDDIaBZ4Ae7r8n3Jle32Qi/62eSZKdEaw2MmfgRTqwgQfnFNZg8vCaDB?=
+ =?us-ascii?Q?c2XvrLWG+8ibBhVEtHyWG0DIWv480ag0T2pR7vrkrTRxy89w1RD6kAr7lJp2?=
+ =?us-ascii?Q?HPggkxQAlk+tPTUf1+qh1tEqI3V8HPr3GvlUHgs2JJFv7UKn1jNK4Fo9U3m/?=
+ =?us-ascii?Q?k86w7E1GR5vklCjEb9d/63U0rVykd/roe3fQHAnoggLCA3vUFkjFza3RwKSY?=
+ =?us-ascii?Q?aq+EP1Jo5FM2cZUvgLFAs3d7TM8/kR1zesYrWErT7ef/69vFimgQ/rrYxt6W?=
+ =?us-ascii?Q?LjuSpn1UuvYYtw8dWpIX8oM8Mv6uYgP+ukXSO+CCqFhPwZxpjeXxmeUskjxQ?=
+ =?us-ascii?Q?349MuJ9fYbb9sWWvDrllmtQgbbAMlQhxNBEqpVvALq5W3s4aNb1YWWhGYLVe?=
+ =?us-ascii?Q?/KeVDhLSp4QyNr+BfgUeC3HUEzJ91YnkY7caRXduSo6ljmtO1BydM7xmRY2l?=
+ =?us-ascii?Q?QB3b+mqrIja/9+QM0z6KJaW+iFPqHfqHC8pNLmxVyBKzR7BusA3pLzYpt8vd?=
+ =?us-ascii?Q?lCS5lD7CTnba95fr2kOobY8TzTv8Mkv2dCsYA0TIsbarlK6j8f+WSqqZvF7K?=
+ =?us-ascii?Q?ZCPcoU8L2MD5bBudVD1qP1pJKeAgnw3/LVDuEWdS4cohokxeaE4gJqW+zs2g?=
+ =?us-ascii?Q?Qh9bfsIKLAQ5N0p2MSh/sFeqTEBJSufJOVfCBGcAkuuqktC3+0x9/lFWNr++?=
+ =?us-ascii?Q?wTZB6fdViTB1+ZMLo/Ghkpv9O5mqtHcvqLO9tzfXWnywPnKiq01g8ZDoQdpt?=
+ =?us-ascii?Q?ejL/tFEi9jeOaiAKJKO7TWJbTPAUD2Tv7aRJwJtsqi+FCLPV2XVG05Vrbkgq?=
+ =?us-ascii?Q?UWc3Nc2jV8VjnMM2um/a+E5A9FsecoLPwsjvfgEKijQ+Yj7FveZ8ww1+vln5?=
+ =?us-ascii?Q?h9ypbQ0mOYv7028=3D?=
+X-Forefront-Antispam-Report-Untrusted: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:JNAP275MB2000.ZAFP275.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(376014)(366016)(1800799024)(38070700018)(8096899003)(7053199007);DIR:OUT;SFP:1102
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CP7P275MB1521
+X-Mimecast-Spam-Score: 0
+X-Mimecast-MFC-PROC-ID: yJ4DpdvCSbDnFgeW7f_s2Rz3s5aAMfGkzRRBjdrk1mw_1757316895
+X-Mimecast-Originator: ensafrica.com
+Content-Type: multipart/alternative;
+	boundary="_000_JNAP275MB2000E3D0065EC53A307AB9B1D00CAJNAP275MB2000ZAFP_"
+X-MDID: 1757316909-zbZlo14o8AFQ
+X-PPE-STACK: {"stack":"us4"}
+X-MDID-I: us4;ut7;1757316909;zbZlo14o8AFQ;<smunga@ensafrica.com>;fc3d84a00028f550b053538769a6753b
+X-PPE-TRUSTED: V=1;DIR=IN;
+Return-Path: smunga@ensafrica.com
+X-MS-Exchange-Organization-ExpirationStartTime: 08 Sep 2025 07:35:15.7077
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: a1f41312-6e04-478a-fb5f-08ddeeaa40e4
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: afbfb300-576b-4e53-ad7b-258cc55f3642:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: JN3PEPF00000312.ZAFP275.PROD.OUTLOOK.COM
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource: JN3PEPF00000312.ZAFP275.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 1c5a5460-8978-480a-c7fb-08ddeeaa3212
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;ARA:13230040|22103399003|1032899013|12012899012|5063199012|5073199012|35042699022|4022899009|4123199012|69100299015|2066899003|8096899003|7053199007|13003099007;
+X-Forefront-Antispam-Report: CIP:148.163.129.48;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:dispatch1-us1.ppe-hosted.com;PTR:dispatch1-us1.ppe-hosted.com;CAT:NONE;SFS:(13230040)(22103399003)(1032899013)(12012899012)(5063199012)(5073199012)(35042699022)(4022899009)(4123199012)(69100299015)(2066899003)(8096899003)(7053199007)(13003099007);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 Sep 2025 07:35:15.1091
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: a1f41312-6e04-478a-fb5f-08ddeeaa40e4
+X-MS-Exchange-CrossTenant-Id: afbfb300-576b-4e53-ad7b-258cc55f3642
+X-MS-Exchange-CrossTenant-AuthSource: JN3PEPF00000312.ZAFP275.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: JN1P275MB0458
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:04.3381360
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.9094.017
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(4710137)(4713098)(4999163)(920097)(930097)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?a1hsd2ZnRzRIRCtmSjR4cFdWVVB2U1N1SkFoNlEvcWJvSVRWM21FeVZwZE83?=
+ =?utf-8?B?VUJIUWlsZWZUY2hvV2NRMGRySzdGMXRDZUFTWk1yeTk4d1ZSa2k2QnpTLzNV?=
+ =?utf-8?B?eXNaQkJZS0dZNHVXMTRQRUh2TExSRlZud2FhNjIzOERwVWZUa1oxK0tRbk9n?=
+ =?utf-8?B?MGxsWStqcFhjdE13TkdqT0ZkTGJQeC9sOHdpd0tmY3RyRkQ2VWdYRnQ4Ky9l?=
+ =?utf-8?B?MGNZYmc3SXRJRXZnZzJ4M3lPVW9SOEJTeTdENHlNQmRNZjJjRnNiU1BYalNz?=
+ =?utf-8?B?dnlCSTlOc3MzU1h4ZHRwb0JER1ZNV3NxNGlGajcvYkNMdDdlUG83U2FWclFY?=
+ =?utf-8?B?ZW1YQkFPWXVFMHpPcmFIQjFuRDRBZkc0Y3VUS2hsZWY3NDN0ZGVPN2cvRzBW?=
+ =?utf-8?B?SmFMQkpmcWllNTJRdUNTSExDT3RuY1JqSWdkUXZjbGdtcWlNa0YzcHhFRFhO?=
+ =?utf-8?B?V0ZFZmpoLzZqTnp2Q2doaDA4RnZEUU8rVGVzeVkvOTdWK2U0aHVkOHhYUWFG?=
+ =?utf-8?B?T081b1VRd2JZSjBnMkJHYTVIVnA2bHNoQnVkc2FIUmJoa3NvUTF3YkcvL1lt?=
+ =?utf-8?B?b0FUVU85eXFGUnlLSU12UUxraG9zSXFQeDRWSGtjbTF4Z3gva0N2eEZ4cU5v?=
+ =?utf-8?B?VVp5OU8xY0lMZHE0VnFjTUJ2bVlkZTN0cjY5TkJVcnZoSWNlTnQvSWZDV0g1?=
+ =?utf-8?B?V29zMGNHWEw5TmRaQUJXaEV5QVJHRkl0TENqWTVqeHRlR3RESDE4VTh1V2lU?=
+ =?utf-8?B?TjJYR2puU3VHaHJIc2tiRUFiNWZ5ZFRWUjdKRDhHanZYVnFzd2JXOWpaWEFm?=
+ =?utf-8?B?QjA0ZzRrbGNoK3RudUxoblVhZ05ZTzVnMm5lVHR3YnFEWlBGTHNNQjBtYnlY?=
+ =?utf-8?B?Wk1vSWNxOUJyZklkcmlERFRnM2J6dEFrRThkWW9qYk0yT3dPQWEwU2lnMDdi?=
+ =?utf-8?B?N0FoTnZSYkg2Vi9DVzlzU2lBNFJmMUVnZ29JaWV6SzNSelBYd1lZb0tXbkl0?=
+ =?utf-8?B?Vms0RHZiQVhncFhOZnBvbGVEd2dHQktnVG10bjVMK2tuTCtBbnNVMEg3aGZ3?=
+ =?utf-8?B?b3h3ZUxIWjlGNmNrSWY0cmJWWFpweG85MWpYeFhJM0kzdGVtdy9MQkRzdEJa?=
+ =?utf-8?B?d0ZESEIvc1oyc0hQWTNRbGw2aDRaQnNPTTdvU0ZuQlhQRUpZbDMralZVUDNa?=
+ =?utf-8?B?Zkk0V2xtSU9VZ1ZrbS9SaVpNU3pRRE8vYWNMV1pHOGUrQ3IrWWljMnI5SUlJ?=
+ =?utf-8?B?d2Q0RU02anR5cmYzeVlEQ2wzNzg2RDltTHVUbUI3RkY2UXpoenl2OG9ld1hp?=
+ =?utf-8?B?ajExZ3dJdUc3eUNYdTBrSW96U3A1aEtMOWxiOTFQRWQreDgxclQ0d0dsemNZ?=
+ =?utf-8?B?WjJ4am45VXVLa21yWHpnR01RSG9TMStZb3VQc1lqbXFjSUVqYWNSajZQL1pq?=
+ =?utf-8?B?TzRqSTA4bjlBVXZCbWZPNVVHcDBKcnhVblFzUmduOWpBaml2dk5Dak44ZTRh?=
+ =?utf-8?B?T2p2ZDZ0djhhYWZ6Rnl6Qm1HM0NzU1FCZzZuUnppWW1hYWUzNE1aOUMrMXgz?=
+ =?utf-8?B?eTduVk1mbW5jZC9USUc0aTJmRTkwaU9IWEpGTEIrVnZLOTg0emkzVmcwNkox?=
+ =?utf-8?B?S3NCTjNzWEhwQTlTMUpQcmozeXlwNVNNTVRSK0ZobTRnWFRtZXhBdmpzc0Iv?=
+ =?utf-8?B?azh2bEp2ZkVXR25GVVZJUk44S3ozQlVuc2tiRkVUZTQrOW1tTVlzUFRnaDVv?=
+ =?utf-8?B?b3Y1OWRFQkhwa0lsL1J2L0paZWhZQjFsWkFpTjQ0SStIVnlvUEtDUzJVNjIr?=
+ =?utf-8?B?YmRpZEF2QitoZ1IvUEVoRkM1K1VpOEo5UjdMd0dFT3BDS0lVTyt3aUtVODhl?=
+ =?utf-8?B?Ri8ydzB6d3JHa3U0Mk15aW5sT0Vqc0RZVXhvZXoyTnNpd0dPVGlIOWYvL0k5?=
+ =?utf-8?B?dWJ0M2xmTTN5THFSczVtZVpma203UFRzeVRMWXJIdEhjQ0FoMWZqOTJMbUQ0?=
+ =?utf-8?B?OU1mRnBVRStaRElDNC9VZnJZbXd6M1JpQjhod2tMSExEVDhVV0MrWGZrRjB0?=
+ =?utf-8?B?dzJSSWlDMjc5WWQwWlJSOWpCNHNISGtKRTdGZEM2TU81bVdOcXU4ZnNSZnla?=
+ =?utf-8?B?dGFCRlRJTVJ6QjY3NVJlbFgwZE9lcTZLOEZ0OHpBSTRrd09wNk8rNmhqN1cv?=
+ =?utf-8?B?Y0F5MVhPSlZCbXdveXVZYzAxNUxXdnJJcndQRkIwakpSYWViRURuZU1WbEww?=
+ =?utf-8?B?S3RRYnJrNEV2SVJWRlpmeXZ3WjhqVFI0R1htMkV4T0xLeFJPS0FDZ0hTMllO?=
+ =?utf-8?B?UWU3L1NvVWcvSXZDWTNOM3RKL25ISzdKL2xMOC9vTy9YVVY0NXNhQWVLdlRn?=
+ =?utf-8?B?STBDUEh5alBwQTl1azFGZktweGx3S1ZVZWdSVGI2aWFPMlBEZHltOWd0eWZG?=
+ =?utf-8?B?M1FmWlBzR0lvTkdRT1p0RlpZeWhzbzlHaDRuTGdYZzRVc25jNzJYTlpKRit1?=
+ =?utf-8?B?MjNuNjczYnpZTlBSVjFUeC9iZk5BaHcvNVFmZXJmOS94QnRnZ2ZqdUdJOFVx?=
+ =?utf-8?B?Q3RLRU1nWEIzTHdFTlJuVzFsRmdRS09PeUdzZitudVo0amRXbFptRmE0U0tC?=
+ =?utf-8?B?c3psOFhxb05SUk1oK21obUw2MjNjZ0I3Zm9xNjZObTA0dDlPVXd6em95ZXpR?=
+ =?utf-8?B?MXA4OS9melVoajlqNEREcGh0eEZ4bEwzNlVPMHY2SE11K21ONTMrSlUrUjN2?=
+ =?utf-8?B?ZGduRDladExCZnZGUVJ4QkllRjZsczJJWDZZTUZhYXRjNS9hWEtjNUM5Qko4?=
+ =?utf-8?Q?YIHlHUUoEoKN63E5GWnJdOXZwITiXlYKKNnn9v6t+D?=
+MIME-Version: 1.0
+
+--_000_JNAP275MB2000E3D0065EC53A307AB9B1D00CAJNAP275MB2000ZAFP_
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-length: 2053
+
+Hi Jacqui
+
+Please first send me the supporting information you referred to during our =
+telephone discussion this morning.
+
+Kind regards
+
+
+=20
+
+=20
+tel:=20=20=20=20=20
+mobile:=20
+email:  smunga@ensafrica.com
+offices: ENSafrica Locations
+
+Be Alert
+Before depositing funds, please call the person responsible for your matter=
+ to verify that the bank account you have on record is a legitimate bank ac=
+count of ENSafrica
+
+This email contains confidential information. It may also be legally privil=
+eged. Interception of this email is illegal. The information contained in t=
+his=20
+email is only for the use of the intended recipient. If you are not the int=
+ended recipient, any disclosure, copying and/or distribution of the content=
+ of=20
+this email, or the taking of any action in reliance thereon, or pursuant th=
+ereto, is strictly prohibited. Should you have received this email in error=
+,=20
+please notify us immediately by return email. Edward Nathan Sonnenbergs sha=
+ll not be liable if any variation is effected to any document or correspond=
+ence=20
+emailed unless that variation has been approved in writing by the attorney =
+dealing with the matter.
+
+________________________________
+From: jfaucitt <jfaucitt@proton.me>
+Sent: Monday, September 8, 2025 9:11:10 AM
+To: dan@regima.com <dan@regima.com>; Shenaaz Munga <smunga@ensafrica.com>
+Subject: belongs to regimA
+
+
+
+
+CAUTION: This email originates from outside ENS. Do not click links or open=
+ attachments unless you recognise the sender and know the content is safe. =
+If in doubt please contact IT@ensafrica.com<mailto:IT@ensafrica.com>.
+
+________________________________
+Sent with Proton Mail<https://urldefense.proofpoint.com/v2/url?u=3Dhttps-3A=
+__proton.me_mail_home&d=3DDwIFaQ&c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnV=
+fiiMM&r=3D7ZULBZmD5L4dM8U3nU-5WA&m=3DIwKtqXSOByNMEeeW9r7WHsJt7j5KeqylOVOETF=
+oXB4YjD582S7jED-v4iZf-xVQk&s=3DekgFK97yto4PL1zGQP1Z7XvYZqEhSb-0icjLI90MCQw&=
+e=3D> secure email. the Addarory is her import company
+
+Should we call the Abuse email contact number?
+
+--_000_JNAP275MB2000E3D0065EC53A307AB9B1D00CAJNAP275MB2000ZAFP_
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-length: 15676
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<style>
+
+
+a, a:hover {
+color: black;
+}
+</style></head><body>
+
+
+
+
+
+=09
+=09
+=09
+
+    <div style=3D"font-family: Aptos, -apple-system, HelveticaNeue, sans-se=
+rif;font-size: 12pt">
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt;">
+Hi Jacqui&nbsp;</div>
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt;">
+<br>
+</div>
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt;">
+Please first send me the supporting information you referred to during our =
+telephone discussion this morning. &nbsp;</div>
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt;">
+<br>
+</div>
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt;">
+Kind regards&nbsp;</div><br>
+
+
+
+
+
+
+
+
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"
+	width: 750px;
+	padding: 0;
+	margin: 0;
+">
+	<tbody><tr>
+		<td width=3D"30" style=3D"background-color: #eedc00;">
+	=09
+	=09
+		=09
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"
+				width: 30px;
+				padding: 0;
+				margin: 0;
+			">
+			</table>
+		=09
+		=09
+		</td>
+		<td align=3D"right" valign=3D"top" width=3D"720" style=3D"background-colo=
+r: #eedc00;">
+=09
+		=09
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"
+				width: 720px;
+				padding: 0;
+				margin: 0;
+			">
+				<tbody><tr>
+					<td align=3D"left" valign=3D"top" style=3D"
+						width: 395px;
+						font-family: outfit, calibri, arial, sans serif;
+						font-weight: 200;
+						font-size: 9px;
+						/* line-height: 1.25em; */
+					">
+
+					=09
+						<div style=3D"
+							font-family: outfit, calibri, arial, sans serif;
+							font-size: 16px;
+							font-weight: 400;
+							border-top: 8px solid #eedc00;					=09
+							/* line-height: 1.3em; */
+							width: 100%;
+							float: left;
+						">
+						Shenaaz Munga
+						</div>
+						=09
+						<div style=3D"
+							font-family: outfit, calibri, arial, sans serif;
+							font-size: 12px;
+							font-weight: 400;
+							/* line-height: 1.3em; */
+							width: 100%;
+							float: left;
+						">
+						Executive    =20
+                        </div>
+						<div style=3D"
+							font-family: outfit, calibri, arial, sans serif;
+							font-size: 12px;
+							font-weight: 400;
+							/* line-height: 1.3em; */
+							width: 100%;
+							float: left;
+						">
+						Dispute Resolution    =20
+                        </div>
+						=09
+						<div style=3D"
+							font-family: outfit, calibri, arial, sans serif;
+							font-size: 10px;
+							font-weight: 400;
+							/* line-height: 1.3em; */
+							padding-top: 5px;
+							width: 100%;
+							float: left;
+						">
+						+27 67 180 4706
+						<br>
+						+27 11 269 7600
+						<br>
+						smunga@ensafrica.com
+
+						<br>
+						<br>
+
+						<a style=3D"color: black;" href=3D"https://urldefense.proofpoint.com/=
+v2/url?u=3Dhttps-3A__www.ensafrica.com_contact-2Dus&amp;d=3DDwMFaQ&amp;c=3D=
+euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&=
+amp;m=3DIwKtqXSOByNMEeeW9r7WHsJt7j5KeqylOVOETFoXB4YjD582S7jED-v4iZf-xVQk&am=
+p;s=3Dwim-OLdB0t1_Nyg1o20yNUjD_UamYhxqyaN4aZk7VB4&amp;e=3D" target=3D"_blan=
+k">ENS locations</a>
+						<br>
+						<a style=3D"color: black;" href=3D"mailto:info@ENSafrica.com?subject=
+=3DUNsubscribe me from mailing lists" target=3D"_blank">UNsubscribe</a> | <=
+a style=3D"color: black;" href=3D"https://urldefense.proofpoint.com/v2/url?=
+u=3Dhttps-3A__www.ENSafrica.com_Uploads_PDF_privacy-2Dpolicy-2DJUN-2D2021-2=
+D001.pdf&amp;d=3DDwMFaQ&amp;c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM=
+&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;m=3DIwKtqXSOByNMEeeW9r7WHsJt7j5KeqylOVO=
+ETFoXB4YjD582S7jED-v4iZf-xVQk&amp;s=3DtdWS6gbT9JiB_ZOO8eDsKy9827OsBzlBEKNx2=
+GU_u4U&amp;e=3D" target=3D"_blank">Privacy Policy</a> | <a style=3D"color: =
+black;" href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttps-3A__www.=
+ensafrica.com_payment-2Dcaution&amp;d=3DDwMFaQ&amp;c=3DeuGZstcaTDllvimEN8b7=
+jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;m=3DIwKtqXSOByNM=
+EeeW9r7WHsJt7j5KeqylOVOETFoXB4YjD582S7jED-v4iZf-xVQk&amp;s=3D8gJ1NdZkbgU95C=
+FO0xKJCLmtwRWYEZ1Za4df8ljSiok&amp;e=3D" target=3D"_blank">Be Alert</a>
+						<div style=3D"
+							padding: 0;
+							margin: 0;
+							border-top: 5px solid #eedc00;					=09
+							border-bottom: 2px solid #eedc00;					=09
+							width: 100%;
+							float: left;
+						">
+							<table>
+                                <tbody><tr>  =20
+                                    <td><table border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0"><tr><td><a href=3D"https://urldefense.proofpoint.com/v=
+2/url?u=3Dhttps-3A__www.facebook.com_ENSafrica_&amp;d=3DDwMFaQ&amp;c=3DeuGZ=
+stcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;=
+m=3DIwKtqXSOByNMEeeW9r7WHsJt7j5KeqylOVOETFoXB4YjD582S7jED-v4iZf-xVQk&amp;s=
+=3DzCpexgRSmPFQUvh0cBt7rvYPmg5ovQJ0PS15PeH6sO0&amp;e=3D"><img border=3D"0" =
+src=3D"https://za-api.mimecast.com/s/store/XujAZpejvFW2OIhYbUKIG5JmHzo9WH0U=
+YZxW7gzzWpo6v7cHsTchjaERf0AIHQKoOZ7zYaA1HU5GCLmDZpiDIH4oVuWzd2vUfj0hikgvpWU=
+65PY2RHpsge9ze65urbtX8bNSIsziCuEx10H2dwngg8jT9hM_fGOVRsPS8RXoEKgwMaJ-B1SbPj=
+BlbretOwxP"></a></td></tr></table></td>
+                                        <td><table border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td><a href=3D"https://urldefense.proofpoint.c=
+om/v2/url?u=3Dhttps-3A__twitter.com_ENSlaw&amp;d=3DDwMFaQ&amp;c=3DeuGZstcaT=
+DllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;m=3DI=
+wKtqXSOByNMEeeW9r7WHsJt7j5KeqylOVOETFoXB4YjD582S7jED-v4iZf-xVQk&amp;s=3DAwG=
+akTCnZ-jYAxJXrSaCNWC-yTpnLheUH5XUGFuEFwA&amp;e=3D"><img border=3D"0" src=3D=
+"https://za-api.mimecast.com/s/store/aAnxMhtIAIegyIsmzeIXH2BCl-9JDpM40QZXgD=
+jgAo4jlWe9u_HtGJWcJnaoaRstdAAt6546plnY6X8VbnSEu5t1mt2r3UhtTO76_FsegiI_PSbHw=
+Pf-PhVwqa8qIIjFm9f6OhoBpxp9qfloZ6z1lMl44IYCLBE4bYYWI-8wPkrFNLESt9c6IlVltFXv=
+PH98"></a></td></tr></table></td>
+                                        <td><table border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td><a href=3D"https://urldefense.proofpoint.c=
+om/v2/url?u=3Dhttps-3A__www.linkedin.com_company_ensafrica_&amp;d=3DDwMFaQ&=
+amp;c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U=
+3nU-5WA&amp;m=3DIwKtqXSOByNMEeeW9r7WHsJt7j5KeqylOVOETFoXB4YjD582S7jED-v4iZf=
+-xVQk&amp;s=3D86M8AVALLglwO2wfQEDRdT_Q2-h4sLjDE6O89LQ8XHg&amp;e=3D"><img bo=
+rder=3D"0" src=3D"https://za-api.mimecast.com/s/store/0SsEpZCKvmnLm4uQnDElV=
+7KAh1k0Ms2neD-ZH39Uu-ZKxGygl35NXiP2NR9Mtfg8mXUTykCSCVvfZ6NlyjEYDslv3B93bFfy=
+rDT7CwaK1jG8NdnT4u50ZGpEAPpxIKMc5SjTKdao2G8feMJFiyqlZ20guX59M-Gl1z0uumNEbAY=
+-1SyiGFlZYvnaYRn62TmZ"></a></td></tr></table></td><td><table border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0"><tr><td><a href=3D"https://urldefense.pr=
+oofpoint.com/v2/url?u=3Dhttps-3A__www.instagram.com_ensafrica_&amp;d=3DDwMF=
+aQ&amp;c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4d=
+M8U3nU-5WA&amp;m=3DIwKtqXSOByNMEeeW9r7WHsJt7j5KeqylOVOETFoXB4YjD582S7jED-v4=
+iZf-xVQk&amp;s=3DCJ-zKNT_YKXUv2EjHEqKD9M7VITcMQiVPDZXV4MfqMM&amp;e=3D"><img=
+ border=3D"0" src=3D"https://za-api.mimecast.com/s/store/btwFrcV0PWUUfgI6Ra=
+yYF-6nlJQIcw2rd31cB_VJO7NdYoEToCeFQxiKx59f_YJqtyJi_aWA9VaFWdz59PMNC-9ksnQiU=
+OudSmTvepWx10FR9nTP5x-rmyNBgN7uK-ZjEgNW2REfMihW_ogf0wFcbYB20Wv5O4BReQh6TT8M=
+3PkzOL-D1G78RvE_I16-bv04"></a></td></tr></table></td>
+                                        <td><table border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td><a href=3D"https://urldefense.proofpoint.c=
+om/v2/url?u=3Dhttps-3A__www.youtube.com_channel_UCq5BOGiiAeATJ6YPHz3obsA-3F=
+view-5Fas-3Dsubscriber&amp;d=3DDwMFaQ&amp;c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v=
+5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;m=3DIwKtqXSOByNMEeeW9r7WH=
+sJt7j5KeqylOVOETFoXB4YjD582S7jED-v4iZf-xVQk&amp;s=3DxexlifA6-Cb8sOBc_vL-Kun=
+SUhjuOI5wqak4Pi1HHLI&amp;e=3D"><img border=3D"0" src=3D"https://za-api.mime=
+cast.com/s/store/wrUY_kXFUIbmyk8Yj9WXEc40UN9Ji-5PoMTyd-u_GX4aSEicKqux9XHqCa=
+3IYUT_guVUvVno1rRWwMV2w8SSBe1_mhacUeBBBoQtt7bgLiOI5ggfPLlbVobUpJ5Wuu-YR1CX1=
+6vPgLGjlIv76k1SQaPULpwQVU9FdwyEcnNceFfHOQKVDKIgfU5fRHuF9MN9"></a></td></tr>=
+</table></td>
+                                   =20
+                                </tr>
+                            </tbody></table>
+						</div>
+
+
+						<div style=3D"
+							font-family: outfit, calibri, arial, sans serif;
+							font-size: 9.5px;
+							/* line-height: 1.3em; */
+							width: 100%;
+							float: left;
+						">
+						Before depositing funds, please call the person responsible for your =
+matter to
+						verify that the bank account you have on record is a legitimate bank =
+account of ENS
+						</div>
+
+
+					</div></td>
+					<td align=3D"right" valign=3D"bottom" width=3D"325">
+                        <a style=3D"align: block; line-height: .2em; vertic=
+al-align:text-bottom;" target=3D"_blank"><table border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0"><tr><td><a href=3D"https://urldefense.proofpoint.com/=
+v2/url?u=3Dhttps-3A__www.ensafrica.com&amp;d=3DDwMFaQ&amp;c=3DeuGZstcaTDllv=
+imEN8b7jXrwqOf-v5A_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;m=3DIwKtq=
+XSOByNMEeeW9r7WHsJt7j5KeqylOVOETFoXB4YjD582S7jED-v4iZf-xVQk&amp;s=3DQKWtNus=
+BkQzjc1gc0FNhde1Dr7vobBddc5i-ju7-gA0&amp;e=3D"><img border=3D"0" alt=3D"ENS=
+africa" src=3D"https://za-api.mimecast.com/s/store/wrUY_kXFUIbmyk8Yj9WXEdH2=
+pfwGGrJ_q8ODHruza2Ao9qcetRrdfivIQsTWk0JDbaV9VljbsqgWAo1dKFE3qiK9TJubO4jcF0V=
+X3s-mnv-z3ZbPoUAPEF24DWj7Msnc6nVHfEBYy9aGFNF-atPwohg5Q2ajvnwX5ZcQ8RDZhq0lnO=
+CLr5AWf-ePGO55jWil"></a></td></tr></table> </a>
+					</td>
+				</tr>
+		=09
+			</tbody></table>
+		=09
+		=09
+		=09
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		</td>
+	=09
+		<td style=3D"
+			width: 690px;
+		">
+		=09
+			<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"
+				width: 690px;
+				padding: 0;
+				margin: 0;
+				border-top: 6px solid white;
+			">
+				<tbody><tr>
+					<td style=3D"
+						font-family: outfit, calibri, arial, sans serif;
+					font-weight: 200;
+					font-size: 9.5px;
+					/* line-height: 1.3em; */
+					">
+
+					=09
+						<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"
+							width: 690px;
+							padding: 0;
+							margin: 0;
+						">
+							<tbody><tr>
+								<td style=3D"
+                                                                        wid=
+th: 20px;">
+									<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><i=
+mg border=3D"0" src=3D"https://za-api.mimecast.com/s/store/wrUY_kXFUIbmyk8Y=
+j9WXEVziDBKQdxjJLzh00gN6JcKZMlFxZt3Mz0R2lts33krXttI3zW_lgY8BLtY0tAKCM0u2KJS=
+f5GPmvscWxp_QPkj_ayWwbblvZccrsa6BncBKOI7wjGdRpjAY-Kd-gVf5F2DK4BUI3dyGhD7klg=
+RuVEKSlQsa2EKN5MZfrrSEKPbp"></td></tr></table>
+								</td>
+								<td style=3D"
+									font-family: outfit, calibri, arial, sans serif;
+									font-weight: 200;=09
+									font-size: 9.5px;
+									/* line-height: 1.3em; */
+								">
+									Edward Nathan Sonnenbergs Incorporated registration number 2006/01=
+8200/21
+									<br>
+									level 1 B-BBEE rating
+								</td>
+							</tr>
+						</tbody></table>
+					=09
+
+						<br>
+					=09
+						This email contains confidential information. It may also be legally =
+privileged. Interception of this email is prohibited. The information conta=
+ined in this email is only for the use of the intended recipient. If you ar=
+e not the intended recipient, any disclosure, copying and/or distribution o=
+f the content of this email, or the taking of any action in reliance thereo=
+n, or pursuant thereto, is strictly prohibited. Should you have received th=
+is email in error, please notify us immediately by return email. ENSafrica =
+(ENS and its affiliates) shall not be liable if any variation is effected t=
+o any document or correspondence emailed unless that variation has been app=
+roved in writing by the attorney dealing with the matter.
+					</td>
+				</tr>
+			</tbody></table>
+			=09
+		</td>
+	</tr>
+</tbody></table>
+
+
+
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt;">
+<br>
+</div>
+</div>
+<div id=3D"ms-outlook-mobile-body-separator-line" style=3D"font-family: Apt=
+os, -apple-system, HelveticaNeue, sans-serif;font-size: 12pt" dir=3D"auto">
+<br>
+</div>
+<div id=3D"ms-outlook-mobile-signature" style=3D"font-family: Aptos, -apple=
+-system, HelveticaNeue, sans-serif;font-size: 12pt">
+<div></div>
+</div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> jfaucitt &lt;jfaucitt=
+@proton.me&gt;<br>
+<b>Sent:</b> Monday, September 8, 2025 9:11:10 AM<br>
+<b>To:</b> dan@regima.com &lt;dan@regima.com&gt;; Shenaaz Munga &lt;smunga@=
+ensafrica.com&gt;<br>
+<b>Subject:</b> belongs to regimA</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<div style=3D"font-family:Arial,sans-serif; font-size:14px"><br>
+</div>
+<div style=3D"font-family:Arial,sans-serif; font-size:14px"><br>
+</div>
+<div class=3D"x_protonmail_signature_block" style=3D"font-family:Arial,sans=
+-serif; font-size:14px">
+<div class=3D"x_protonmail_signature_block-user x_protonmail_signature_bloc=
+k-empty">
+</div>
+<div class=3D"x_protonmail_signature_block-proton">
+<div class=3D"x_mc-ip-hide" style=3D"display:block!important; height:auto!i=
+mportant; background:#FFFFFF!important; opacity:1!important; visibility:vis=
+ible!important; color:#000000!important; font-size:12px!important; font-fam=
+ily:Helvetica,Arial,sans-serif!important; text-align:left!important">
+<strong style=3D"display:block!important; height:auto!important; background=
+:#FFFFFF!important; opacity:1!important; visibility:visible!important; colo=
+r:#000000!important; font-size:12px!important; font-family:Helvetica,Arial,=
+sans-serif!important; text-align:left!important">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" styl=
+e=3D"margin:0; border-collapse:collapse">
+<tbody>
+<tr>
+<td style=3D"background:#ff0000; width:8px; padding:0"></td>
+<td style=3D"background:#ffe599; padding:7px 5px 7px 15px; word-wrap:break-=
+word">
+<div style=3D"margin:0; padding:0">
+<p style=3D"margin:0"><span style=3D"font-size:10pt; font-family:Arial,sans=
+-serif; color:#212121"><b style=3D"color:#ff0000">CAUTION:</b> This email o=
+riginates from outside ENS. Do not click links or open attachments unless y=
+ou recognise the sender and know the content
+ is safe. If in doubt please contact <a href=3D"mailto:IT@ensafrica.com" ta=
+rget=3D"_blank" style=3D"color:#1155cc; text-decoration:underline">
+IT@ensafrica.com</a>. </span></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</strong><br>
+<hr>
+</div>
+Sent with <a href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttps-3A_=
+_proton.me_mail_home&amp;d=3DDwMFaQ&amp;c=3DeuGZstcaTDllvimEN8b7jXrwqOf-v5A=
+_CdpgnVfiiMM&amp;r=3D7ZULBZmD5L4dM8U3nU-5WA&amp;m=3DIwKtqXSOByNMEeeW9r7WHsJ=
+t7j5KeqylOVOETFoXB4YjD582S7jED-v4iZf-xVQk&amp;s=3DekgFK97yto4PL1zGQP1Z7XvYZ=
+qEhSb-0icjLI90MCQw&amp;e=3D" target=3D"_blank">
+Proton Mail</a> secure email. the Addarory is her import company</div>
+<div class=3D"x_protonmail_signature_block-proton"><br>
+</div>
+<div class=3D"x_protonmail_signature_block-proton">Should we call the Abuse=
+ email contact number?</div>
+</div>
+</div>
+
+
+
+
+
+</body></html>
+
+--_000_JNAP275MB2000E3D0065EC53A307AB9B1D00CAJNAP275MB2000ZAFP_--
