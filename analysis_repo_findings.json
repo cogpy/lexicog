@@ -1,0 +1,125 @@
+{
+  "hidden_empire_evidence": {
+    "shopify_stores": "51+ stores",
+    "b2b_salon_tenants": "1100+ tenants",
+    "undisclosed_distributors": "4 distribution companies",
+    "accounting_cessation": "July 2023",
+    "misallocated_amount": "R1 million minimum",
+    "expense_dumping_target": "RegimA Worldwide Distribution (RWW)",
+    "computer_platforms_cost_2024": "R5.7M",
+    "evidence_source": "evidence_package_20251009/email-body.html"
+  },
+  "timeline_enhancements": [
+    {
+      "date": "2020-02-28",
+      "event": "Year-end adjustments and inter-company interest payment",
+      "significance": "SLG pays R414K interest to RST, RST advances R750K loan to RWW",
+      "entities": [
+        "SLG",
+        "RST",
+        "RWW"
+      ]
+    },
+    {
+      "date": "2020-04-30",
+      "event": "Villa Via financial year-end",
+      "significance": "R3.7M profit from rental income, R22.8M members loan (capital extraction)",
+      "entities": [
+        "Villa Via"
+      ]
+    },
+    {
+      "date": "2025-05-15",
+      "event": "Jax confronts Rynette about missing money",
+      "significance": "CRITICAL - Triggers coordinated cover-up activities",
+      "entities": [
+        "Jax",
+        "Rynette",
+        "ReZonance"
+      ]
+    },
+    {
+      "date": "2025-05-22",
+      "event": "Disappearance of all orders & audit trails from Shopify",
+      "significance": "CRITICAL - Systematic destruction of digital evidence (7 days after confrontation)",
+      "entities": [
+        "RegimA Group e-commerce"
+      ]
+    },
+    {
+      "date": "2025-05-29",
+      "event": "Adderory (Rynette's son) purchases domain regimaskin.co.za",
+      "significance": "CRITICAL - Digital infrastructure control consolidation (14 days after confrontation)",
+      "entities": [
+        "Adderory",
+        "Rynette",
+        "RegimA Group"
+      ]
+    },
+    {
+      "date": "2025-06-07",
+      "event": "Cards cancelled secretly",
+      "significance": "CRITICAL - Financial control consolidation (23 days after confrontation)",
+      "entities": [
+        "RegimA Group"
+      ]
+    }
+  ],
+  "financial_fraud_details": {
+    "villa_via_monthly_rental": "R4.4M",
+    "villa_via_net_profit": "R3.7M",
+    "villa_via_profit_margin": "84% (R3.7M / R4.4M)",
+    "members_loan_extraction": "R22.8M",
+    "rww_computer_platforms_2024": "R5.7M",
+    "rww_expense_dumping": "Massive operational expenses for 51+ stores dumped on RWW",
+    "accounting_sabotage": "All meaningful accounting ceased after July 2023",
+    "false_supplier_masking": "All transactions defaulted to \"FNB\" supplier to mask true expenses"
+  },
+  "additional_conflicts": [
+    {
+      "party": "Adderory (Rynette's son)",
+      "conflict": "Purchased regimaskin.co.za domain 14 days after Jax confrontation",
+      "timing": "2025-05-29",
+      "impact": "Digital infrastructure control by family member of person with unauthorized financial control"
+    },
+    {
+      "party": "Rynette Farrar",
+      "conflict": "Unauthorized sole control of all financial accounts + son purchasing company domain",
+      "timing": "June 2025 onwards",
+      "impact": "Family network controlling both financial and digital infrastructure"
+    }
+  ],
+  "evidence_destruction": [
+    {
+      "date": "2025-05-15",
+      "trigger": "Jax confronts Rynette about missing money",
+      "action": "Initiates cover-up sequence"
+    },
+    {
+      "date": "2025-05-22",
+      "days_after_confrontation": 7,
+      "action": "All Shopify orders and audit trails disappear",
+      "significance": "Systematic digital evidence destruction"
+    },
+    {
+      "date": "2025-05-29",
+      "days_after_confrontation": 14,
+      "action": "Adderory purchases regimaskin.co.za domain",
+      "significance": "Digital infrastructure control consolidation"
+    },
+    {
+      "date": "2025-06-07",
+      "days_after_confrontation": 23,
+      "action": "Cards cancelled secretly",
+      "significance": "Financial control consolidation"
+    }
+  ],
+  "shopify_infrastructure": {
+    "total_stores": "51+",
+    "b2b_tenants": "1100+",
+    "distribution_companies": "4 undisclosed",
+    "revenue_concealment": "Completely absent from disclosed financials",
+    "cost_attribution": "All costs dumped on RWW (R5.7M computer platforms in 2024)",
+    "evidence_source": "evidence_package_20251009/email-body.html"
+  }
+}
