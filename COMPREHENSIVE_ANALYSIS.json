@@ -1,0 +1,2304 @@
+{
+  "ad_paragraph_count": 131,
+  "jr_base_count": 114,
+  "jr_total_count": 132,
+  "dr_base_count": 107,
+  "dr_total_count": 144,
+  "missing_jr": [
+    "3.4.1",
+    "3.4.2",
+    "3.5.1",
+    "3.5.2",
+    "3.6.1",
+    "3.6.2",
+    "3.7.1",
+    "3.7.2",
+    "10.5.1",
+    "10.5.2",
+    "10.6.1",
+    "10.6.2",
+    "10.6.3",
+    "10.7.1.1",
+    "10.7.1.2",
+    "10.9.1",
+    "10.9.2",
+    "10.9.3",
+    "10.9.3.1",
+    "10.9.3.2",
+    "10.9.3.3",
+    "10.10.1",
+    "10.10.2",
+    "10.10.2.1",
+    "10.10.2.2",
+    "10.10.2.3",
+    "13.2.1",
+    "13.2.2"
+  ],
+  "missing_dr": [
+    "1.1",
+    "1.2",
+    "2.1",
+    "2.2",
+    "2.3",
+    "3.1",
+    "3.3",
+    "3.4.1",
+    "3.4.2",
+    "3.5.1",
+    "3.5.2",
+    "3.6.1",
+    "3.6.2",
+    "3.7.1",
+    "3.7.2",
+    "3.10",
+    "3.12",
+    "6.2",
+    "6.4",
+    "10.5.1",
+    "10.5.2",
+    "10.6.1",
+    "10.6.2",
+    "10.6.3",
+    "10.7.1.1",
+    "10.7.1.2",
+    "10.9.1",
+    "10.9.2",
+    "10.9.3",
+    "10.9.3.1",
+    "10.9.3.2",
+    "10.9.3.3",
+    "10.10.1",
+    "10.10.2",
+    "10.10.2.1",
+    "10.10.2.2",
+    "10.10.2.3",
+    "13.1",
+    "13.2.1",
+    "13.2.2",
+    "13.6",
+    "13.7",
+    "14.2",
+    "16.3",
+    "16.4",
+    "16.7",
+    "16.9",
+    "16.11",
+    "17.1",
+    "17.2",
+    "21"
+  ],
+  "jr_coverage_percent": 87.02,
+  "dr_coverage_percent": 81.68,
+  "jr_citation_analysis": [
+    {
+      "paragraph": "1.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "1.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "1.3",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 54,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "2.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "2.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "2.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "2.4",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 69,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "3.2",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 72,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "3.4.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "3.4.2",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 60,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.5.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "3.5.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "3.6.1",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 62,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.6.2",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 38,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.7.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "3.7.2",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 44,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.8",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 68,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.9",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 47,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.10",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "3.11",
+      "has_annexure_citation": true,
+      "has_legal_reference": true,
+      "has_placeholder": false,
+      "word_count": 67,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.12",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "3.13",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 63,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "6.1",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 74,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "6.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "6.3",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 95,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "6.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "6.5",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 95,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.1",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 84,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.5",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.6",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.7",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.8",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.9",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.10",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.11",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.12",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.13",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 63,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.14",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.15",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.16",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 82,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.17",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.18",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 87,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.19",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.20",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "2025",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.4",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 70,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "8.5",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 55,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "8.6",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 66,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "8.7",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.8",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.9",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.10",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "9.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "9.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "9.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "9.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.5.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.5.2",
+      "has_annexure_citation": true,
+      "has_legal_reference": true,
+      "has_placeholder": false,
+      "word_count": 60,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.6.1",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 56,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.6.2",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 48,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.6.3",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 72,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.7.1.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.7.1.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9.3.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9.3.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9.3.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.10.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.10.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.10.2.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.10.2.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.10.2.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.11",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.12",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.13",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.5",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.6",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.7",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.8",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.9",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "12.1",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 56,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "12.2",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 79,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "12.3",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 72,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "12.4",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 96,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "13.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "13.2.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "13.2.2",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 67,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "13.3",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 72,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "13.4",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 70,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "13.5",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 78,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "13.6",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "13.7",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "14.1",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 66,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "14.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "14.3",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 60,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "14.4",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 82,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "14.5",
+      "has_annexure_citation": true,
+      "has_legal_reference": true,
+      "has_placeholder": false,
+      "word_count": 80,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.1",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 85,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.2",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 72,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "16.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "16.5",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 56,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.6",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 76,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.7",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "16.8",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 79,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.9",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "16.10",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 63,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.11",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "16.12",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 82,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "17.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "17.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "17.3",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 96,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "17.4",
+      "has_annexure_citation": true,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 101,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "21",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": true,
+      "word_count": 15,
+      "is_substantive": false
+    }
+  ],
+  "dr_citation_analysis": [
+    {
+      "paragraph": "7.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 49,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 39,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 37,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 29,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.5.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 17,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.5.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 19,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.5.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 19,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.6",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 21,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.7",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 14,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.8",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 20,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.9",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 16,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.10",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 19,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.11",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 24,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.12",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.13.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 13,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.13.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 17,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.14",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 14,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.15",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 19,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.16.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 18,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.16.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.17.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 9,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.17.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 11,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.18.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 14,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.18.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 15,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.18.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 13,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "7.19",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 17,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.20",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 23,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "8.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 14,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 10,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 9,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 13,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.5",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 9,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.6",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 11,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.7",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 12,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.8",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 11,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.9",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 10,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "8.10",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 31,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "9.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 9,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "9.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 11,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "9.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 19,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "9.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 19,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 16,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 7,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 11,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 13,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.5",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 8,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.6",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 8,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.7",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 9,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.7.1.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 8,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.7.1.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 11,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.8",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 7,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 8,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": true,
+      "has_placeholder": false,
+      "word_count": 6,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 11,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 10,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9.3.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 9,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9.3.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 10,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.9.3.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 8,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.10",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 9,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.10.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 11,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.10.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 8,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.10.2.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 11,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.10.2.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 12,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.10.2.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 11,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.11",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 9,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.12",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 9,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "10.13",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 24,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "11.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 14,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 12,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 10,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 11,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.5",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 8,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.6",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 16,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "11.7",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 7,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.8",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 10,
+      "is_substantive": false
+    },
+    {
+      "paragraph": "11.9",
+      "has_annexure_citation": false,
+      "has_legal_reference": true,
+      "has_placeholder": false,
+      "word_count": 456,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 57,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "1.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 47,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 53,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "2.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 63,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3",
+      "has_annexure_citation": false,
+      "has_legal_reference": true,
+      "has_placeholder": false,
+      "word_count": 38,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 67,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 57,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.4.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 53,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.6",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 43,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.6.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 54,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.6.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 31,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.7",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 51,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.7.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 37,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.8",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 60,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.9",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 39,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.11",
+      "has_annexure_citation": false,
+      "has_legal_reference": true,
+      "has_placeholder": false,
+      "word_count": 60,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "3.13",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 52,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 165,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "6.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 66,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "6.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 88,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "6.5",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 85,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 48,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.13",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 53,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.16",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 75,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "7.18",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 75,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.5.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": true,
+      "has_placeholder": false,
+      "word_count": 50,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.6.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 46,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.6.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 41,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.6.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 65,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.7.1.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 65,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.8.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": true,
+      "has_placeholder": false,
+      "word_count": 58,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.10.2.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 62,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.10.22",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 62,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.10.41",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 52,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "10.14",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 81,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "12.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 44,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "12.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 69,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "12.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 63,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "12.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 86,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "13.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 68,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "13.2.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 59,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "13.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 64,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "13.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 62,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "13.5",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 71,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "13.8",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 71,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "14.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 58,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "14.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 50,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "14.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 75,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "14.5",
+      "has_annexure_citation": false,
+      "has_legal_reference": true,
+      "has_placeholder": false,
+      "word_count": 75,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.1",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 76,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.2",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 65,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.5",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 47,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.6",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 71,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.8",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 71,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.10",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 56,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "16.12",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 80,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "17.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 87,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "17.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 89,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "18.3",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 66,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "20",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 103,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "22",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 71,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "40.9.4",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 77,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "44",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 65,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "50",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 60,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "74",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 122,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "78",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 89,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "83",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 81,
+      "is_substantive": true
+    },
+    {
+      "paragraph": "88",
+      "has_annexure_citation": false,
+      "has_legal_reference": false,
+      "has_placeholder": false,
+      "word_count": 77,
+      "is_substantive": true
+    }
+  ]
+}
