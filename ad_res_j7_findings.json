@@ -1,0 +1,515 @@
+{
+  "legal_principles": [
+    {
+      "category": "Company Law",
+      "principle": "Director Collective Action Requirement",
+      "description": "Directors must act collectively through board resolutions for significant corporate decisions",
+      "application": "Peter's unilateral card cancellation on June 7, 2025 violated s66 Companies Act",
+      "consequence": "Ultra vires action, breach of fiduciary duty, personally liable",
+      "supporting_lex": [
+        "director-collective-action-requirement",
+        "board-resolution-necessity",
+        "unilateral-action-prohibition"
+      ],
+      "where_to_add": [
+        "PARA 7.2-7.5",
+        "PARA 8.4",
+        "Comprehensive legal analysis"
+      ]
+    },
+    {
+      "category": "Company Law",
+      "principle": "Director Self-Dealing Prohibition",
+      "description": "Director cannot engage in self-dealing without full disclosure, independent approval, arm's length terms",
+      "application": "Peter owns 50% RST (paying rent) and 50% Villa Via (receiving rent) with 86% profit margin",
+      "consequence": "Transaction voidable, must account for excess profits, breach of fiduciary duty",
+      "supporting_lex": [
+        "director-self-dealing-prohibition",
+        "related-party-transaction-disclosure",
+        "arm's-length-transaction-requirement"
+      ],
+      "where_to_add": [
+        "Financial flows analysis",
+        "Counter-allegations",
+        "Shareholder oppression defense"
+      ]
+    },
+    {
+      "category": "Company Law",
+      "principle": "Business Judgment Rule Protection",
+      "description": "Directors protected for decisions made in good faith, with reasonable information, without conflict",
+      "application": "Jax/Dan IT expense decisions protected by s76(4) Companies Act",
+      "consequence": "Peter must rebut presumption of good faith by proving fraud/gross negligence",
+      "supporting_lex": [
+        "business-judgment-rule",
+        "rational-basis-test",
+        "good-faith-presumption"
+      ],
+      "where_to_add": [
+        "PARA 7.2-7.5",
+        "Defense of business decisions"
+      ]
+    },
+    {
+      "category": "Company Law",
+      "principle": "Manufactured Crisis Framework",
+      "description": "When party creates problem they complain about, indicates bad faith and ulterior motive",
+      "application": "Peter cancelled cards making documentation inaccessible, then complained about missing documentation",
+      "indicators": [
+        "Actor created problem complained about",
+        "Timing suspicious (day after Dan provided reports)",
+        "Disproportionate response (ex parte interdict)",
+        "No internal resolution attempt",
+        "Problem serves actor's interests",
+        "Coordination with settlement negotiation"
+      ],
+      "consequence": "Rebuts good faith presumption, establishes bad faith, improper purpose, abuse of process",
+      "supporting_lex": [
+        "manufactured-crisis-indicators",
+        "timing-analysis-bad-faith",
+        "obstruction-of-documentation-indicators"
+      ],
+      "where_to_add": [
+        "PARA 7.2-7.5",
+        "PARA 7.14-7.15",
+        "Bad faith analysis"
+      ]
+    },
+    {
+      "category": "Trust Law",
+      "principle": "Trustee Conflict of Interest Prohibition",
+      "description": "Trustee cannot place self in conflict position or take action adverse to beneficiary",
+      "application": "Peter (sole trustee) seeks interdict against Jax (beneficiary)",
+      "critical_question": "Why does Peter with absolute trust powers need court relief? Answer: Ulterior motive",
+      "consequence": "Breach of fiduciary duty, grounds for removal as trustee, taints all actions",
+      "supporting_lex": [
+        "trustee-conflict-prohibition",
+        "beneficiary-adverse-action-prohibition",
+        "trust-litigation-restrictions"
+      ],
+      "where_to_add": [
+        "PARA 3-3.10",
+        "PARA 11-11.5",
+        "Trust conflict analysis",
+        "Motion for Peter's removal"
+      ]
+    },
+    {
+      "category": "Trust Law",
+      "principle": "Abuse of Trust Powers",
+      "description": "Trustee must exercise powers for proper purpose (trust administration), not ulterior motive",
+      "application": "Peter bypasses absolute trust powers to seek court relief",
+      "indicators": [
+        "Bypassing available powers",
+        "Ulterior motive (court suggests other motive)",
+        "Timing suspicious (settlement negotiation)",
+        "Inconsistent with trust purpose",
+        "Disproportionate action"
+      ],
+      "consequence": "Breach of fiduciary duty, grounds for removal, court should refuse relief",
+      "supporting_lex": [
+        "trust-power-abuse-test",
+        "trust-power-proper-purpose",
+        "ulterior-motive-analysis"
+      ],
+      "where_to_add": [
+        "PARA 11-11.5",
+        "Trust power abuse analysis",
+        "Counter-application for removal"
+      ]
+    },
+    {
+      "category": "Trust Law",
+      "principle": "Trust Asset Abandonment",
+      "description": "When trustee abandons asset and third party funds instead, beneficial ownership may shift",
+      "application": "Peter never funded RWD, Dan funded for 28 months (R140K-R280K)",
+      "indicators": [
+        "Trustee never funded asset",
+        "Third party funded instead (28 months)",
+        "No reimbursement",
+        "Continuous funding necessary",
+        "Trustee failed to maintain"
+      ],
+      "consequence": "RWD may no longer be trust property, Dan may have beneficial ownership",
+      "alternative": "If still trust property, RWD unjustly enriched (R140K-R280K to R2.94M-R6.88M)",
+      "supporting_lex": [
+        "trust-asset-abandonment-indicators",
+        "beneficial-ownership-by-funding",
+        "trust-property-relinquishment"
+      ],
+      "where_to_add": [
+        "RWD structure analysis",
+        "Dan's beneficial ownership argument",
+        "Unjust enrichment claim"
+      ]
+    },
+    {
+      "category": "Civil Law",
+      "principle": "Unjust Enrichment (Four-Element Test)",
+      "description": "RWD unjustly enriched at expense of RegimA Zone Ltd through unauthorized platform usage",
+      "elements": {
+        "enrichment": "RWD saved R140K-R280K, received services valued R2.94M-R6.88M",
+        "at_expense_of": "RegimA Zone Ltd paid R140K-R280K, patrimony decreased",
+        "no_legal_ground": "No contract, no gift intention, no statutory entitlement, no court order",
+        "no_defense": "Cannot claim change of position, estoppel, or bona fide purchase"
+      },
+      "restitution": {
+        "minimum": "R140K-R280K (actual cost)",
+        "market_value": "R2.94M-R6.88M (market rate)",
+        "quantum_meruit": "Reasonable remuneration for services"
+      },
+      "consequence": "All four elements satisfied, unjust enrichment established, restitution due",
+      "supporting_lex": [
+        "unjust-enrichment-four-element-test",
+        "expense-saved-enrichment",
+        "quantum-meruit"
+      ],
+      "where_to_add": [
+        "Comprehensive unjust enrichment claim",
+        "Counter-application",
+        "RWD analysis"
+      ]
+    },
+    {
+      "category": "Civil Law",
+      "principle": "Venire Contra Factum Proprium (Estoppel)",
+      "description": "Cannot benefit from own wrong or complain about problem created",
+      "application": "Peter cancelled cards (June 7), made documentation inaccessible, then complained about missing documentation",
+      "but_for_test": "But for Peter's card cancellation, would documentation gap exist? No.",
+      "consequence": "Peter estopped from complaining, factual causation established",
+      "supporting_lex": [
+        "venire-contra-factum-proprium",
+        "but-for-causation-test",
+        "documentation-gap-causation-analysis"
+      ],
+      "where_to_add": [
+        "PARA 7.14-7.15",
+        "Causation analysis",
+        "Counter-application for costs"
+      ]
+    }
+  ],
+  "evidence_categories": [
+    {
+      "category": "Revenue Diversion Setup",
+      "folder": "14-apr-bank-letter/",
+      "date": "April 14, 2025",
+      "grade": "A",
+      "criminal_elements": [
+        "Fraudulent redirection of client payments",
+        "Theft by conversion",
+        "Revenue stream hijacking preparation",
+        "Mass client communication fraud"
+      ],
+      "key_files": [
+        "APR-SEP-2025.md",
+        "README.md",
+        "Bank statement analysis"
+      ],
+      "significance": "Documented preparation for systematic revenue theft"
+    },
+    {
+      "category": "Evidence Destruction",
+      "folder": "22-may-shopify-audit/",
+      "date": "May 22, 2025",
+      "grade": "A",
+      "criminal_elements": [
+        "Systematic audit trail destruction",
+        "Computer fraud and abuse",
+        "Business sabotage with quantified impact",
+        "Consciousness of guilt (timing after confrontation)"
+      ],
+      "financial_impact": {
+        "pre_hijacking_monthly_revenue": "R1,047,215.90",
+        "pre_hijacking_monthly_orders": 276.2,
+        "post_hijacking_revenue": "R0.00 (100% shutdown)",
+        "post_hijacking_orders": 0,
+        "documented_loss_3_months": "R3,141,647.70"
+      },
+      "key_files": [
+        "audit_trail_hijacking_timeline.md",
+        "may_22_2025_audit_trail_hijacking_analysis.md",
+        "README.md",
+        "Shopify historical performance reports"
+      ],
+      "significance": "Quantified business destruction following evidence destruction"
+    },
+    {
+      "category": "Email Impersonation Pattern (JF3A)",
+      "folder": "email-impersonation-pattern-jf3a/",
+      "date": "June 20 - August 29, 2025",
+      "grade": "A (Prosecution-ready)",
+      "duration": "70+ days sustained pattern",
+      "criminal_elements": [
+        "Systematic email hijacking (pete@regima.com controlled by Rynette)",
+        "Identity theft pattern over 70+ days",
+        "Computer fraud (ECTA violations) with technical proof",
+        "Business impersonation enabling R3.1M+ revenue theft",
+        "Information manipulation through controlled communications",
+        "Attorney-client communications compromise",
+        "Multiple victim impact with quantified harm"
+      ],
+      "timeline": [
+        {
+          "date": "June 20, 2025",
+          "event": "Sage Account control confirmed (JF1)"
+        },
+        {
+          "date": "June 20, 2025",
+          "event": "Instructions to Gayane via impersonated email"
+        },
+        {
+          "date": "August 25, 2025",
+          "event": "Control structure validation (JF2)"
+        },
+        {
+          "date": "August 29, 2025",
+          "event": "Attorney communications (JF3)"
+        }
+      ],
+      "key_files": [
+        "README.md (JF3A - Primary pattern analysis)",
+        "JF3B_System_Access_Logs.md (Technical forensics)",
+        "JF3C_Identity_Theft_Documentation.md (Complete identity theft analysis)",
+        "EXECUTIVE_SUMMARY_COMPLETE_PACKAGE.md (Prosecution summary)"
+      ],
+      "legal_significance": [
+        "Identity theft charges with aggravated elements (70+ day pattern)",
+        "Computer fraud charges (ECTA Sections 86-87) with technical proof",
+        "Electronic communications fraud with system manipulation",
+        "Conspiracy and racketeering support",
+        "R3.1M+ financial losses correlated with impersonation",
+        "Multiple victim categories for enhanced sentencing"
+      ],
+      "significance": "Complete prosecution-ready criminal evidence package"
+    },
+    {
+      "category": "Family Conspiracy",
+      "folder": "29-may-domain-registration/",
+      "date": "May 29, 2025",
+      "grade": "B",
+      "criminal_elements": [
+        "Identity fraud using son's name",
+        "Digital impersonation infrastructure",
+        "Customer hijacking platform creation",
+        "Family criminal conspiracy escalation"
+      ],
+      "network_analysis": {
+        "rynette_farrar": {
+          "role": "Primary orchestrator",
+          "centrality": 0.78,
+          "change": "+0.06"
+        },
+        "son_adderory": {
+          "role": "Technical facilitator",
+          "centrality": 0.65,
+          "change": "+0.30"
+        },
+        "financial_assets": {
+          "role": "Target resources",
+          "centrality": 0.75,
+          "change": "+0.35"
+        }
+      },
+      "key_files": [
+        "REVENUE_HIJACKING_CRIMINAL_ANALYSIS.md",
+        "README.md",
+        "Network centrality analysis"
+      ],
+      "significance": "Demonstrates coordinated family network criminal enterprise"
+    }
+  ],
+  "strategic_improvements": [
+    {
+      "priority": "Critical",
+      "improvement": "Invoke Director Collective Action Requirement",
+      "current_status": "Response mentions card cancellation but doesn't invoke legal principle",
+      "action": "Explicitly cite s66 Companies Act, establish ultra vires action, breach of fiduciary duty",
+      "where": [
+        "PARA 7.2-7.5",
+        "PARA 8.4",
+        "Legal analysis"
+      ]
+    },
+    {
+      "priority": "Critical",
+      "improvement": "Invoke Trustee Conflict of Interest Prohibition",
+      "current_status": "Response mentions Peter is trustee but doesn't invoke conflict prohibition",
+      "action": "Explicitly cite trustee cannot sue beneficiary, fundamental breach, grounds for removal",
+      "where": [
+        "PARA 3-3.10",
+        "PARA 11-11.5",
+        "Motion for removal"
+      ]
+    },
+    {
+      "priority": "Critical",
+      "improvement": "Develop Comprehensive Unjust Enrichment Claim",
+      "current_status": "Response mentions platform usage but doesn't develop full claim",
+      "action": "Apply four-element test, establish R140K-R280K minimum to R2.94M-R6.88M market value restitution",
+      "where": [
+        "Counter-application",
+        "RWD analysis",
+        "Unjust enrichment section"
+      ]
+    },
+    {
+      "priority": "High",
+      "improvement": "Invoke Manufactured Crisis Framework",
+      "current_status": "Response describes Peter created gap but doesn't frame as manufactured crisis",
+      "action": "Explicitly list 6-8 manufactured crisis indicators, rebut good faith presumption",
+      "where": [
+        "PARA 7.2-7.5",
+        "PARA 7.14-7.15",
+        "Bad faith analysis"
+      ]
+    },
+    {
+      "priority": "High",
+      "improvement": "Invoke Self-Dealing Prohibition (Villa Via)",
+      "current_status": "Response mentions Villa Via but doesn't frame as self-dealing breach",
+      "action": "Explicitly cite s75-76 Companies Act, establish voidable transaction, account for excess profits",
+      "where": [
+        "Financial flows",
+        "Counter-allegations",
+        "Shareholder oppression"
+      ]
+    },
+    {
+      "priority": "Medium",
+      "improvement": "Invoke Business Judgment Rule Protection",
+      "current_status": "Response defends IT expenses but doesn't invoke BJR protection",
+      "action": "Explicitly cite s76(4) Companies Act, establish protection for good faith decisions",
+      "where": [
+        "PARA 7.2-7.5",
+        "Defense of business decisions"
+      ]
+    },
+    {
+      "priority": "Medium",
+      "improvement": "Invoke Venire Contra Factum Proprium (Estoppel)",
+      "current_status": "Response implies Peter created problem but doesn't invoke estoppel principle",
+      "action": "Apply but-for causation test, establish Peter cannot benefit from own wrong",
+      "where": [
+        "PARA 7.14-7.15",
+        "Causation analysis",
+        "Counter-application for costs"
+      ]
+    },
+    {
+      "priority": "Medium",
+      "improvement": "Invoke Trust Asset Abandonment (RWD)",
+      "current_status": "Response mentions Dan funded RWD but doesn't invoke abandonment principles",
+      "action": "Establish abandonment indicators, beneficial ownership shift to Dan",
+      "where": [
+        "RWD structure",
+        "Dan's beneficial ownership",
+        "Unjust enrichment foundation"
+      ]
+    }
+  ],
+  "criminal_elements": [
+    {
+      "element": "Revenue Diversion",
+      "date": "April 14, 2025",
+      "description": "Fraudulent redirection of client payments via bank letter",
+      "charges": [
+        "Theft by conversion",
+        "Fraud",
+        "Revenue stream hijacking"
+      ]
+    },
+    {
+      "element": "Evidence Destruction",
+      "date": "May 22, 2025",
+      "description": "Systematic Shopify audit trail destruction",
+      "charges": [
+        "Computer fraud",
+        "Business sabotage",
+        "Obstruction of justice"
+      ],
+      "quantified_loss": "R3,141,647.70 (3 months)"
+    },
+    {
+      "element": "Email Impersonation",
+      "date": "June 20 - August 29, 2025",
+      "description": "70+ day systematic email hijacking (pete@regima.com by Rynette)",
+      "charges": [
+        "Identity theft (aggravated)",
+        "Computer fraud (ECTA s86-87)",
+        "Electronic communications fraud"
+      ],
+      "correlated_loss": "R3.1M+"
+    },
+    {
+      "element": "Family Conspiracy",
+      "date": "May 29, 2025",
+      "description": "Domain registration by Rynette's son (Adderory) for customer hijacking",
+      "charges": [
+        "Identity fraud",
+        "Digital impersonation",
+        "Criminal conspiracy"
+      ]
+    },
+    {
+      "element": "Card Cancellation",
+      "date": "June 7, 2025",
+      "description": "Unilateral card cancellation day after Dan provided reports",
+      "charges": [
+        "Obstruction",
+        "Retaliation",
+        "Evidence inaccessibility creation"
+      ]
+    }
+  ],
+  "financial_quantifications": [
+    {
+      "item": "Shopify Revenue Loss (3 months)",
+      "amount": "R3,141,647.70",
+      "basis": "Pre-hijacking R1,047,215.90/month \u00d7 3 months",
+      "evidence_grade": "A"
+    },
+    {
+      "item": "Email Impersonation Correlated Loss",
+      "amount": "R3.1M+",
+      "basis": "Revenue theft during 70+ day impersonation period",
+      "evidence_grade": "A"
+    },
+    {
+      "item": "Villa Via Profit Extraction (Monthly)",
+      "amount": "R3.7M (84% margin)",
+      "basis": "R4.4M rental income - costs",
+      "evidence_grade": "A"
+    },
+    {
+      "item": "Villa Via Capital Extraction",
+      "amount": "R22.8M",
+      "basis": "Members loan account",
+      "evidence_grade": "A"
+    },
+    {
+      "item": "RWD Platform Unjust Enrichment (Minimum)",
+      "amount": "R140K-R280K",
+      "basis": "Actual costs incurred by RegimA Zone Ltd (28 months)",
+      "evidence_grade": "B"
+    },
+    {
+      "item": "RWD Platform Unjust Enrichment (Market Value)",
+      "amount": "R2.94M-R6.88M",
+      "basis": "Market rate for equivalent platform services",
+      "evidence_grade": "B"
+    },
+    {
+      "item": "Hidden Empire Computer Costs (RWW)",
+      "amount": "R5.7M",
+      "basis": "Computer platform costs dumped on RWW (2024)",
+      "evidence_grade": "A"
+    },
+    {
+      "item": "SLG Stock Adjustment Loss",
+      "amount": "R5.4M",
+      "basis": "Stock 'disappeared' (Adderory connection)",
+      "evidence_grade": "B"
+    }
+  ]
+}
