@@ -1,0 +1,22 @@
+EMAIL CONVERSION REPORT
+============================================================
+
+Total unique emails: 12
+Successfully converted: 8
+Failed: 4
+
+Converted Files:
+  Re_ The RegimA Group results and Computer Expense analysis.eml -> Re__The_RegimA_Group_results_and_Computer_Expense_analysis.md
+  Re_ belongs to regimA.eml -> Re__belongs_to_regimA.md
+  Fw_ The RegimA Group results and Computer Expense analysis.eml -> Fw__The_RegimA_Group_results_and_Computer_Expense_analysis.md
+  Fw_ regimaskin.co.za domain lookup results.eml -> Fw__regimaskin.co.za_domain_lookup_results.md
+  Fw_ update - Some Initial Information & Operating Entity Lists.eml -> Fw__update_-_Some_Initial_Information_&_Operating_Entity_Lists.md
+  Peter Faucitt _ Jacqui Faucitt and others.eml -> Peter_Faucitt___Jacqui_Faucitt_and_others.md
+  SARS_audit_email_bantjies_instructions.eml -> SARS_audit_email_bantjies_instructions.md
+  domain_registration_regimaskin_adderory.eml -> domain_registration_regimaskin_adderory.md
+
+Failed Files:
+  Fw_ The RegimA Group results and Computer Expense analysis.msg
+  Fw_ regimaskin.co.za domain lookup results.msg
+  Fw_ update - Some Initial Information & Operating Entity Lists.msg
+  Peter Faucitt _ Jacqui Faucitt and others.msg
