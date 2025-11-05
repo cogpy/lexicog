@@ -36,3 +36,20 @@ this email, or the taking of any action in reliance thereon, or pursuant thereto
 please notify us immediately by return email. Edward Nathan Sonnenbergs shall not be liable if any variation is effected to any document or correspondence 
 emailed unless that variation has been approved in writing by the attorney dealing with the matter.
 
+
+
+---
+
+## Email Attachments
+
+**Total Attachments:** 1
+
+### Attachment 1: J and D Faucitt 250925.pdf
+
+- **Type:** PDF Document
+- **Size:** 176.0 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Peter Faucitt _ Jacqui Faucitt and others/J and D Faucitt 250925.pdf`
+
+---
+
+**Note:** All attachments have been extracted and are available in the attachments directory for court submission.

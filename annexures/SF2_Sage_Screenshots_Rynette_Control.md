@@ -168,6 +168,35 @@ The interdict application was based on Peter's claimed need to protect trust and
 - June 7, 2025: Card cancellations through banking systems
 - Email system cancellations and redirections
 
+
+
+---
+
+## Attached Evidence Files
+
+The following evidence files are included with this annexure:
+
+### Images
+
+#### Screenshot-2025-06-20-Sage-Account-RegimA-Worldwide-Distribution.jpg
+
+- **Type:** Screenshot/Image Evidence
+- **Size:** 312.6 KB
+- **Location:** `annexures/SF2_evidence/Screenshot-2025-06-20-Sage-Account-RegimA-Worldwide-Distribution.jpg`
+- **Description:** Visual evidence supporting the claims in this annexure
+
+#### Screenshot-2025-08-25-Sage-Account-RegimA-Worldwide-Distribution.jpg
+
+- **Type:** Screenshot/Image Evidence
+- **Size:** 299.7 KB
+- **Location:** `annexures/SF2_evidence/Screenshot-2025-08-25-Sage-Account-RegimA-Worldwide-Distribution.jpg`
+- **Description:** Visual evidence supporting the claims in this annexure
+
+---
+
+**Court Submission Note:** All referenced files are included in the evidence directory and ready for court filing.
+
+
 ## Notes for Legal Team
 
 This annexure demonstrates:

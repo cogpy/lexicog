@@ -177,6 +177,28 @@ If the payments instructed by Bantjies were improper or lacked legitimate busine
 - June 6, 2025: Daniel exposes fraud to Bantjies
 - June 10, 2025: Bantjies dismisses audit request
 
+
+
+---
+
+## Attached Evidence Files
+
+The following evidence files are included with this annexure:
+
+### PDF Documents
+
+#### Email-2025-08-11-Outlook.pdf
+
+- **Type:** PDF Document
+- **Size:** 178.3 KB
+- **Location:** `annexures/SF4_evidence/Email-2025-08-11-Outlook.pdf`
+- **Description:** Supporting documentation for this annexure
+
+---
+
+**Court Submission Note:** All referenced files are included in the evidence directory and ready for court filing.
+
+
 ## Notes for Legal Team
 
 This annexure demonstrates:

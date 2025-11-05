@@ -251,6 +251,35 @@ Kayla's estate has legitimate claim for R1,035,000 plus interest from February 2
 - August 11, 2025: Document deception (88 days)
 - August 13, 2025: Interdict (90 days)
 
+
+
+---
+
+## Attached Evidence Files
+
+The following evidence files are included with this annexure:
+
+### PDF Documents
+
+#### Letter_of_Appointment_August_11_2025_Jacqui_Deception.pdf
+
+- **Type:** PDF Document
+- **Size:** 333.8 KB
+- **Location:** `annexures/SF6_evidence/Letter_of_Appointment_August_11_2025_Jacqui_Deception.pdf`
+- **Description:** Supporting documentation for this annexure
+
+#### Rezonance_Debt_February_2023.PDF
+
+- **Type:** PDF Document
+- **Size:** 11.3 KB
+- **Location:** `annexures/SF6_evidence/Rezonance_Debt_February_2023.PDF`
+- **Description:** Supporting documentation for this annexure
+
+---
+
+**Court Submission Note:** All referenced files are included in the evidence directory and ready for court filing.
+
+
 ## Notes for Legal Team
 
 This annexure demonstrates:

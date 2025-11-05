@@ -211,3 +211,50 @@ Warm regards
 
 
 Jacqui
+
+
+---
+
+## Email Attachments
+
+**Total Attachments:** 6
+
+### Attachment 1: AccountTransactionsReport.pdf
+
+- **Type:** PDF Document
+- **Size:** 1032.2 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Fw_ update - Some Initial Information & Operating Entity Lists/AccountTransactionsReport.pdf`
+
+### Attachment 2: Computer Expenses Categorization Report (Corrected).pdf
+
+- **Type:** PDF Document
+- **Size:** 294.3 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Fw_ update - Some Initial Information & Operating Entity Lists/Computer Expenses Categorization Report (Corrected).pdf`
+
+### Attachment 3: ProfitAndLossReport (RWD).pdf
+
+- **Type:** PDF Document
+- **Size:** 85.0 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Fw_ update - Some Initial Information & Operating Entity Lists/ProfitAndLossReport (RWD).pdf`
+
+### Attachment 4: ProfitandLoss.pdf
+
+- **Type:** PDF Document
+- **Size:** 40.8 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Fw_ update - Some Initial Information & Operating Entity Lists/ProfitandLoss.pdf`
+
+### Attachment 5: Rezonance Febr 2023.PDF
+
+- **Type:** PDF Document
+- **Size:** 11.3 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Fw_ update - Some Initial Information & Operating Entity Lists/Rezonance Febr 2023.PDF`
+
+### Attachment 6: monthly_spending_trend.png
+
+- **Type:** Image
+- **Size:** 33.2 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Fw_ update - Some Initial Information & Operating Entity Lists/monthly_spending_trend.png`
+
+---
+
+**Note:** All attachments have been extracted and are available in the attachments directory for court submission.

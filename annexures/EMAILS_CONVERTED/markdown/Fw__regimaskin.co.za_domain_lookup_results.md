@@ -121,3 +121,49 @@ Dan
 >> For more information on Whois status codes, please visit https://urldefense.proofpoint.com/v2/url?u=https-3A__icann.org_epp&d=DwIGaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=7ZULBZmD5L4dM8U3nU-5WA&m=1ewaf6xOniAMZ40LTvKo51ZRZ8SIY7DEuFOrzZc1KK3j9LZvb3gubPa62REoE-Qw&s=Xh_7F125aFMGXvQSaFGAjihDhEnLv7KKrT6uVPU6Ph8&e=
 >>
 >> Sent with [Proton Mail](https://urldefense.proofpoint.com/v2/url?u=https-3A__proton.me_mail_home&d=DwIGaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=7ZULBZmD5L4dM8U3nU-5WA&m=1ewaf6xOniAMZ40LTvKo51ZRZ8SIY7DEuFOrzZc1KK3j9LZvb3gubPa62REoE-Qw&s=YxWLHMSXGbMjQhCTyPBqcg-0emvH4VOf5l2o87uzjzI&e=) secure email.
+
+---
+
+## Email Attachments
+
+**Total Attachments:** 6
+
+### Attachment 1: 346883929_ADDARORY_LUXURÉ.pdf
+
+- **Type:** PDF Document
+- **Size:** 165.8 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Fw_ regimaskin.co.za domain lookup results/346883929_ADDARORY_LUXURÉ.pdf`
+
+### Attachment 2: Wayback Machine - luxurehealth.co.za.pdf
+
+- **Type:** PDF Document
+- **Size:** 145.8 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Fw_ regimaskin.co.za domain lookup results/Wayback Machine - luxurehealth.co.za.pdf`
+
+### Attachment 3: screencapture-luxurehealth-co-za-2025-09-08-13_03_29.png
+
+- **Type:** Image
+- **Size:** 2836.6 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Fw_ regimaskin.co.za domain lookup results/screencapture-luxurehealth-co-za-2025-09-08-13_03_29.png`
+
+### Attachment 4: screencapture-luxurehealth-co-za-mature-ageing-skin-2025-09-08-13_07_03.pdf
+
+- **Type:** PDF Document
+- **Size:** 2611.7 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Fw_ regimaskin.co.za domain lookup results/screencapture-luxurehealth-co-za-mature-ageing-skin-2025-09-08-13_07_03.pdf`
+
+### Attachment 5: screencapture-luxurehealth-co-za-product-page-purely-perfect-day-cream-with-spf-peptides-2025-09-08-13_09_17 (1).pdf
+
+- **Type:** PDF Document
+- **Size:** 1634.1 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Fw_ regimaskin.co.za domain lookup results/screencapture-luxurehealth-co-za-product-page-purely-perfect-day-cream-with-spf-peptides-2025-09-08-13_09_17 (1).pdf`
+
+### Attachment 6: screencapture-luxurehealth-co-za-skin-care-2025-09-08-13_04_40.pdf
+
+- **Type:** PDF Document
+- **Size:** 2023.4 KB
+- **Location:** `annexures/EMAILS_CONVERTED/attachments/Fw_ regimaskin.co.za domain lookup results/screencapture-luxurehealth-co-za-skin-care-2025-09-08-13_04_40.pdf`
+
+---
+
+**Note:** All attachments have been extracted and are available in the attachments directory for court submission.

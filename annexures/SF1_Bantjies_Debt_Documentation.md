@@ -163,6 +163,28 @@ The debt provides motive for Bantjies to:
 - June 10, 2025: Bantjies dismisses audit request
 - August 2025: Bantjies certifies Peter's affidavit
 
+
+
+---
+
+## Attached Evidence Files
+
+The following evidence files are included with this annexure:
+
+### Images
+
+#### BantjiesInvestmentPayoutDates2026-05.jpg
+
+- **Type:** Screenshot/Image Evidence
+- **Size:** 180.8 KB
+- **Location:** `annexures/SF1_evidence/BantjiesInvestmentPayoutDates2026-05.jpg`
+- **Description:** Visual evidence supporting the claims in this annexure
+
+---
+
+**Court Submission Note:** All referenced files are included in the evidence directory and ready for court filing.
+
+
 ## Notes for Legal Team
 
 This annexure demonstrates:
